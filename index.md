@@ -98,6 +98,12 @@ advance the study of fairness and accuracy in facial recognition technology.
 The first of its kind available to the global research community,
 DiF provides a dataset of annotations of 1 million human facial images.
 
+* [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/): 
+Semantic Understanding of Scenes through ADE20K Dataset. Bolei Zhou, Hang Zhao, Xavier Puig, Tete Xiao, Sanja Fidler, Adela Barriuso and Antonio Torralba. International Journal on Computer Vision (IJCV).
+
+* [MURA (healthcare)](https://stanfordmlgroup.github.io/competitions/mura/): 
+MURA (musculoskeletal radiographs) is a large dataset of bone X-rays. Algorithms are tasked with determining whether an X-ray study is normal or abnormal.
+
 
 
 ## Voice Datasets
@@ -118,8 +124,6 @@ words and transcribe them. The NSC thus enables global technology providers to
 provide speech-related applications such as voice assistants, for use here. The NSC 
 will be continually updated.
 
-* [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/): 
-Semantic Understanding of Scenes through ADE20K Dataset. Bolei Zhou, Hang Zhao, Xavier Puig, Tete Xiao, Sanja Fidler, Adela Barriuso and Antonio Torralba. International Journal on Computer Vision (IJCV).
 
 ## IoT Datasets
 
