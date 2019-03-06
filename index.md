@@ -104,6 +104,11 @@ Semantic Understanding of Scenes through ADE20K Dataset. Bolei Zhou, Hang Zhao, 
 * [MURA (healthcare)](https://stanfordmlgroup.github.io/competitions/mura/): 
 MURA (musculoskeletal radiographs) is a large dataset of bone X-rays. Algorithms are tasked with determining whether an X-ray study is normal or abnormal.
 
+* [Labelme](http://labelme.csail.mit.edu/Release3.0/browserTools/php/dataset.php): 
+ A large dataset of annotated images.
+
+* [ImageNet](http://image-net.org/): 
+The de-facto image dataset for new algorithms. Is organized according to the WordNet hierarchy, in which each node of the hierarchy is depicted by hundreds and thousands of images.
 
 
 ## Voice Datasets
