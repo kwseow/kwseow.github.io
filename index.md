@@ -82,6 +82,10 @@ All datasets have been reviewed to conform to Yahoo's data protection standards,
 
 * [Stanford Biomedical Network Dataset Collection](https://snap.stanford.edu/biodata/index.html/): 
 
+* [Group Lens](https://grouplens.org/datasets/):
+GroupLens Research has collected and made available several datasets. MovieLens, WikiLens, Book-Crossing, Jester
+EachMovie, HetRec2011, Serendioity 2018, Personality 2018
+
 
 ## Image Datasets
 * [Diversity in Faces Dataset](https://www.research.ibm.com/artificial-intelligence/trusted-ai/diversity-in-faces/):
@@ -135,6 +139,8 @@ will be continually updated.
   - [CiaoDVD](https://www.librec.net/datasets.html):: CiaoDVD is a dataset crawled from the entire category of DVDs from the dvd.ciao.co.uk website in December, 2013
   - [FilmTrust](https://www.librec.net/datasets.html):: FilmTrust is a small dataset crawled from the entire FilmTrust website in June, 2011
   - [Netflix](http://academictorrents.com/details/9b13183dc4d60676b773c9e2cd6de5e5542cee9a):: This is the official data set used in the Netflix Prize competition. 
+  - [Cornell University](http://www.cs.cornell.edu/people/pabo/movie-review-data/): 
+  Cornell University - Movie-review data for use in sentiment-analysis experiments 
   
 #### Games
 
@@ -158,6 +164,7 @@ will be continually updated.
   Medicaid Services (CMS) that are used on the Medicare.gov Compare Websites and 
   Directories. The goal of the site is to make these CMS data readily available in open, 
   accessible, and machine-readable formats.  Includes Hospital Compare DataSet, Nursing Home compare datasets and more.
+  
   
   
   
