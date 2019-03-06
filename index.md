@@ -98,6 +98,20 @@ Common Voice is a massive global database of donated voices that lets
 anyone quickly and easily train voice-enabled apps in potentially every 
 language.
 
+* [(Singapore) National Speech Corpus](https://www.imda.gov.sg/NationalSpeechCorpus): 
+First announced in November 2017, the first version of the National Speech 
+Corpus (NSC) is now available for download. It contains 2,000 hours of locally 
+accented audio and corresponding text transcriptions. There are more than 40,000 
+unique words within the text transcriptions comprising local words such as “Tanjong Pagar”, 
+“ice kachang”, or “nasi lemak”. The data is made available via the Singapore Open Data Licence. 
+Automatic speech recognition engines use multiple corpus collections 
+(collectively called corpora) to accurately train themselves to interpret spoken 
+words and transcribe them. The NSC thus enables global technology providers to 
+provide speech-related applications such as voice assistants, for use here. The NSC 
+will be continually updated.
+
+
+
 ## Recommender Datasets
 #### Book
   - [Book Crossing](http://www2.informatik.uni-freiburg.de/~cziegler/BX/):: The BookCrossing (BX) dataset was collected by Cai-Nicolas in a 4-week crawl (August / September 2004) from the Book-Crossing community
@@ -106,17 +120,17 @@ language.
   - [Dating Agency](http://www.occamslab.com/petricek/data/):: This dataset contains 17,359,346 anonymous ratings of 168,791 profiles made by 135,359 LibimSeTi users as dumped on April 4, 2006.
 
 #### E-commerce
-  - [Amazon](http://jmcauley.ucsd.edu/data/amazon/):: This dataset contains product reviews and metadata from Amazon, including 142.8 million reviews spanning May 1996 - July 2014
+  - [Amazon](http://jmcauley.ucsd.edu/data/amazon/): This dataset contains product reviews and metadata from Amazon, including 142.8 million reviews spanning May 1996 - July 2014
   - [Retailrocket recommender system dataset](https://www.kaggle.com/retailrocket/ecommerce-dataset):: The dataset consists of three files: a file with behaviour data (events.csv), a file with item properties (item_properties.сsv) and a file, which describes category tree (category_tree.сsv). The data has been collected from a real-world ecommerce website. 
 
 #### Music
-  - [Amazon Music](http://jmcauley.ucsd.edu/data/amazon/):: This digital music dataset contains reviews and metadata from Amazon
+  - [Amazon Music](http://jmcauley.ucsd.edu/data/amazon/): This digital music dataset contains reviews and metadata from Amazon
   - [Yahoo Music](https://webscope.sandbox.yahoo.com/catalog.php?datatype=r):: This dataset represents a snapshot of the Yahoo! Music community's preferences for various musical artists.
   - [LastFM (Implicit)](https://grouplens.org/datasets/hetrec-2011/):: This dataset contains social networking, tagging, and music artist listening information from a set of 2K users from Last.fm online music system.
   - [Million Song Dataset](https://labrosa.ee.columbia.edu/millionsong/):: The Million Song Dataset is a freely-available collection of audio features and metadata for a million contemporary popular music tracks.
 
 #### Movies
-  - [MovieLens](https://grouplens.org/datasets/movielens/):: GroupLens Research has collected and made available rating datasets from their movie web site 
+  - [MovieLens](https://grouplens.org/datasets/movielens/): GroupLens Research has collected and made available rating datasets from their movie web site 
   - [Yahoo Movies](https://webscope.sandbox.yahoo.com/catalog.php?datatype=r):: This dataset contains ratings for songs collected from two different sources. The first source consists of ratings supplied by users during normal interaction with Yahoo! Music services. 
   - [CiaoDVD](https://www.librec.net/datasets.html):: CiaoDVD is a dataset crawled from the entire category of DVDs from the dvd.ciao.co.uk website in December, 2013
   - [FilmTrust](https://www.librec.net/datasets.html):: FilmTrust is a small dataset crawled from the entire FilmTrust website in June, 2011
@@ -124,15 +138,26 @@ language.
   
 #### Games
 
-  - [Steam Video Games](https://www.kaggle.com/tamber/steam-video-games/data):: This dataset is a list of user behaviors, with columns: user-id, game-title, behavior-name, value. The behaviors included are 'purchase' and 'play'. The value indicates the degree to which the behavior was performed - in the case of 'purchase' the value is always 1, and in the case of 'play' the value represents the number of hours the user has played the game. 
+  - [Steam Video Games](https://www.kaggle.com/tamber/steam-video-games/data): This dataset is a list of user behaviors, with columns: user-id, game-title, behavior-name, value. The behaviors included are 'purchase' and 'play'. The value indicates the degree to which the behavior was performed - in the case of 'purchase' the value is always 1, and in the case of 'play' the value represents the number of hours the user has played the game. 
 
 #### Jokes
-  - [Jester](http://www.ieor.berkeley.edu/~goldberg/jester-data/):: This Joke dataset contains 4.1 million continuous ratings (-10.00 to +10.00) of 100 jokes from 73,496 users
+  - [Jester](http://www.ieor.berkeley.edu/~goldberg/jester-data/): This Joke dataset contains 4.1 million continuous ratings (-10.00 to +10.00) of 100 jokes from 73,496 users
   
 #### Food
-  - [Chicago Entree](http://archive.ics.uci.edu/ml/datasets/Entree+Chicago+Recommendation+Data):: This dataset contains a record of user interactions with the Entree Chicago restaurant recommendation system.
+  - [Chicago Entree](http://archive.ics.uci.edu/ml/datasets/Entree+Chicago+Recommendation+Data): This dataset contains a record of user interactions with the Entree Chicago restaurant recommendation system.
   
 #### Anime
-  - [Anime Recommendations Database](https://www.kaggle.com/CooperUnion/anime-recommendations-database):: This data set contains information on user preference data from 73,516 users on 12,294 anime. Each user is able to add anime to their completed list and give it a rating and this data set is a compilation of those ratings.
+  - [Anime Recommendations Database](https://www.kaggle.com/CooperUnion/anime-recommendations-database): This data set contains information on user preference data from 73,516 users on 12,294 anime. Each user is able to add anime to their completed list and give it a rating and this data set is a compilation of those ratings.
 
+#### Scholarly Paper
+  - [National University of Singapore - Scholarly Paper Recommendation ](http://www.comp.nus.edu.sg/~sugiyama/SchPaperRecData.html): 
 
+#### Healthcare 
+  - [Medicare.gov](https://data.medicare.gov/):
+  This site provides direct access to the official data from the Centers for Medicare & 
+  Medicaid Services (CMS) that are used on the Medicare.gov Compare Websites and 
+  Directories. The goal of the site is to make these CMS data readily available in open, 
+  accessible, and machine-readable formats.  Includes Hospital Compare DataSet, Nursing Home compare datasets and more.
+  
+  
+  
