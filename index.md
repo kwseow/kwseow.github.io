@@ -110,6 +110,7 @@ MURA (musculoskeletal radiographs) is a large dataset of bone X-rays. Algorithms
 * [ImageNet](http://image-net.org/): 
 The de-facto image dataset for new algorithms. Is organized according to the WordNet hierarchy, in which each node of the hierarchy is depicted by hundreds and thousands of images.
 
+#### Facial Recognition
 * [FERET (facial recognition technology)](https://www.nist.gov/itl/iad/image-group/color-feret-database): 
 11338 images of 1199 individuals in different positions and at different times.
 
@@ -119,12 +120,99 @@ The de-facto image dataset for new algorithms. Is organized according to the Wor
 * [The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS)](https://zenodo.org/record/1188976#.XIDeOBMzaL4): 
 7,356 video and audio recordings of 24 professional actors. 8 emotions each at two intensities.  Files labelled with expression. Perceptual validation ratings provided by 319 raters.
 
+* [SCFace](http://www.scface.org/): 
+Color images of faces at various angles. Location of facial features extracted. Coordinates of features given.
+
+* [YouTube Faces DB](https://www.cs.tau.ac.il/~wolf/ytfaces/): 
+Videos of 1,595 different people gathered from YouTube. Each clip is between 48 and 6,070 frames.  Identity of those appearing in videos and descriptors.
+
+* [300 videos in-the-Wild](https://ibug.doc.ic.ac.uk/resources/300-VW/): 
+The 300 Videos in the Wild (300-VW) dataset contains videos for facial landmarks tracking. Specifically, this dataset includes 114 lengthy videos (approx. 1 min each) with 68 markup landmark points annotated densely.
+
+* [Grammatical Facial Expressions Dataset](https://archive.ics.uci.edu/ml/datasets/Grammatical+Facial+Expressions): 
+Grammatical Facial Expressions from Brazilian Sign Language.
+
+* [CMU Face Images Data Set](http://archive.ics.uci.edu/ml/datasets/cmu+face+images): 
+Images of faces. Each person is photographed multiple times to capture different expressions.
+
+* [Yale Face Database](http://vision.ucsd.edu/content/yale-face-database): 
+The Yale Face Database (size 6.4MB) contains 165 grayscale images in GIF format of 15 individuals. There are 11 images per subject, one per different facial expression or configuration: center-light, w/glasses, happy, left-light, w/no glasses, normal, right-light, sad, sleepy, surprised, and wink.
+
+* [Cohn-Kanade AU-Coded Expression Database](http://www.pitt.edu/~emotion/ck-spread.htm): 
+Large database of images with labels for expressions.
+
+* [FaceScrub](http://vintage.winklerbros.net/facescrub.html): 
+Images of public figures scrubbed from image searching.
+
+* [Skin Segmentation Data Set ](https://archive.ics.uci.edu/ml/datasets/skin+segmentation): 
+Randomly sampled color values from face images.
+
+* [Bosphorus](http://bosphorus.ee.boun.edu.tr/Home.aspx): 
+The Bosphorus Database is intended for research on 3D and 2D human face processing tasks including expression recognition, facial action unit detection, facial action unit intensity estimation, face recognition under adverse conditions, deformable face modeling, and 3D face reconstruction. There are 105 subjects and 4666 faces in the database. 
+
+* [UOY 3D-Face](http://www-users.cs.york.ac.uk/~nep/research/UoYfaces/): 
+The UoY 3D face dataset is a set of 3D images of the human face and consists of around 5000 3D images of approximately 350 people (15 models each). The data collection was planned and implemented by Tom Heseltine during his PhD in 3D Face Recognition at the Department of Computer Science, University of York.
+
+* [Biometrics Ideal Test](http://biometrics.idealtest.org/): 
+Biometrics Ideal Test (or BIT for short) is a website for biometric database sharing and algorithm evaluation. Our mission is to facilitate biometrics research and development by providing quality public services to biometric researchers. You are welcome to register an account in BIT so that you can download publicly available iris, face, fingerprint, palmprint, multi-spectral palm and handwriting. 
+
+* [BU-3DFE](http://www.cs.binghamton.edu/~lijun/Research/3DFE/3DFE_Analysis.html): 
+neutral face, and 6 expressions: anger, happiness, sadness, surprise, disgust, fear (4 levels). 3D images extracted.
+
+* [Face Recognition Grand Challenge Dataset](https://www.nist.gov/programs-projects/face-recognition-grand-challenge-frgc): 
+Up to 22 samples for each subject. Expressions: anger, happiness, sadness, surprise, disgust, puffy. 3D Data.
+
+* [3D-RMA](http://www.sic.rma.ac.be/~beumier/DB/3d_rma.html): 
+Up to 100 subjects, expressions mostly neutral. Several poses as well.
+
+* [Specs on Faces](https://sites.google.com/view/sof-dataset): 
+112 persons (66 males and 46 females) wear glasses under different illumination conditions.
+
+* [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/): 
+IMDB and Wikipedia face images with gender and age labels.
+
+#### Action Recognition
+* [Human Motion DataBase (HMDB51)](http://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/): 
+51 action categories, each containing at least 101 clips, extracted from a range of sources.
+
+* [TV Human Interaction Dataset](http://www.robots.ox.ac.uk/~alonso/tv_human_interactions.html): 
+Consists of 300 video clips collected from over 20 different TV shows and containing 4 interactions: hand shakes, high fives, hugs and kisses, as well as clips that don't contain any of the interactions. 
+
+* [UT Interaction](http://cvrc.ece.utexas.edu/SDHA2010/Human_Interaction.html): 
+People acting out one of 6 actions (shake-hands, point, hug, push, kick, and punch) sometimes with multiple groups in the same video clip.
+
+* [UT Kinect](http://cvrc.ece.utexas.edu/KinectDatasets/HOJ3D.html): 
+10 different people performing one of 6 actions (walk, sit down, stand up, pick up, carry, throw, push, pull, wave hands and clap hands) in an office setting.
+
+* [Berkeley Multimodal Human Action Database (MHAD)](http://tele-immersion.citris-uc.org/berkeley_mhad): 
+Recordings of a single person performing 12 actions
+
+* [UCF101 – Action Recognition Data Set](https://www.crcv.ucf.edu/research/data-sets/human-actions/ucf101/): 
+Self described as "a dataset of 101 human actions classes from videos in the wild." Dataset is large with over 27 hours of video.
+
+* [THUMOS Dataset](http://www.thumos.info/download.html): 
+Large video dataset for action classification.
+
+* [Activitynet](http://activity-net.org/): 
+A Large-Scale Video Benchmark for Human Activity Understanding
+
+* [MSP-AVATAR](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-AVATAR.html): 
+The MSP-Avatar corpus is a motion capture database which explores the role of discourse functions in non-verbal human interactions. This database comprises three sessions of recordings of spontaneous dyadic interactions between six actors. The scenarios are designed to elicit different types of discourse-related gestures in the actors. 
+
+* [LILiR Twotalk Corpus](http://www.ee.surrey.ac.uk/Projects/LILiR/twotalk_corpus/): 
+The LILiR Twotalk corpus is comprised of four conversations of two person (dyadic) conversations recorded with minimal constraints on participant behavior. Four conversations of 12 minutes were recorded with two PAL progressive scan cameras, one microphone and eight subjects. Annotation was performed by multiple annotators from various cultures on 527 clips, extracted from the longer videos. The conversation participants were only instructed to be seated and to talk. 
+
+* [MEXAction2](http://mexculture.cnam.fr/xwiki/bin/view/Datasets/Mex+action+dataset): 
+Video dataset for action localization and spotting
+
+#### Object Detection and Recognition
 
 
+#### Handwriting and character recognition
 
+#### Aerial images
 
-
-
+#### Other images
 
 ## Voice Datasets
 * [Common Voice](https://voice.mozilla.org/en/datasets): 
