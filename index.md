@@ -110,6 +110,21 @@ MURA (musculoskeletal radiographs) is a large dataset of bone X-rays. Algorithms
 * [ImageNet](http://image-net.org/): 
 The de-facto image dataset for new algorithms. Is organized according to the WordNet hierarchy, in which each node of the hierarchy is depicted by hundreds and thousands of images.
 
+* [FERET (facial recognition technology)](https://www.nist.gov/itl/iad/image-group/color-feret-database): 
+11338 images of 1199 individuals in different positions and at different times.
+
+* [CMU Pose, Illumination, and Expression (PIE)](http://www.flintbox.com/public/project/4742/): 
+41,368 color images of 68 people in 13 different poses. Images labeled with expressions. (Pay for shipping)
+
+* [The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS)](https://zenodo.org/record/1188976#.XIDeOBMzaL4): 
+7,356 video and audio recordings of 24 professional actors. 8 emotions each at two intensities.  Files labelled with expression. Perceptual validation ratings provided by 319 raters.
+
+
+
+
+
+
+
 
 ## Voice Datasets
 * [Common Voice](https://voice.mozilla.org/en/datasets): 
