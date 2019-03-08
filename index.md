@@ -90,6 +90,11 @@ All datasets have been reviewed to conform to Yahoo's data protection standards,
 GroupLens Research has collected and made available several datasets. MovieLens, WikiLens, Book-Crossing, Jester
 EachMovie, HetRec2011, Serendioity 2018, Personality 2018
 
+* [Edinburgh Data Share](https://datashare.is.ed.ac.uk/):
+Edinburgh DataShare is a digital repository of research data produced at the University of Edinburgh, hosted by Information Services. Edinburgh University researchers who have produced research data associated with an existing or forthcoming publication, or which has potential use for other researchers, are invited to upload their dataset for sharing and safekeeping. A persistent identifier and suggested citation will be provided.
+
+
+
 
 ## Image Datasets
 * [Diversity in Faces Dataset](https://www.research.ibm.com/artificial-intelligence/trusted-ai/diversity-in-faces/):
@@ -206,6 +211,78 @@ The LILiR Twotalk corpus is comprised of four conversations of two person (dyadi
 Video dataset for action localization and spotting
 
 #### Object Detection and Recognition
+* [Visual Genome](https://visualgenome.org/api/v0/api_home.html): 
+Visual Genome is a dataset, a knowledge base, an ongoing effort to connect structured image concepts to language.
+
+* [DAVIS: Densely Annotated VIdeo Segmentation](https://davischallenge.org/): 
+150 video sequences containing 10459 frames with a total of 376 objects annotated.
+
+* [T-LESS: An RGB-D Dataset for 6D Pose Estimation of Texture-less Objects](http://cmp.felk.cvut.cz/t-less/): 
+30 industry-relevant objects. 39K training and 10K test images from each of three sensors. Two types of 3D models for each object.
+
+* [Berkeley 3-D Object Dataset](http://kinectdata.com/): 
+A quality depth sensor, the Microsoft Kinect, is now in millions of homes. Yet robust household object detection is still not a reality. To get there, we are collecting a massive, crowd-sourced, and challenging 3-D object dataset.
+
+* [Berkeley Segmentation Data Set and Benchmarks 500 (BSDS500)](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/): 
+500 natural images, explicitly separated into disjoint train, validation and test subsets + benchmarking code. Based on BSDS300.
+
+* [Microsoft Common Objects in Context (COCO)](http://cocodataset.org/#home): 
+Complex everyday scenes of common objects in their natural context.
+
+* [SUN Database](https://groups.csail.mit.edu/vision/SUN/): 
+Very large scene and object recognition database.
+
+* [Open Images](https://storage.googleapis.com/openimages/web/index.html): 
+A Large set of images listed as having CC BY 2.0 license with image-level labels and bounding boxes spanning thousands of classes.
+
+* [TV News Channel Commercial Detection Dataset](http://archive.ics.uci.edu/ml/datasets/tv+news+channel+commercial+detection+dataset): 
+TV commercials and news broadcasts.
+
+* [Caltech 101](http://www.vision.caltech.edu/Image_Datasets/Caltech101/): 
+Pictures of objects belonging to 101 categories. About 40 to 800 images per category. Most categories have about 50 images. Collected in September 2003 by Fei-Fei Li, Marco Andreetto, and Marc 'Aurelio Ranzato.  The size of each image is roughly 300 x 200 pixels.
+
+* [Caltech-256](https://authors.library.caltech.edu/7694/): 
+Large dataset of images for object classification.
+
+* [SIFT10M Data Set ](https://archive.ics.uci.edu/ml/datasets/SIFT10M): 
+SIFT features of Caltech-256 dataset.
+
+* [Cityscapes Dataset](https://www.cityscapes-dataset.com/): 
+The Cityscapes Dataset focuses on semantic understanding of urban street scenes.
+
+* [PASCAL VOC Dataset](http://host.robots.ox.ac.uk/pascal/VOC/): 
+Large number of images for classification tasks.
+
+* [CIFAR-10 CIFAR-100 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html): 
+Many small, low-resolution, images of 10 classes of objects.
+
+* [CINIC-10](https://datashare.is.ed.ac.uk/handle/10283/3192): 
+CINIC-10 is an augmented extension of CIFAR-10. It contains the images from CIFAR-10 (60,000 images, 32x32 RGB pixels) and a selection of ImageNet database images (210,000 images downsampled to 32x32). It was compiled as a 'bridge' between CIFAR-10 and ImageNet, for benchmarking machine learning applications. It is split into three equal subsets - train, validation, and test - each of which contain 90,000 images.
+
+* [Fashion MNIST](https://www.kaggle.com/zalando-research/fashionmnist): 
+A MNIST-like fashion product database
+
+* [notMNIST dataset](https://www.kaggle.com/lubaroli/notmnist): 
+Some publicly available fonts and extracted glyphs from them to make a dataset similar to MNIST. There are 10 classes, with letters A-J taken from different fonts.
+
+* [The German Traffic Sign Detection Benchmark](http://benchmark.ini.rub.de/?section=gtsdb&subsection=dataset): 
+Images from vehicles of traffic signs on German roads. These signs comply with UN standards and therefore are the same as in other countries.
+
+* [KITTI Vision Benchmark Suite!](http://benchmark.ini.rub.de/?section=gtsdb&subsection=dataset): 
+Autonomous vehicles driving through a mid-size city captured images of various areas using cameras and laser scanners.
+
+* [Linnaeus 5 dataset](http://chaladze.com/l5/): 
+Images of 5 classes of objects.
+
+* [FieldSAFE](https://vision.eng.au.dk/fieldsafe/): 
+Multi-modal dataset for obstacle detection in agriculture including stereo camera, thermal camera, web camera, 360-degree camera, lidar, radar, and precise localization.
+
+* [11K Hands](https://sites.google.com/view/11khands): 
+11,076 hand images (1600 x 1200 pixels) of 190 subjects, of varying ages between 18 – 75 years old, for gender recognition and biometric identification.
+
+* [CORe50](https://vlomonaco.github.io/core50/): 
+pecifically designed for Continuous/Lifelong Learning and Object Recognition, is a collection of more than 500 videos (30fps) of 50 domestic objects belonging to 10 different categories.
+
 
 
 #### Handwriting and character recognition
@@ -371,4 +448,8 @@ is found useful (Income Share program).
   
   
   
-  
+## Anomaly Data
+* [Numenta Anomaly Benchmark (NAB)](https://www.kaggle.com/boltzmannbrain/nab): 
+Data are ordered, timestamped, single-valued metrics. All data files contain anomalies, unless otherwise noted.
+
+
