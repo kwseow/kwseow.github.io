@@ -4,7 +4,7 @@ layout: default
 
 
 # Public Datasets
-
+* [Machine Translation](##Machine Translation)
 
 ## Dataset Finder
 * [Kaggle](https://www.kaggle.com/): 
@@ -93,6 +93,8 @@ EachMovie, HetRec2011, Serendioity 2018, Personality 2018
 * [Edinburgh Data Share](https://datashare.is.ed.ac.uk/):
 Edinburgh DataShare is a digital repository of research data produced at the University of Edinburgh, hosted by Information Services. Edinburgh University researchers who have produced research data associated with an existing or forthcoming publication, or which has potential use for other researchers, are invited to upload their dataset for sharing and safekeeping. A persistent identifier and suggested citation will be provided.
 
+* [Dataturks](https://dataturks.com/projects/trending):
+Data Annotation Platform. Image Bounding, Document Annotation, NLP and Text Annotations. #HumanInTheLoop #AI, #TrainingData for #MachineLearning.
 
 
 
@@ -284,7 +286,6 @@ Multi-modal dataset for obstacle detection in agriculture including stereo camer
 pecifically designed for Continuous/Lifelong Learning and Object Recognition, is a collection of more than 500 videos (30fps) of 50 domestic objects belonging to 10 different categories.
 
 
-
 #### Handwriting and character recognition
 
 #### Aerial images
@@ -453,3 +454,87 @@ is found useful (Income Share program).
 Data are ordered, timestamped, single-valued metrics. All data files contain anomalies, unless otherwise noted.
 
 
+## Text Classification
+ - [Movie Lens Dataset](https://grouplens.org/datasets/movielens/latest/):
+  The data set was collected over various periods of time, depending on the size of the set. Stable benchmark dataset. 20 million ratings and 465,000 tag applications applied to 27,000 movies by 138,000 users. Includes tag genome data with 12 million relevance scores across 1,100 tags.  
+  Format: text  
+  Default task: Text classification, Regression, clustering.
+  
+ - [OPIN-RANK REVIEW Dataset](https://github.com/kavgan/OpinRank/tree/master):
+  This dataset contains full reviews for cars and hotels collected from TripAdvisor (~259,000 reviews) and Edmunds (~42,230 reviews).  
+  Format: text  
+  Default task: classification, Sentiment analysis, clustering.
+  
+ - [Cyber-Trolls Dataset](https://dataturks.com/projects/abhishek.narayanan/Dataset%20for%20Detection%20of%20Cyber-Trolls):
+  Dataset used to classify tweets as aggressive or not to help fight trolls. The dataset has 20001 items of which 20001 items have been manually labeled. There are 2 categories 1(Cyber-Aggressive) and 0 (Non-Cyber-Aggressive). These are Human labeled dataset.  
+  Format: Text  
+  Default Task: Text classification
+  
+ - [Chat Messages By Category Dataset](https://dataturks.com/projects/yogi15172853/Manual%20labeling%20for%20categories):
+  The dataset has 20001 items of which 68 items have been manually labeled. A text classification dataset with 8 classes like Alcohol & Drugs, Profanity & Obscenity, Sex, religion etc.  
+  Format: Text  
+  Default Task: Text classification
+  
+ - [SPAMBASE Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/spambase/):
+  The Spam base data set includes 4601 observations corresponding to email messages, 1813 of which are spam. From the original email messages, 58 different attributes were computed. One would either have to blind such non-spam indicators or get a very wide collection of non-spam to generate a general purpose spam filter.  
+  Format: Text  
+  Default task: Spam detection, classification
+  
+ - [Sentiment140 Dataset](https://www.kaggle.com/kazanova/sentiment140):
+  Sentiment140 allows you to discover the sentiment of a brand, product, or topic on Twitter. use causes Brand management (e.g. Windows 10), Polling (e.g. Obama), Planning a purchase (e.g. Kindle)  
+  Format: Text  
+  Default Task: Sentiment analysis
+  
+  - [Distress classification Dataset](https://dataturks.com/projects/benjamin.gurr/Distress%20News%20Classification%20Model%20Output):
+  This is a text classification dataset for classification of news headlines/articles based on whether they are distressed or not. The dataset has 1983 items of which 1983 items have been manually labeled. Labels are distress and not-distress.  
+  Format: Text  
+  Default Task: Text classification
+
+  - [Blog Authorship Dataset](http://u.cs.biu.ac.il/~koppel/BlogCorpus.htm):
+  The Blog Authorship Corpus consists of the collected posts of 19,320 bloggers gathered from blogger.com in August 2004. The corpus incorporates a total of 681,288 posts and over 140 million words or approximately 35 posts and 7250 words per person. Each blog is presented as a separate file, the name of which indicates a blogger id# and the blogger’s self-provided gender, age, industry and astrological sign. For each age group, there is an equal number of male and female bloggers.  
+  Format: Text  
+  Default Task: Sentiment analysis, summarization, classification
+  
+  - [Musk Dataset](https://archive.ics.uci.edu/ml/datasets/Musk+%28Version+2%29):
+  This dataset describes a set of 102 molecules of which 39 are judged by human experts to be musks and the remaining 63 molecules are judged to be non-musks. The goal is to learn to predict whether new molecules will be musks or non-musks. Because bonds can rotate, a single molecule can adopt many different shapes. This many-to-one relationship between feature vectors and molecules is called the “multiple instance problem”. When learning a classifier for this data, the classifier should classify a molecule as “musk” if ANY of its conformations is classified as a musk. A molecule should be classified as “non-musk” if NONE of its conformations is classified as a musk.  
+  Format: Text  
+  Default Task:Text Classification
+
+  - [Commentary Dataset](https://dataturks.com/projects/zhiqiyubupt/comment):
+  Comments in the matches classified as humor, praise, stats, teasing etc.. The dataset has 1408 items of which 1287 items have been manually labeled. These labels are classified into 23 categories such as injury, audience, feeling, communication, teasing etc.  
+  Format: Text  
+  Default Task:Text Classification
+
+  - [Emotion Classification Dataset ](https://dataturks.com/projects/tedysuwega/EMOTION):
+  The Dataset consists of data which is labeled with different sentiments. The dataset has 269 items of which 269 items have been manually labeled. These are divided into 7 categories happy, sad, excited, angry, scared, tender, others  
+  Format: Text  
+  Default Task:Text Classification
+
+  - [NSDUH Dataset](https://www.datafiles.samhsa.gov/study-dataset/national-survey-drug-use-and-health-2016-nsduh-2016-ds0001-nid17185):
+  The National Survey on Drug Use and Health (NSDUH) series, formerly titled National Household Survey on Drug Abuse, is a major source of statistical information on the use of illicit drugs, alcohol, and tobacco and on mental health issues among members of the U.S. There are 55,268 instances in the Dataset.  
+  Format: Text  
+  Default Task:Text classification, regression
+ 
+  - [Zoo Dataset](https://archive.ics.uci.edu/ml/datasets/Zoo):
+  A simple database containing 17 Boolean-valued attributes. Animals are classed into 7 categories and features are given for each.
+  Format: Text  
+  Default Task:Text classification
+  
+  - [URL Dataset](https://archive.ics.uci.edu/ml/datasets/URL+Reputation):
+  This Dataset is to construct a real-time system that uses machine learning techniques to detect malicious URLs (spam, phishing, exploits, and so on). To this end, we have explored techniques that involve classifying URLs based on their lexical and host-based features, as well as online learning to process large numbers of examples and adapt quickly to evolving URLs over time.  
+  Format: Text  
+  Default Task:Text classification
+  
+  
+##Machine Translation
+ - [Movie Lens Dataset](https://grouplens.org/datasets/movielens/latest/):
+  The data set was collected over various periods of time, depending on the size of the set. Stable benchmark dataset. 20 million ratings and 465,000 tag applications applied to 27,000 movies by 138,000 users. Includes tag genome data with 12 million relevance scores across 1,100 tags.  
+  Format: text  
+  Default task: Text classification, Regression, clustering.
+
+  
+  
+  
+ 
+  
+  
