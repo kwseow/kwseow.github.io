@@ -4,7 +4,18 @@ layout: default
 
 
 # Public Datasets
-* [Machine Translation](#machine-translation)
++ [Dataset Finder](#dataset-finder)
++ [Image Datasets](#image-datasets)
+    - [Facial Recognition](#machine-translation)
+    - [Action Recognition](#action-recognition)
+    - [Object Detection and Recognition](#object-detection-and-recognition)
+    - [Handwriting and character recognition](#handwriting-and-character-recognition)
+    - [Aerial images](#aerial-images)
+    - [Other images](#other-images)
+    
+
++ [Machine Translation](#machine-translation)
+
 
 ## Dataset Finder
 * [Kaggle](https://www.kaggle.com/): 
