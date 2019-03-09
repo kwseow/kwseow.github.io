@@ -4,7 +4,7 @@ layout: default
 
 
 # Public Datasets
-* [Machine Translation](#Machine-Translation)
+* [Machine Translation](#machine-translation)
 
 ## Dataset Finder
 * [Kaggle](https://www.kaggle.com/): 
