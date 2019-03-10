@@ -346,6 +346,12 @@ The Inria Aerial Image Labeling addresses a core topic in remote sensing: the au
 * [Aerial Image Segmentation Dataset](http://jiangyeyuan.com/ASD/Aerial%20Image%20Segmentation%20Dataset.html):
 80 high-resolution aerial images with spatial resolution ranging from 0.3 to 1.0.
 
+* [KIT AIS Data Set](http://www.ipf.kit.edu/downloads.php):
+Multiple labeled training and evaluation datasets of aerial images of crowds (Vehicles and people).
+
+* [Wilt Dataset](http://archive.ics.uci.edu/ml/datasets/wilt):
+This data set contains some training and testing data from a remote sensing study by Johnson et al. (2013) that involved detecting diseased trees in Quickbird imagery. There are few training samples for the 'diseased trees' class (74) and many for 'other land cover' class (4265). 
+
 
 #### Other images
 
