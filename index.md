@@ -301,6 +301,13 @@ Specifically designed for Continuous/Lifelong Learning and Object Recognition, i
 * [Artificial Characters Dataset](https://data.world/uci/artificial-characters): 
 Artificially generated data describing the structure of 10 capital English letters.
 
+* [Letter Dataset](https://archive.ics.uci.edu/ml/datasets/letter+recognition): 
+Upper case printed letters.
+
+* [Character Trajectories Dataset](https://archive.ics.uci.edu/ml/datasets/Character+Trajectories): 
+Labeled samples of pen tip trajectories for people writing simple characters
+.
+
 #### Aerial images
 
 #### Other images
