@@ -305,8 +305,17 @@ Artificially generated data describing the structure of 10 capital English lette
 Upper case printed letters.
 
 * [Character Trajectories Dataset](https://archive.ics.uci.edu/ml/datasets/Character+Trajectories): 
-Labeled samples of pen tip trajectories for people writing simple characters
-.
+Labeled samples of pen tip trajectories for people writing simple characters.
+
+* [Chars74K Dataset](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/): 
+Character recognition in natural images of symbols used in both English and Kannada.
+
+* [UJI Pen Characters Dataset](https://archive.ics.uci.edu/ml/datasets/UJI+Pen+Characters): 
+Isolated handwritten characters
+
+* [Gisette Dataset](https://archive.ics.uci.edu/ml/datasets/Gisette): 
+Handwriting samples from the often-confused 4 and 9 characters.
+
 
 #### Aerial images
 
