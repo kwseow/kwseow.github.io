@@ -367,7 +367,23 @@ SpaceNet is a corpus of commercial satellite imagery and labeled training data.
   Format: Images  
   Default task: Classification, Object Identification
 
+* [UC Merced Land Use Dataset](http://weegee.vision.ucmerced.edu/datasets/landuse.html):
+These images were manually extracted from large images from the USGS National Map Urban Area Imagery collection for various urban areas around the US.  
+  Format: Image   
+  Default task: Classification
+
+* [SAT-4 and SAT-6 Airborne Dataset](https://csc.lsu.edu/~saikat/deepsat/):
+Images were extracted from the National Agriculture Imagery Program (NAIP) dataset. SAT-4 has four broad land cover classes, includes barren land, trees, grassland and a class that consists of all land cover classes other than the above three. SAT-6 has six broad land cover classes, includes barren land, trees, grassland, roads, buildings and water bodies.  
+  Format: Image   
+  Default task: Classification
+
+
 #### Other images
+* [Quantum simulations of an electron in a two dimensional potential well](https://nrc-digital-repository.canada.ca/eng/view/object/?id=1343ae23-cebf-45c6-94c3-ddebdb2f23c6):
+Labelled images of raw input to a simulation of 2d Quantum mechanics  
+Format: Image   
+Default task: Regression
+
 
 ## Voice Datasets
 * [Common Voice](https://voice.mozilla.org/en/datasets): 
