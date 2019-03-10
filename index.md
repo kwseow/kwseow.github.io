@@ -352,6 +352,20 @@ Multiple labeled training and evaluation datasets of aerial images of crowds (Ve
 * [Wilt Dataset](http://archive.ics.uci.edu/ml/datasets/wilt):
 This data set contains some training and testing data from a remote sensing study by Johnson et al. (2013) that involved detecting diseased trees in Quickbird imagery. There are few training samples for the 'diseased trees' class (74) and many for 'other land cover' class (4265). 
 
+* [Forest type mapping Dataset](https://archive.ics.uci.edu/ml/datasets/Forest+type+mapping):
+Satellite imagery of forests in Japan.  
+  Format: text  
+  Default task: Classification
+
+* [Overhead Imagery Research Dataset](https://sourceforge.net/projects/oirds/):
+Overhead Imagery Research Data Set (OIRDS) - an annotated data library & tools to aid in the development of computer vision algorithms.  
+  Format: Images, text  
+  Default task: Classification
+
+* [SpaceNet](https://spacenetchallenge.github.io/):
+SpaceNet is a corpus of commercial satellite imagery and labeled training data.  
+  Format: Images  
+  Default task: Classification, Object Identification
 
 #### Other images
 
