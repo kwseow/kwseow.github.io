@@ -12,6 +12,7 @@ layout: default
     - [Handwriting and character recognition](#handwriting-and-character-recognition)
     - [Aerial images](#aerial-images)
     - [Other images](#other-images)
+    - [Voice Datasets](#voice-datasets)
     
 
 + [Machine Translation](#machine-translation)
