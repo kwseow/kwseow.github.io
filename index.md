@@ -294,10 +294,12 @@ Multi-modal dataset for obstacle detection in agriculture including stereo camer
 11,076 hand images (1600 x 1200 pixels) of 190 subjects, of varying ages between 18 – 75 years old, for gender recognition and biometric identification.
 
 * [CORe50](https://vlomonaco.github.io/core50/): 
-pecifically designed for Continuous/Lifelong Learning and Object Recognition, is a collection of more than 500 videos (30fps) of 50 domestic objects belonging to 10 different categories.
+Specifically designed for Continuous/Lifelong Learning and Object Recognition, is a collection of more than 500 videos (30fps) of 50 domestic objects belonging to 10 different categories.
 
 
 #### Handwriting and character recognition
+* [Artificial Characters Dataset](https://data.world/uci/artificial-characters): 
+Artificially generated data describing the structure of 10 capital English letters.
 
 #### Aerial images
 
