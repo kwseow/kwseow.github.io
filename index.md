@@ -399,6 +399,36 @@ Default task: Classification
 Format: Labeled video, images, text   
 Default task: Classification
 
+* [PharmaPack Dataset](http://sip.unige.ch/projects/snf-200021-165672/pharmapack/index.php?cID=292#download):
+1,000 unique classes with 54 images per class  
+Format: Images and .mat files   
+Default task: Fine-grain classification
+
+* [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/):
+Images of 120 breeds of dogs from around the world.  
+Format: Images, text   
+Default task: Fine-grain classification
+
+* [The Oxford-IIIT Pet Dataset](http://www.robots.ox.ac.uk/~vgg/data/pets/):
+37 category pet dataset with roughly 200 images for each class. The images have a large variations in scale, pose and lighting. All images have an associated ground truth annotation of breed, head ROI, and pixel level trimap segmentation.  
+Format: Images, text   
+Default task: Classification, object detection
+
+* [Corel Image Features Data Set](https://archive.ics.uci.edu/ml/datasets/corel+image+features):
+Database of images with features extracted.  
+Format: text   
+Default task: Classification, object detection
+
+* [Online Video Characteristics and Transcoding Time Dataset](https://archive.ics.uci.edu/ml/datasets/Online+Video+Characteristics+and+Transcoding+Time+Dataset):
+Transcoding times for various different videos and video properties.  
+Format: text   
+Default task: Regression
+
+* [Microsoft Sequential Image Narrative Dataset (SIND)](http://visionandlanguage.net/VIST/):
+Dataset for sequential vision-to-language.  
+Format: Images, text   
+Default task: Visual storytelling
+
 
 ## Voice Datasets
 * [Common Voice](https://voice.mozilla.org/en/datasets): 
