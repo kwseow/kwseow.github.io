@@ -384,6 +384,21 @@ Labelled images of raw input to a simulation of 2d Quantum mechanics
 Format: Image   
 Default task: Regression
 
+* [MPII Cooking Activities Dataset](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/human-activity-recognition/mpii-cooking-activities-dataset/):
+Videos and images of various cooking activities.  
+Format: Labeled video, images, text   
+Default task: Classification
+
+* [MPII Emo Dataset](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/human-activity-recognition/mpiiemo-dataset/):
+Emotion Recognition from Embedded Bodily Expressions and Speech during Dyadic Interactions.  
+Format: Labeled video, images, text   
+Default task: Classification
+
+* [FAMOS Dataset](http://sip.unige.ch/famos):
+5,000 unique microstructures, all samples have been acquired 3 times with two different cameras..  
+Format: Labeled video, images, text   
+Default task: Classification
+
 
 ## Voice Datasets
 * [Common Voice](https://voice.mozilla.org/en/datasets): 
