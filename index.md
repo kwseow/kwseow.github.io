@@ -340,6 +340,12 @@ HASY contains 32px x 32px images of 369 symbol classes. In total, HASY contains 
 Includes Handwritten Numeral Dataset (10 classes) and Basic Character Dataset (50 classes), each dataset has three types of noise: white gaussian, motion blur, and reduced contrast.
 
 #### Aerial images
+* [Inria Aerial Image Labeling Dataset](https://project.inria.fr/aerialimagelabeling/):
+The Inria Aerial Image Labeling addresses a core topic in remote sensing: the automatic pixelwise labeling of aerial imagery 
+
+* [Aerial Image Segmentation Dataset](http://jiangyeyuan.com/ASD/Aerial%20Image%20Segmentation%20Dataset.html):
+80 high-resolution aerial images with spatial resolution ranging from 0.3 to 1.0.
+
 
 #### Other images
 
