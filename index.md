@@ -316,6 +316,28 @@ Isolated handwritten characters
 * [Gisette Dataset](https://archive.ics.uci.edu/ml/datasets/Gisette): 
 Handwriting samples from the often-confused 4 and 9 characters.
 
+* [MNIST database](http://yann.lecun.com/exdb/mnist/): 
+The MNIST database of handwritten digits, available from this page, has a training set of 60,000 examples, and a test set of 10,000 examples. It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image.
+
+* [Optical Recognition of Handwritten Digits Dataset](https://archive.ics.uci.edu/ml/datasets/optical+recognition+of+handwritten+digits): 
+Normalized bitmaps of handwritten data.
+
+* [Pen-Based Recognition of Handwritten Digits Dataset](https://archive.ics.uci.edu/ml/datasets/Pen-Based+Recognition+of+Handwritten+Digits): 
+Handwritten digits on electronic pen-tablet.
+
+* [Semeion Handwritten Digit Dataset ](https://archive.ics.uci.edu/ml/datasets/Pen-Based+Recognition+of+Handwritten+Digits): 
+1593 handwritten digits from around 80 persons were scanned, stretched in a rectangular box 16x16 in a gray scale of 256 values.Then each pixel of each image was scaled into a bolean (1/0) value using a fixed threshold.   
+Each person wrote on a paper all the digits from 0 to 9, twice. The commitment was to write the digit the first time in the normal way (trying to write each digit accurately) and the second time in a fast way (with no accuracy). 
+
+* [Semeion Handwritten Digit Dataset ](https://archive.ics.uci.edu/ml/datasets/Pen-Based+Recognition+of+Handwritten+Digits): 
+1593 handwritten digits from around 80 persons were scanned, stretched in a rectangular box 16x16 in a gray scale of 256 values.Then each pixel of each image was scaled into a bolean (1/0) value using a fixed threshold.   
+Each person wrote on a paper all the digits from 0 to 9, twice. The commitment was to write the digit the first time in the normal way (trying to write each digit accurately) and the second time in a fast way (with no accuracy). 
+
+* [HASYv2](https://zenodo.org/record/259444#.XISuGhMzaL4):
+HASY contains 32px x 32px images of 369 symbol classes. In total, HASY contains over 150,000 instances of handwritten symbols.
+ 
+* [Noisy Handwritten Bangla Datase](https://csc.lsu.edu/~saikat/noisy-bangla/):
+Includes Handwritten Numeral Dataset (10 classes) and Basic Character Dataset (50 classes), each dataset has three types of noise: white gaussian, motion blur, and reduced contrast.
 
 #### Aerial images
 
