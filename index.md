@@ -12,6 +12,11 @@ layout: default
     - [Handwriting and character recognition](#handwriting-and-character-recognition)
     - [Aerial images](#aerial-images)
     - [Other images](#other-images)
+
++ [Text Datasets](#text-data)
+    - [Reviews](#reviews)
+    - [News Articles](#news-articles)
+
 + [Voice Datasets](#voice-datasets)
     
 + [Machine Translation](#machine-translation)
@@ -184,7 +189,10 @@ Up to 22 samples for each subject. Expressions: anger, happiness, sadness, surpr
 Up to 100 subjects, expressions mostly neutral. Several poses as well.
 
 * [Specs on Faces](https://sites.google.com/view/sof-dataset): 
-112 persons (66 males and 46 females) wear glasses under different illumination conditions.
+A collection of 42,592 images for 112 persons (66 males and 46 females) who wear glasses under different illumination conditions.  
+Format: Images  
+Default task: Gender classification - face detection - eyeglasses detection - emotion recognition - facial landmark detection
+
 
 * [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/): 
 IMDB and Wikipedia face images with gender and age labels.
@@ -428,6 +436,120 @@ Default task: Regression
 Dataset for sequential vision-to-language.  
 Format: Images, text   
 Default task: Visual storytelling
+
+* [Caltech-UCSD Birds-200-2011 Dataset](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html):
+Large dataset of images of birds.  
+Format: Images, text   
+Default task: Classification.
+
+* [YouTube-8M](https://research.google.com/youtube8m/):
+Large and diverse labeled video dataset.  
+Format: Video, text  
+Default task: Video classification.
+
+* [YFCC100M](https://sites.google.com/site/videosearch100m/home):
+This YFCC100M dataset contains a list of photos and videos on Yahoo! Flickr, 
+which are licensed under one of the Creative Commons copyright licenses.  
+Format: Video, Image, Text  
+Default task: Video and Image classification.
+
+* [Discrete LIRIS-ACCEDE](http://liris-accede.ec-lyon.fr/):
+Short videos annotated for valence and arousal.  
+Format: Video  
+Default task: Video emotion elicitation detection.
+
+* [Continuous LIRIS-ACCEDE](http://liris-accede.ec-lyon.fr/database.php):
+Long videos annotated for valence and arousal while also collecting Galvanic Skin Response.  
+Format: Video  
+Default task: Video emotion elicitation detection.
+
+* [MediaEval LIRIS-ACCEDE](http://liris-accede.ec-lyon.fr/database.php):
+Extension of Discrete LIRIS-ACCEDE including annotations for violence levels of the films.  
+Format: Video  
+Default task: Video emotion elicitation detection.
+
+* [Leeds Sports Pose](http://sam.johnson.io/research/lsp.html):
+Articulated human pose annotations in 2000 natural sports images from Flickr.  
+Format: Images plus .mat file labels  
+Default task: Human pose estimation.
+
+* [Leeds Sports Pose Extended Training](http://sam.johnson.io/research/lspet.html):
+Articulated human pose annotations in 10,000 natural sports images from Flickr.  
+Format: Images plus .mat file labels  
+Default task: Human pose estimation.
+
+* [Leeds Sports Pose Extended Training](http://sam.johnson.io/research/lspet.html):
+6 different real multiple choice-based exams (735 answer sheets and 33,540 answer boxes) to evaluate computer vision techniques and systems developed for multiple choice test assessment systems.  
+Format: Images and .mat file labels 
+Default task: Development of multiple choice test assessment systems.
+
+* [Surveillance Videos](https://sites.google.com/view/surveillance-videos-dataset/home):
+Real surveillance videos cover a large surveillance time (7 days with 24 hours each).  
+Format: Videos 
+Default task: Data compression.
+
+* [Can We See Photosynthesis?](https://sites.google.com/view/mafifi/publications/can-we-see-photosynthesis):
+32 videos for eight live and eight dead leaves recorded under both DC and AC lighting conditions.  
+Format: Videos 
+Default task: Liveness detection of plants.
+
+## Text data
+#### Reviews
+* [Amazon reviews](https://s3.amazonaws.com/amazon-reviews-pds/readme.html): 
+Amazon Customer Reviews (a.k.a. Product Reviews) is one of Amazon’s iconic products. In a period of over two decades since the first review in 1995, millions of Amazon customers have contributed over a hundred million reviews to express opinions and describe their experiences regarding products on the Amazon.com website. This makes Amazon Customer Reviews a rich source of information for academic researchers in the fields of Natural Language Processing (NLP), Information Retrieval (IR), and Machine Learning (ML), amongst others. Accordingly, we are releasing this data to further research in multiple disciplines related to understanding customer product experiences. Specifically, this dataset was constructed to represent a sample of customer evaluations and opinions, variation in the perception of a product across geographical regions, and promotional intent or bias in reviews.  
+Format: Text   
+Default task: Classification, sentiment analysis.
+
+* [Car Evaluation Data Set](https://archive.ics.uci.edu/ml/datasets/car+evaluation): 
+Car properties and their overall acceptability.  
+Format: Text  
+Default task: Classification.
+
+* [YouTube Comedy Slam Preference Dataset](https://archive.ics.uci.edu/ml/datasets/YouTube+Comedy+Slam+Preference+Data): 
+User vote data for pairs of videos shown on YouTube. Users voted on funnier videos.  
+Format: Text  
+Default task: Classification.
+
+* [Skytrax User Reviews Dataset](https://github.com/quankiquanki/skytrax-reviews-dataset): 
+A scraped dataset created from all user reviews found on Skytrax (www.airlinequality.com). It is unknown under which license Skytrax published these reviews. However, the reviews are accessible by anyone with a browser and the robots.txt on their website did not specifically prohibit the scraping of them.  
+Format: Text  
+Default task: Classification, regression.
+
+* [Teaching Assistant Evaluation Dataset](https://archive.ics.uci.edu/ml/datasets/teaching+assistant+evaluation): 
+The data consist of evaluations of teaching performance over three regular semesters and two summer semesters of 151 teaching assistant (TA) assignments at the Statistics Department of the University of Wisconsin-Madison. The scores were divided into 3 roughly equal-sized categories ("low", "medium", and "high") to form the class variable.  
+Format: Text  
+Default task: Classification.
+
+#### News Articles
+* [NYSK Dataset](http://archive.ics.uci.edu/ml/datasets/NYSK?ref=datanews.io): 
+English news articles about the case relating to allegations of sexual assault against the former IMF director Dominique Strauss-Kahn.  
+Format: XML, text   
+Default task: Sentiment analysis, topic extraction.
+
+* [The Reuters Corpus Volum1 1 & 2](https://trec.nist.gov/data/reuters/reuters.html): 
+Large corpus of Reuters news stories in multiple languages.  
+Format: XML, text   
+Default task: Classification, clustering, summarization.
+
+* [Thomson Reuters Text Research Collection (TRC2)](https://trec.nist.gov/data/reuters/reuters.html): 
+The TRC2 corpus comprises 1,800,370 news stories covering the period from 2008-01-01 00:00:03 to 2009-02-28 23:54:14 or 2,871,075,221 bytes, and was initially made available to participants of the 2009 blog track at the Text Retrieval Conference (TREC), to supplement the BLOGS08 corpus (that contains results of a large blog crawl carried out at the University of Glasgow). TRC2 is distributed via web download.  
+Format: XML, text   
+Default task: Classification, clustering, summarization.
+
+* [Saudi Newspapers Corpus ](https://github.com/ParallelMazen/SaudiNewsNet): 
+31,030 Arabic newspaper articles.  
+Format: json   
+Default task: Summarization, clustering.
+
+* [RE3D (Relationship and Entity Extraction Evaluation Dataset)](https://github.com/dstl/re3d): 
+Entity and Relation marked data from various news and government sources. Sponsored by Dstl.  
+Format: json   
+Default task: Classification, Entity and Relation recognition
+
+* [ABC Australia News Corpus](https://www.kaggle.com/therohk/million-headlines): 
+Entire news corpus of ABC Australia from 2003 to 2017.  
+Format: CSV   
+Default task:Clustering, Events, Sentiment
 
 
 ## Voice Datasets
