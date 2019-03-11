@@ -16,6 +16,7 @@ layout: default
 + [Text Datasets](#text-data)
     - [Reviews](#reviews)
     - [News Articles](#news-articles)
+    - [Messages](#messages)
 
 + [Voice Datasets](#voice-datasets)
     
@@ -550,6 +551,23 @@ Default task: Classification, Entity and Relation recognition
 Entire news corpus of ABC Australia from 2003 to 2017.  
 Format: CSV   
 Default task:Clustering, Events, Sentiment
+
+* [Examiner Pseudo-News Corpus](https://www.kaggle.com/therohk/examine-the-examiner): 
+Clickbait, spam, crowd-sourced headlines from 2010 to 2015.  
+Format: CSV   
+Default task: Clustering, Events, Sentiment
+
+* [Worldwide News - Aggregate of 20K Feeds](https://www.kaggle.com/therohk/global-news-week): 
+One week snapshot of all online headlines in 20+ languages.  
+Format: CSV   
+Default task: Clustering, Events, Language Detection
+
+* [The Irish Times IRS](https://www.kaggle.com/therohk/ireland-historical-news): 
+12 Years of Events From Ireland.  
+Format: CSV   
+Default task: NLP, Computational Linguistics, Events
+
+#### Messages
 
 
 ## Voice Datasets
