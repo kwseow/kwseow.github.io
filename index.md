@@ -17,6 +17,7 @@ layout: default
     - [Reviews](#reviews)
     - [News Articles](#news-articles)
     - [Messages](#messages)
+    - [Twitter and tweets](#twitter-and-tweets)
 
 + [Voice Datasets](#voice-datasets)
     
@@ -568,6 +569,38 @@ Format: CSV
 Default task: NLP, Computational Linguistics, Events
 
 #### Messages
+* [Enron Email Dataset](https://www.cs.cmu.edu/~./enron/): 
+This dataset was collected and prepared by the CALO Project (A Cognitive Assistant that Learns and Organizes). It contains data from about 150 users, mostly senior management of Enron, organized into folders. The corpus contains a total of about 0.5M messages. This data was originally made public, and posted to the web, by the Federal Energy Regulatory Commission during its investigation.  
+Format: Text   
+Default task: Network analysis, sentiment analysis
+
+* [Enron Email Dataset](https://aclweb.org/aclwiki/Spam_filtering_datasets): 
+A dataset that contains spam messages and messages from the Linguist list.  
+Format: Text   
+Default task: Classification
+
+* [PU datasets](https://aclweb.org/aclwiki/Spam_filtering_datasets): 
+A collection of encrypted datasets that contain spam messages and ham messages from real users.  
+Format: Text   
+Default task: Classification
+
+* [SMS Spam Collection Dataset](https://www.kaggle.com/ishansoni/sms-spam-collection-dataset): 
+The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam.  
+Format: Text   
+Default task: Classification
+
+* [Twenty Newsgroups Dataset](https://scikit-learn.org/0.19/datasets/twenty_newsgroups.html): 
+The 20 newsgroups dataset comprises around 18000 newsgroups posts on 20 topics split in two subsets: one for training (or development) and the other one for testing (or for performance evaluation). The split between the train and test set is based upon a messages posted before and after a specific date.  
+Format: Text   
+Default task: Natural language processing
+
+* [Spambase Dataset](https://archive.ics.uci.edu/ml/datasets/spambase): 
+Spam emails.  
+Format: Text   
+Default task: Spam detection, classification
+
+
+#### Twitter and tweets
 
 
 ## Voice Datasets
