@@ -18,7 +18,8 @@ layout: default
     - [News Articles](#news-articles)
     - [Messages](#messages)
     - [Twitter and tweets](#twitter-and-tweets)
-
+    - [Dialogues](#dialogues)
+    
 + [Voice Datasets](#voice-datasets)
     
 + [Machine Translation](#machine-translation)
@@ -113,6 +114,15 @@ Edinburgh DataShare is a digital repository of research data produced at the Uni
 
 * [Dataturks](https://dataturks.com/projects/trending):
 Data Annotation Platform. Image Bounding, Document Annotation, NLP and Text Annotations. #HumanInTheLoop #AI, #TrainingData for #MachineLearning.
+
+* [Visualdata.io](https://www.visualdata.io):
+Discover Computer Vision Datasets
+
+* [ScholarBank@NUS ](http://scholarbank.nus.edu.sg/handle/10635/137008):
+
+
+
+
 
 
 
@@ -601,6 +611,73 @@ Default task: Spam detection, classification
 
 
 #### Twitter and tweets
+* [MovieTweetings](https://github.com/sidooms/MovieTweetings): 
+Movie rating dataset based on public and well-structured tweets.  
+Format: Text   
+Default task: Classification, regression
+
+* [Twitter100k](https://github.com/huyt16/Twitter100k): 
+Pairs of images and tweets	.  
+Format: Text and Images   
+Default task: Cross-media retrieval
+
+* [Sentiment140](https://www.kaggle.com/kazanova/sentiment140): 
+Tweet data from 2009 including original text, time stamp, user and sentiment.  
+Format: Tweets, comma, separated values   
+Default task: Sentiment analysis
+
+* [ASU Twitter Dataset](http://socialcomputing.asu.edu/datasets/Twitter): 
+Twitter network data, not actual tweets. Shows connections between a large number of users.  
+Format: Text   
+Default task: Clustering, graph analysis
+
+* [SNAP Social Circles: Twitter Database](https://snap.stanford.edu/data/ego-Twitter.html): 
+This dataset consists of 'circles' (or 'lists') from Twitter. Twitter data was crawled from public sources. The dataset includes node features (profiles), circles, and ego networks.  
+Format: Text   
+Default task: Clustering, graph analysis
+
+* [Twitter Dataset for Arabic Sentiment Analysis](https://archive.ics.uci.edu/ml/datasets/Twitter+Data+set+for+Arabic+Sentiment+Analysis): 
+Arabic tweets.  
+Format: Text   
+Default task: Classification
+
+* [Buzz in Social Media Dataset](http://ama.liglab.fr/resourcestools/datasets/buzz-prediction-in-social-media/): 
+Data from Twitter and Tom's Hardware. This dataset focuses on specific buzz topics being discussed on those sites..  
+Format: Text   
+Default task: Regression, Classification
+
+* [Paraphrase and Semantic Similarity in Twitter (PIT)](https://github.com/cocoxu/SemEval-PIT2015): 
+This dataset focuses on whether tweets have (almost) same meaning/information or not. Manually labeled.  
+Format: Text   
+Default task: Regression, Classification
+
+* [Geoparse Twitter benchmark dataset](https://revealproject.eu/geoparse-benchmark-open-dataset/): 
+This dataset contains tweets during different news events in different countries. Manually labeled location mentions.  
+Format: Tweets, JSON   
+Default task: Classification, Information Extraction
+
+
+#### Dialogues
+* [NPS Chat Corpus](http://faculty.nps.edu/cmartell/npschat.htm): 
+Posts from age-specific online chat rooms.  
+Format: XML   
+Default task: NLP, programming, linguistics
+
+* [Twitter Triple Corpus](https://github.com/bwbaugh/twitter-corpus): 
+A-B-A triples extracted from Twitter.  
+Format: Text   
+Default task: NLP
+
+* [UseNet Corpus](http://www.psych.ualberta.ca/~westburylab/downloads/usenetcorpus.download.html): 
+UseNet forum postings.  
+Format: Text   
+Default task: 
+
+* [NUS SMS Corpus](http://scholarbank.nus.edu.sg/handle/10635/137343): 
+SMS messages collected between two users, with timing analysis.  
+Format: Text   
+Default task: 
+
 
 
 ## Voice Datasets
