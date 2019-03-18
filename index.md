@@ -19,7 +19,9 @@ layout: default
     - [Messages](#messages)
     - [Twitter and tweets](#twitter-and-tweets)
     - [Dialogues](#dialogues)
+    - [Other Text](#other-text)
     
+       
 + [Voice Datasets](#voice-datasets)
     
 + [Machine Translation](#machine-translation)
