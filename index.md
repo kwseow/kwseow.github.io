@@ -711,6 +711,16 @@ Large dataset of the social structure of Facebook.
 Format: Text   
 Default task: Network analysis, clustering
 
+* [Dataset for the Machine Comprehension of Text](https://github.com/mcobzarenco/mctest/tree/master/data/MCTest): 
+Stories and associated questions for testing comprehension of text.  
+Format: Text   
+Default task: Natural language processing, machine comprehension
+
+* [The Penn Treebank Project](https://catalog.ldc.upenn.edu/docs/LDC95T7/treebank2.index.html): 
+Naturally occurring text annotated for linguistic structure.  
+Format: Text   
+Default task: Natural language processing, summarization
+
 
 ## Voice Datasets
 * [Common Voice](https://voice.mozilla.org/en/datasets): 
