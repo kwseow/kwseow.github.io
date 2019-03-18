@@ -676,8 +676,38 @@ Default task:
 * [NUS SMS Corpus](http://scholarbank.nus.edu.sg/handle/10635/137343): 
 SMS messages collected between two users, with timing analysis.  
 Format: Text   
-Default task: 
+Default task: NLP
 
+* [Reddit All Comments Corpus](https://archive.org/details/2015_reddit_comments_corpus): 
+This is an archive of Reddit comments from October of 2007 until May of 2015 (complete month). This reflects 14 months of work and a lot of API calls. This dataset includes nearly every publicly available Reddit comment. Approximately 350,000 comments out of ~1.65 billion were unavailable due to Reddit API issues. .  
+Format: JSON   
+Default task: NLP, Research
+
+* [Ubuntu Dialogue Corpus v2.0](https://github.com/rkadlec/ubuntu-ranking-dataset-creator): 
+Dialogues extracted from Ubuntu chat stream on IRC.  
+Format: CSV   
+Default Task: Dialogue Systems Research
+
+#### Other text
+* [Web of Science Datasets](https://data.mendeley.com/datasets/9rw3vkcfy4/6): 
+Hierarchical Datasets for Text Classification.  
+Format: Text   
+Default task: Classification, Categorization
+
+* [Legal Case Reports](): 
+Federal Court of Australia cases from 2006 to 2009.  
+Format: Text   
+Default task: Summarization, citation analysis
+
+* [Blogger Authorship Corpus](http://u.cs.biu.ac.il/~koppel/BlogCorpus.htm): 
+Blog entries of 19,320 people from blogger.com  
+Format: Text   
+Default task: Sentiment analysis, summarization, classification
+
+* [Social Structure of Facebook Networks](): 
+Large dataset of the social structure of Facebook.  
+Format: Text   
+Default task: Network analysis, clustering
 
 
 ## Voice Datasets
