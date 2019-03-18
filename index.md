@@ -716,11 +716,15 @@ Stories and associated questions for testing comprehension of text.
 Format: Text   
 Default task: Natural language processing, machine comprehension
 
+* [DEXTER Dataset](https://archive.ics.uci.edu/ml/datasets/dexter): 
+Task given is to determine, from features given, which articles are about corporate acquisitions.  
+Format: Text   
+Default task: Classification
+
 * [The Penn Treebank Project](https://catalog.ldc.upenn.edu/docs/LDC95T7/treebank2.index.html): 
 Naturally occurring text annotated for linguistic structure.  
 Format: Text   
 Default task: Natural language processing, summarization
-
 
 ## Voice Datasets
 * [Common Voice](https://voice.mozilla.org/en/datasets): 
