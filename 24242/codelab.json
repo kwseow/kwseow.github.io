@@ -1,0 +1,26 @@
+{
+  "environment": "web",
+  "source": "gangdam.md",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2018-03-24T07:49:18+08:00",
+  "id": "24242",
+  "duration": 10,
+  "title": "TomTom Creating a custom Gangdam vector map style",
+  "author": "Mariusz Saramak",
+  "summary": "TomTom Maps SDK Introduction",
+  "theme": "",
+  "status": [
+    "draft"
+  ],
+  "category": [
+    "sdk"
+  ],
+  "tags": [
+    "android"
+  ],
+  "feedback": "github.com/mariopce",
+  "ga": "0",
+  "url": "24242"
+}
