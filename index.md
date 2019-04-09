@@ -19,7 +19,9 @@ layout: default
     - [Messages](#messages)
     - [Twitter and tweets](#twitter-and-tweets)
     - [Dialogues](#dialogues)
+    - [Other Text](#other-text)
     
+       
 + [Voice Datasets](#voice-datasets)
     
 + [Machine Translation](#machine-translation)
@@ -676,34 +678,53 @@ Default task:
 * [NUS SMS Corpus](http://scholarbank.nus.edu.sg/handle/10635/137343): 
 SMS messages collected between two users, with timing analysis.  
 Format: Text   
-Default task: XML
+Default task: NLP
 
-* [Reddit All Comments Corpus](https://www.reddit.com/r/datasets/comments/3mg812/full_reddit_submission_corpus_now_available_2006/): 
-This represents all publicly available Reddit submissions from January 2006 - August 31, 2015).  
+* [Reddit All Comments Corpus](https://archive.org/details/2015_reddit_comments_corpus): 
+This is an archive of Reddit comments from October of 2007 until May of 2015 (complete month). This reflects 14 months of work and a lot of API calls. This dataset includes nearly every publicly available Reddit comment. Approximately 350,000 comments out of ~1.65 billion were unavailable due to Reddit API issues. .  
 Format: JSON   
-Default task: NLP, research
+Default task: NLP, Research
+
+* [Ubuntu Dialogue Corpus v2.0](https://github.com/rkadlec/ubuntu-ranking-dataset-creator): 
+Dialogues extracted from Ubuntu chat stream on IRC.  
+Format: CSV   
+Default Task: Dialogue Systems Research
 
 #### Other text
-* [Web of science](https://clarivate.libguides.com/rawdata): 
+* [Web of Science Datasets](https://data.mendeley.com/datasets/9rw3vkcfy4/6): 
 Hierarchical Datasets for Text Classification.  
 Format: Text   
 Default task: Classification, Categorization
 
-* [Legal Case Reports](http://archive.ics.uci.edu/ml/datasets/legal+case+reports): 
+* [Legal Case Reports](): 
 Federal Court of Australia cases from 2006 to 2009.  
 Format: Text   
 Default task: Summarization, citation analysis
 
 * [Blogger Authorship Corpus](http://u.cs.biu.ac.il/~koppel/BlogCorpus.htm): 
-Blog entries of 19,320 people from blogger.com.  
+Blog entries of 19,320 people from blogger.com  
 Format: Text   
 Default task: Sentiment analysis, summarization, classification
 
-* [Social Structure of Facebook Networks](http://networkrepository.com/socfb_Caltech36.php): 
+* [Social Structure of Facebook Networks](): 
 Large dataset of the social structure of Facebook.  
 Format: Text   
 Default task: Network analysis, clustering
 
+* [Dataset for the Machine Comprehension of Text](https://github.com/mcobzarenco/mctest/tree/master/data/MCTest): 
+Stories and associated questions for testing comprehension of text.  
+Format: Text   
+Default task: Natural language processing, machine comprehension
+
+* [DEXTER Dataset](https://archive.ics.uci.edu/ml/datasets/dexter): 
+Task given is to determine, from features given, which articles are about corporate acquisitions.  
+Format: Text   
+Default task: Classification
+
+* [The Penn Treebank Project](https://catalog.ldc.upenn.edu/docs/LDC95T7/treebank2.index.html): 
+Naturally occurring text annotated for linguistic structure.  
+Format: Text   
+Default task: Natural language processing, summarization
 
 ## Voice Datasets
 * [Common Voice](https://voice.mozilla.org/en/datasets): 
