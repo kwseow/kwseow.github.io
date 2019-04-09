@@ -676,8 +676,33 @@ Default task:
 * [NUS SMS Corpus](http://scholarbank.nus.edu.sg/handle/10635/137343): 
 SMS messages collected between two users, with timing analysis.  
 Format: Text   
-Default task: 
+Default task: XML
 
+* [Reddit All Comments Corpus](https://www.reddit.com/r/datasets/comments/3mg812/full_reddit_submission_corpus_now_available_2006/): 
+This represents all publicly available Reddit submissions from January 2006 - August 31, 2015).  
+Format: JSON   
+Default task: NLP, research
+
+#### Other text
+* [Web of science](https://clarivate.libguides.com/rawdata): 
+Hierarchical Datasets for Text Classification.  
+Format: Text   
+Default task: Classification, Categorization
+
+* [Legal Case Reports](http://archive.ics.uci.edu/ml/datasets/legal+case+reports): 
+Federal Court of Australia cases from 2006 to 2009.  
+Format: Text   
+Default task: Summarization, citation analysis
+
+* [Blogger Authorship Corpus](http://u.cs.biu.ac.il/~koppel/BlogCorpus.htm): 
+Blog entries of 19,320 people from blogger.com.  
+Format: Text   
+Default task: Sentiment analysis, summarization, classification
+
+* [Social Structure of Facebook Networks](http://networkrepository.com/socfb_Caltech36.php): 
+Large dataset of the social structure of Facebook.  
+Format: Text   
+Default task: Network analysis, clustering
 
 
 ## Voice Datasets
