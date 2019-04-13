@@ -726,6 +726,27 @@ Naturally occurring text annotated for linguistic structure.
 Format: Text   
 Default task: Natural language processing, summarization
 
+* [DEXTER Dataset](https://archive.ics.uci.edu/ml/datasets/dexter): 
+Task given is to determine, from features given, which articles are about corporate acquisitions.  
+Format: Text   
+Default task: Classification
+
+* [Google Books N-grams](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html): 
+N-grams from a very large corpus of books.  
+Format: Text (2.2 TB)   
+Default task: Classification, clustering, regression
+
+* [Personae Corpus](https://www.cnts.ua.ac.be/datasets/personae-corpus: 
+Collected for experiments in Authorship Attribution and Personality Prediction. Consists of 145 Dutch-language essays.  
+Format: Text (2.2 TB)   
+Default task: Classification, regression
+
+
+
+
+
+
+
 ## Voice Datasets
 * [Common Voice](https://voice.mozilla.org/en/datasets): 
 Common Voice is a massive global database of donated voices that lets 
@@ -966,9 +987,32 @@ Data are ordered, timestamped, single-valued metrics. All data files contain ano
   Format: text  
   Default task: Text classification, Regression, clustering.
 
+## Plant disease
+ - [CrowdAI's PlantVillage Disease Classification Challenge](https://www.crowdai.org/challenges/plantvillage-disease-classification-challenge/dataset_files):
+  38 classes of crop disease pairs.To learn more about the background of the dataset, please refer to the following paper: http://arxiv.org/abs/1511.08060.   
+  Format: Image  
+  Default task: classification.
+  
+ - [Catalog.data.gov](  https://catalog.data.gov/dataset?tags=plant+disease):
+  4 datasets.   
+  Format: Various  
+  Default task: various.
+  
+ - [Plant Image Analysis](https://www.plant-image-analysis.org/dataset):
+  Contains more then 28 datasets on various species and plant species.   
+  Format: images  
+  Default task: various.
+  
+ - [Images of maize](https://osf.io/p67rz/):
+  his repository contains images of maize (corn) leaves that have been annotated to mark lesions caused by Northern Leaf Blight (NLB), a common and devastating disease of maize. In total, there are 18,222 images, all taken in the field, and 105,735 annotations by one of two human experts. This is the largest publicly available collection of classified images of any single plant disease..   
+  Format: images  
+  Default task: various.
   
   
+
   
+  
+ 
  
   
   
