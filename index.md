@@ -26,6 +26,10 @@ layout: default
     
 + [Machine Translation](#machine-translation)
 
++ [Multivariate data](#multivariate-data)
+    - [Financial](#financial)
+
+
 
 ## Dataset Finder
 * [Kaggle](https://www.kaggle.com/): 
@@ -736,11 +740,15 @@ N-grams from a very large corpus of books.
 Format: Text (2.2 TB)   
 Default task: Classification, clustering, regression
 
-* [Personae Corpus](https://www.cnts.ua.ac.be/datasets/personae-corpus: 
+* [Personae Corpus](https://www.cnts.ua.ac.be/datasets/personae-corpus): 
 Collected for experiments in Authorship Attribution and Personality Prediction. Consists of 145 Dutch-language essays.  
-Format: Text (2.2 TB)   
+Format: Text 
 Default task: Classification, regression
 
+* [Stack Exchange Data Dump](https://archive.org/details/stackexchange): 
+This is an anonymized dump of all user-contributed content on the Stack Exchange network. Each site is formatted as a separate archive consisting of XML files zipped via 7-zip using bzip2 compression. Each site archive includes Posts, Users, Votes, Comments, PostHistory and PostLinks. For complete schema information, see the included readme.txt.  
+Format: Text  
+Default task: Classification, regression
 
 
 
@@ -1008,6 +1016,12 @@ Data are ordered, timestamped, single-valued metrics. All data files contain ano
   Format: images  
   Default task: various.
   
+## Multivariate data
+#### Financial
+ - [Movie Lens Dataset](https://grouplens.org/datasets/movielens/latest/):
+  The data set was collected over various periods of time, depending on the size of the set. Stable benchmark dataset. 20 million ratings and 465,000 tag applications applied to 27,000 movies by 138,000 users. Includes tag genome data with 12 million relevance scores across 1,100 tags.  
+  Format: text  
+  Default task: Text classification, Regression, clustering.
   
 
   
