@@ -61,6 +61,9 @@ a playground for those new to big data and data analysis and a powerful
 repository for skilled researchers. You can also integrate with your 
 application to add valuable insights for your users. Whatever your use case, 
 these datasets are freely available on GCP.
+This page will also lead you to some special subsets like: Google BigQuery Public Datasets (https://cloud.google.com/bigquery/public-data/) (the first terabyte download is free but charges apply after that).
+Google Genomics Public Datasets
+Geo Imagery Datasets
 
 
 * [Microsoft Research Open Data](https://msropendata.com/): 
@@ -1018,15 +1021,53 @@ Data are ordered, timestamped, single-valued metrics. All data files contain ano
   
 ## Multivariate data
 #### Financial
- - [Movie Lens Dataset](https://grouplens.org/datasets/movielens/latest/):
-  The data set was collected over various periods of time, depending on the size of the set. Stable benchmark dataset. 20 million ratings and 465,000 tag applications applied to 27,000 movies by 138,000 users. Includes tag genome data with 12 million relevance scores across 1,100 tags.  
-  Format: text  
-  Default task: Text classification, Regression, clustering.
-  
+ - [World Bank Open Data](https://data.worldbank.org/):
+  Weekly data of stocks from the first and second quarters of 2011.  
+  Format: Various  
+  Default task: Various.
 
+ - [IMF Data](https://www.imf.org/en/Data):
+  International Monetary Fund’s collection of open data for things like debt rates, commodity pricing, international markets, and foreign exchange reserves.  
+  Format: Various  
+  Default task: Various.
+
+ - [Dow Jones Index](https://archive.ics.uci.edu/ml/datasets/dow+jones+index):
+  Weekly data of stocks from the first and second quarters of 2011.  
+  Format: Comma separated values  
+  Default task: Classification, regression, Time series.
   
+ - [Statlog (Australian Credit Approval)](http://archive.ics.uci.edu/ml/datasets/statlog+\(australian+credit+approval\)):
+  Credit card applications either accepted or rejected and attributes about the application.  
+  Format: Comma separated values  
+  Default task: Classification.
+
+ - [eBay auction data](http://www.modelingonlineauctions.com/datasets):
+  Auction data from various eBay.com objects over various length auctions.  
+  Format: Text  
+  Default task: Regression, classification.
   
+ - [Statlog (German Credit Data)](https://archive.ics.uci.edu/ml/support/Statlog+\(German+Credit+Data\)):
+  Binary credit classification into "good" or "bad" with many features.  
+  Format: Text  
+  Default task: classification.
+  
+ - [Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing):
+  Data from a large marketing campaign carried out by a large bank.  
+  Format: Text  
+  Default task: classification.
+   
+ - [Istanbul Stock Exchange Dataset](https://archive.ics.uci.edu/ml/datasets/ISTANBUL+STOCK+EXCHANGE):
+  Several stock indexes tracked for almost two years.  
+  Format: Text  
+  Default task: Classification, regression.
  
- 
-  
-  
+ - [Default of Credit Card Clients](https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset):
+  Credit default data for Taiwanese creditors.  
+  Format: Text  
+  Default task: Classification, regression.
+   
+- [Lending Club Loan Data](https://www.lendingclub.com/info/download-data.action):
+  These files contain complete loan data for all loans issued through the time period stated, including the current loan status (Current, Late, Fully Paid, etc.) and latest payment information. The file containing loan data through the "present" contains complete loan data for all loans issued through the previous completed calendar quarter.  
+  Format: Text CSV  
+  Default task: Classification, regression.
+   
