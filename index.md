@@ -541,6 +541,15 @@ The data consist of evaluations of teaching performance over three regular semes
 Format: Text  
 Default task: Classification.
 
+* [Inside AirBnB Dataset](http://insideairbnb.com/get-the-data.html): 
+Sourced from publicly available information from the Airbnb site. The data has been analyzed, cleansed and aggregated where appropriate to faciliate public discussion.  
+Format: Text, Zipped 
+Default task: Classification, Topic Modeling
+
+
+
+
+
 #### News Articles
 * [NYSK Dataset](http://archive.ics.uci.edu/ml/datasets/NYSK?ref=datanews.io): 
 English news articles about the case relating to allegations of sexual assault against the former IMF director Dominique Strauss-Kahn.  
