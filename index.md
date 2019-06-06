@@ -28,6 +28,11 @@ layout: default
 
 + [Multivariate data](#multivariate-data)
     - [Financial](#financial)
+    - [Demand and Sales forecasting](#Demand-and-sales-forecasting)
+    - [Other multivariate](#other_multivariate)
+    
+
++ [Time Series](#time-series)
 
 
 
@@ -128,6 +133,11 @@ Data Annotation Platform. Image Bounding, Document Annotation, NLP and Text Anno
 Discover Computer Vision Datasets
 
 * [ScholarBank@NUS ](http://scholarbank.nus.edu.sg/handle/10635/137008):
+
+* [Keel Repository for classification, regression and time series ](https://sci2s.ugr.es/keel/datasets.php):
+Provides to the machine learning researchers a set of benchmarks to analyze the behavior of the learning methods. Concretely, it is possible to find benchmarks already formatted in KEEL format for classification (such as standard, multi instance or imbalanced data), semi-supervised classification, regression, time series and unsupervised learning. Also, a set of low quality data benchmarks is maintained in the repository
+
+
 
 
 
@@ -1079,4 +1089,85 @@ Data are ordered, timestamped, single-valued metrics. All data files contain ano
   These files contain complete loan data for all loans issued through the time period stated, including the current loan status (Current, Late, Fully Paid, etc.) and latest payment information. The file containing loan data through the "present" contains complete loan data for all loans issued through the previous completed calendar quarter.  
   Format: Text CSV  
   Default task: Classification, regression.
+  
+
+#### Demand and Sales forecasting
+- [Grupo Bimbo Inventory Demand](https://www.kaggle.com/c/grupo-bimbo-inventory-demand/data):
+  Forecast the demand of a product for a given week, at a particular store. The dataset consists of 9 weeks of sales transactions in Mexico. Every week, there are delivery trucks that deliver products to the vendors. Each transaction consists of sales and returns. Returns are the products that are unsold and expired. The demand for a product in a certain week is defined as the sales this week subtracted by the return next week.  
+  Format: Zipped text  
+  Default task: Demand forecasting.
+
+- [Online Product Sales](https://www.kaggle.com/c/online-sales/overview):
+  Predict monthly online sales of a product. Imagine the products are online  self-help programs following an initial advertising campaign.  
+  Format: Zipped text  
+  Default task: Sales/Demand forecasting.
+
+- [Historical Sales and Active Inventory](https://www.kaggle.com/c/online-sales/overview):
+  to determine which products we should continue to sell, and which products to remove from our inventory. The file contains BOTH historical sales data AND active inventory, which can be discerned with the column titled "File Type"..  
+  Format: Zipped text  
+  Default task: Sales/Demand forecasting.
+  
+- [Forecasts for Product Demand](https://www.kaggle.com/felixzhao/productdemandforecasting):
+  The dataset contains historical product demand for a manufacturing company with footprints globally. The company provides thousands of products within dozens of product categories.  
+  Format: Zipped text  
+  Default task: Sales/Demand forecasting.
+ 
+- [Store Item Demand Forecasting Challenge](https://www.kaggle.com/c/demand-forecasting-kernels-only/overview):
+  This competition is provided as a way to explore different time series techniques on a relatively simple and clean dataset. You are given 5 years of store-item sales data, and asked to predict 3 months of sales for 50 different items at 10 different stores. What's the best way to deal with seasonality? Should stores be modeled separately, or can you pool them together? Does deep learning work better than ARIMA? Can either beat xgboost? This is a great competition to explore different models and improve your skills in forecasting.  
+  Format: Zipped text  
+  Default task: Sales/Demand forecasting.
+  
+   
+#### Other Multivariate
+ - [Home Theatre Info dataset](http://www.hometheaterinfo.com/dvdlist.htm):
+  Containing movie metadata information on over 250,000 DVDs offered in North America.  
+  Format: Zipped text  
+  Default task: Assoication Discovery.
+
+ - [Abalone Data Set ](https://archive.ics.uci.edu/ml/datasets/abalone):
+  Predicting the age of abalone from physical measurements. The age of abalone is determined by cutting the shell through the cone, staining it, and counting the number of rings through a microscope -- a boring and time-consuming task. Other measurements, which are easier to obtain, are used to predict the age. Further information, such as weather patterns and location (hence food availability) may be required to solve the problem.  
+  Format:  text  
+  Default task: Classification, regression.
+
+ - [Real estate valuation data set Data Set](hhttps://archive.ics.uci.edu/ml/datasets/Real+estate+valuation+data+set):
+  The market historical data set of real estate valuation are collected from Sindian Dist., New Taipei City, Taiwan. The â€œreal estate valuationâ€ is a regression problem. The data set was randomly split into the training data set (2/3 samples) and the testing data set (1/3 samples).  
+  Format:  xls  
+  Default task: regression.
+
+ - [Residential Building Data Set Data Set](https://archive.ics.uci.edu/ml/datasets/Residential+Building+Data+Set):
+  Data set includes construction cost, sale prices, project variables, and economic variables corresponding to real estate single-family residential apartments in Tehran, Iran.  
+  Format:  xls  
+  Default task: regression.
+   
+
+## Time Series
+ - [Hard Drive Failure Rates](https://www.backblaze.com/b2/hard-drive-test-data.html):
+  Alternate: https://www.kaggle.com/backblaze/hard-drive-test-data  
+  Each day, Backblaze takes a snapshot of each operational hard drive that includes basic hard drive information (e.g., capacity, failure) and S.M.A.R.T. statistics reported by each drive.  
+  Format: Various  
+  Default task: Time Series, Predictive Maintenance.
+
+ - [Databanks International Cross National Time Series Data Archive (Paid)](https://www.cntsdata.com/the-data):
+  More than 200 years of annual data from 1815 onward. Over 200 countries.196 variables used by academia, government, finance and media.  
+  Format: Excel  
+  Default task: Time Series.
+
+ - [Big Dataset in Predictive Maintenance](https://pysparksampledata.blob.core.windows.net/sampledata/sampledata.csv):
+  The data set has around 2 million records with 172 columns simulated for 1900 machines collected over 4 years. Each machine includes a device which stores data such as warnings, problems and errors generated by the machine over time. Each record has a Device ID and time stamp for each day and aggregated features for that day such as total number of a certain type of warning received in a day. Four categorical columns were also included to demonstrate generic handling of categorical variables. The goal is to predict if a machine will fail in the next 7 days. The last column of the data set indicates if a failure occurred and reported on that day (https://github.com/Azure/PySpark-Predictive-Maintenance).  
+  (https://github.com/Azure/PySpark-Predictive-Maintenance)  
+  Format: csv  
+  Default task: Predictive Maintenance.
+
+ - [National Aeronautics and Space Administration](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/):
+  The Prognostics Data Repository is a collection of data sets that have been donated by various universities, agencies, or companies. The data repository focuses exclusively on prognostic data sets, i.e., data sets that can be used for development of prognostic algorithms. Mostly these are time series of data from some nominal state to a failed state. The collection of data in this repository is an ongoing process.  
+  Format: various  
+  Default task: Predictive Maintenance.
+
+
+
+
+
+
+​
+
    
