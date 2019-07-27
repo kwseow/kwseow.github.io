@@ -137,6 +137,8 @@ Discover Computer Vision Datasets
 * [Keel Repository for classification, regression and time series ](https://sci2s.ugr.es/keel/datasets.php):
 Provides to the machine learning researchers a set of benchmarks to analyze the behavior of the learning methods. Concretely, it is possible to find benchmarks already formatted in KEEL format for classification (such as standard, multi instance or imbalanced data), semi-supervised classification, regression, time series and unsupervised learning. Also, a set of low quality data benchmarks is maintained in the repository
 
+* [Outlier Detection DataSets (ODDS)](http://odds.cs.stonybrook.edu/):
+a large collection of outlier detection datasets with ground truth (if available).
 
 
 
