@@ -141,12 +141,6 @@ Provides to the machine learning researchers a set of benchmarks to analyze the 
 a large collection of outlier detection datasets with ground truth (if available).
 
 
-
-
-
-
-
-
 ## Image Datasets
 * [Diversity in Faces Dataset](https://www.research.ibm.com/artificial-intelligence/trusted-ai/diversity-in-faces/):
 The Diversity in Faces(DiF)is a large and diverse dataset that seeks to 
@@ -225,6 +219,19 @@ Up to 100 subjects, expressions mostly neutral. Several poses as well.
 A collection of 42,592 images for 112 persons (66 males and 46 females) who wear glasses under different illumination conditions.  
 Format: Images  
 Default task: Gender classification - face detection - eyeglasses detection - emotion recognition - facial landmark detection
+
+* [UCSD Anomaly Detection Dataset](http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm): 
+The UCSD Anomaly Detection Dataset was acquired with a stationary camera mounted at an elevation, overlooking pedestrian walkways. The crowd density in the walkways was variable, ranging from sparse to very crowded.  
+Format: Images  
+Default task: Anomaly Detection
+
+* [Anomalous Behavior Data Set](http://vision.eecs.yorku.ca/research/anomalous-behaviour-data/): 
+This website provides a data set for anomalous behaviour detection in video. The data set contains 8 image sequences that depict a wide range of challenging scenarios, including: illumination effects, scene clutter, variable target appearance, rapid motion and camera jitter. All sequences are available with manually constructed ground truth that identifies anomalous behaviour relative to a training portion of the video. Also provided is software for groundtruth construction and subsequent evaluation.  
+Format: Videos, Images  
+Default task: Anomaly Detection
+
+
+
 
 
 * [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/): 
@@ -1140,7 +1147,18 @@ Data are ordered, timestamped, single-valued metrics. All data files contain ano
   Data set includes construction cost, sale prices, project variables, and economic variables corresponding to real estate single-family residential apartments in Tehran, Iran.  
   Format:  xls  
   Default task: regression.
-   
+  
+ - [One-class classifer Dataset](http://homepage.tudelft.nl/n9d04/occ/index.html):
+  Some datasets are originally normal / anomaly, other datasets were modified from UCI datasets.
+  Format:   
+  Default task: 
+  
+ - [Example data sets for ELKI](https://elki-project.github.io/datasets/):
+  We are collecting a few example data sets along with a description to try out ELKI. Many of the data sets are artificial test cases that we use in internal unit testing, and are not well suited for benchmarking due to various biases, but mostly meant for use in teaching. Often they work near-perfectly for one algorithm, while another algorithm fails badly and are used to explain strengths and weaknesses of different approaches. They are not meant to even just resemble real data.
+  Format:   XML
+  Default task: Anomaly
+  
+
 
 ## Time Series
  - [Hard Drive Failure Rates](https://www.backblaze.com/b2/hard-drive-test-data.html):
