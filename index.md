@@ -804,6 +804,24 @@ words and transcribe them. The NSC thus enables global technology providers to
 provide speech-related applications such as voice assistants, for use here. The NSC 
 will be continually updated.
 
+* [The VoxCeleb1 Dataset](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox1.html): 
+VoxCeleb1 contains over 100,000 utterances for 1,251 celebrities, extracted from videos uploaded to YouTube.
+
+* [The VoxCeleb2 Dataset](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html): 
+VoxCeleb2 contains over 1 million utterances for 6,112 celebrities, extracted from videos uploaded to YouTube. The development set of VoxCeleb2 has no overlap with the identities in the VoxCeleb1 or SITW datasets.
+
+* [LibriSpeech ASR corpus](http://www.openslr.org/12/): 
+LibriSpeech is a corpus of approximately 1000 hours of 16kHz read English speech, prepared by Vassil Panayotov with the assistance of Daniel Povey. The data is derived from read audiobooks from the LibriVox project, and has been carefully segmented and aligned.
+
+* [LibriTTS corpus](http://www.openslr.org/60/): 
+LibriTTS is a multi-speaker English corpus of approximately 585 hours of read English speech at 24kHz sampling rate, prepared by Heiga Zen with the assistance of Google Speech and Google Brain team members. The LibriTTS corpus is designed for TTS research. It is derived from the original materials (mp3 audio files from LibriVox and text files from Project Gutenberg) of the LibriSpeech corpus.
+
+* [CSTR VCTK Corpus ](https://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html): 
+This CSTR VCTK Corpus includes speech data uttered by 109 native speakers of English with various accents. Each speaker reads out about 400 sentences, most of which were selected from a newspaper plus the Rainbow Passage and an elicitation paragraph intended to identify the speaker's accent. The newspaper texts were taken from The Herald (Glasgow), with permission from Herald & Times Group. Each speaker reads a different set of the newspaper sentences, where each set was selected using a greedy algorithm designed to maximise the contextual and phonetic coverage. The Rainbow Passage and elicitation paragraph are the same for all speakers.
+
+* [The M-AILABS Speech Dataset](https://www.caito.de/2019/01/the-m-ailabs-speech-dataset/): 
+The M-AILABS Speech Dataset is the first large dataset that are providing free-of-charge, freely usable as training data for speech recognition and speech synthesis.
+
 
 ## IoT Datasets
 
