@@ -21,10 +21,20 @@ layout: default
     - [Dialogues](#dialogues)
     - [Other Text](#other-text)
     
-       
 + [Voice Datasets](#voice-datasets)
+
++ [IOT Datasets](#iot-datasets)
+
++ [Recommender Datasets](#recommender-datasets)
+    
++ [Anomaly Data](#anomaly-data)
+    
++ [Text Classification](#text-classification)
     
 + [Machine Translation](#machine-translation)
+
++ [Plant Disease](#plant-disease)
+
 
 + [Multivariate data](#multivariate-data)
     - [Financial](#financial)
