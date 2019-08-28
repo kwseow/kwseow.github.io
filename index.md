@@ -979,6 +979,17 @@ is found useful (Income Share program).
 * [Numenta Anomaly Benchmark (NAB)](https://www.kaggle.com/boltzmannbrain/nab): 
 Data are ordered, timestamped, single-valued metrics. All data files contain anomalies, unless otherwise noted.
 
+* [KDD Cup 1999 Data](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html): 
+This is the data set used for The Third International Knowledge Discovery and Data Mining Tools Competition, which was held in conjunction with KDD-99 The Fifth International Conference on Knowledge Discovery and Data Mining. The competition task was to build a network intrusion detector, a predictive model capable of distinguishing between ``bad'' connections, called intrusions or attacks, and ``good'' normal connections. This database contains a standard set of data to be audited, which includes a wide variety of intrusions simulated in a military network environment.  
+
+* [Outlier Detection DataSets (ODDS)](http://odds.cs.stonybrook.edu/):
+a large collection of outlier detection datasets with ground truth (if available).
+
+* [Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud):
+The datasets contains transactions made by credit cards in September 2013 by european cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
+
+* [Outlier Detection Data Sets](https://elki-project.github.io/datasets/outlier):
+collected data sets for outlier detection (mirror) and studied the performance of many algorithms and parameters on these data sets (using ELKI,
 
 ## Text Classification
  - [Movie Lens Dataset](https://grouplens.org/datasets/movielens/latest/):
