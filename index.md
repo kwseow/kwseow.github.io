@@ -160,6 +160,10 @@ MURA (musculoskeletal radiographs) is a large dataset of bone X-rays. Algorithms
 * [ImageNet](http://image-net.org/): 
 The de-facto image dataset for new algorithms. Is organized according to the WordNet hierarchy, in which each node of the hierarchy is depicted by hundreds and thousands of images.
 
+* [Surrey Audio-Visual Expressed Emotion (SAVEE) Database](http://kahlan.eps.surrey.ac.uk/savee/Download.html): 
+Surrey Audio-Visual Expressed Emotion (SAVEE) database has been recorded as a pre-requisite for the development of an automatic emotion recognition system. The database consists of recordings from 4 male actors in 7 different emotions, 480 British English utterances in total. The sentences were chosen from the standard TIMIT corpus and phonetically-balanced for each emotion. The data were recorded in a visual media lab with high quality audio-visual equipment, processed and labeled. To check the quality of performance, the recordings were evaluated by 10 subjects under audio, visual and audio-visual conditions. Classification systems were built using standard features and classifiers for each of the audio, visual and audio-visual modalities, and speaker-independent recognition rates of 61%, 65% and 84% achieved respectively.
+
+
 #### Facial Recognition
 * [FERET (facial recognition technology)](https://www.nist.gov/itl/iad/image-group/color-feret-database): 
 11338 images of 1199 individuals in different positions and at different times.
