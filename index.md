@@ -6,7 +6,7 @@ layout: default
 # Public Datasets
 + [Dataset Finder](#dataset-finder)
 + [Image Datasets](#image-datasets)
-    - [Facial Recognition](#machine-translation)
+    - [Facial Recognition](#facial-recognition)
     - [Action Recognition](#action-recognition)
     - [Object Detection and Recognition](#object-detection-and-recognition)
     - [Handwriting and character recognition](#handwriting-and-character-recognition)
