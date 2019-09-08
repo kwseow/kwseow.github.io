@@ -35,7 +35,6 @@ layout: default
 
 + [Plant Disease](#plant-disease)
 
-
 + [Multivariate data](#multivariate-data)
     - [Financial](#financial)
     - [Demand and Sales forecasting](#Demand-and-sales-forecasting)
@@ -739,6 +738,20 @@ Dialogues extracted from Ubuntu chat stream on IRC.
 Format: CSV   
 Default Task: Dialogue Systems Research
 
+* [Coached Conversational Preference Elicitation](https://ai.google/tools/datasets/coached-conversational-preference-elicitation): 
+A dataset consisting of 502 dialogs with 12,000 annotated utterances between a user and an assistant discussing movie preferences in natural language. It was collected using a Wizard-of-Oz methodology between two paid crowd-workers, where one worker plays the role of an 'assistant', while the other plays the role of a 'user'.  
+Format: JSON   
+Default Task: Text annotation
+
+* [Taskmaster-1 dataset](https://storage.googleapis.com/dialog-data-corpus/TASKMASTER-1-2019/landing_page.html): 
+The full Taskmaster-1 dialog dataset has total 13,215 dialogs with 7708 written and 5507 spoken. A full description of the data is provided in readme.txt. To get a basic idea of the dialog content see sample.json. The annotation schema is viewable in ontology.json.  
+Format: JSON   
+Default Task: Text annotation
+
+ 
+
+
+
 #### Other text
 * [Web of Science Datasets](https://data.mendeley.com/datasets/9rw3vkcfy4/6): 
 Hierarchical Datasets for Text Classification.  
@@ -990,6 +1003,12 @@ The datasets contains transactions made by credit cards in September 2013 by eur
 
 * [Outlier Detection Data Sets](https://elki-project.github.io/datasets/outlier):
 collected data sets for outlier detection (mirror) and studied the performance of many algorithms and parameters on these data sets (using ELKI,
+
+* [Unsupervised Anomaly Detection Benchmark](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OPQMVF):
+These datasets can be used for benchmarking unsupervised anomaly detection algorithms (for example "Local Outlier Factor" LOF). The datasets have been obtained from multiple sources and are mainly based on datasets originally used for supervised machine learning. By publishing these modifications, a comparison of different algorithms is now possible for unsupervised anomaly detection.
+
+* [Anomaly Detection Meta-Analysis Benchmarks:](https://ir.library.oregonstate.edu/concern/datasets/47429f155):
+
 
 ## Text Classification
  - [Movie Lens Dataset](https://grouplens.org/datasets/movielens/latest/):
