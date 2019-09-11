@@ -546,6 +546,17 @@ Default task: Data compression.
 Format: Videos 
 Default task: Liveness detection of plants.
 
+* [Malaria Datasets](https://lhncbc.nlm.nih.gov/publication/pub9932):
+Hosts a repository of segmented cells from the thin blood smear slide images from the Malaria Screener research activity (https://peerj.com/articles/4568/).  
+Format: Image 
+Default task: Classification.  
+
+* [The Cancer Imaging Archive ](https://wiki.cancerimagingarchive.net/display/Public/Collections):
+The image data in The Cancer Imaging Archive (TCIA) is organized into purpose-built collections. A collection typically includes studies from several subjects (patients).  In some collections, there may be only one study per subject. In other collections, subjects may have been followed over time, in which case there will be multiple studies per subject. The subjects typically have a disease and/or particular anatomical site (lung, brain, etc.) in common.  
+Format: Image 
+Default task: Various.  
+
+
 ## Text data
 #### Reviews
 * [Amazon reviews](https://s3.amazonaws.com/amazon-reviews-pds/readme.html): 
