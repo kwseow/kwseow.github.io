@@ -20,6 +20,8 @@ layout: default
     - [Twitter and tweets](#twitter-and-tweets)
     - [Dialogues](#dialogues)
     - [Other Text](#other-text)
+
++ [Medical Datasets](#medical-datasets)
     
 + [Voice Datasets](#voice-datasets)
 
@@ -39,6 +41,7 @@ layout: default
     - [Financial](#financial)
     - [Demand and Sales forecasting](#Demand-and-sales-forecasting)
     - [Other multivariate](#other_multivariate)
+    
     
 
 + [Time Series](#time-series)
@@ -820,6 +823,9 @@ Format: Text
 Default task: Classification, regression
 
 
+## Medical Datasets
+* [Medical Data for Machine Learning](https://github.com/beamandrew/medical-data): 
+This is a curated list of medical data for machine learning.
 
 
 
