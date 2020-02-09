@@ -562,6 +562,13 @@ The image data in The Cancer Imaging Archive (TCIA) is organized into purpose-bu
 Format: Image 
 Default task: Various.  
 
+* [CMU Panoptic Dataset](http://domedb.perception.cs.cmu.edu/index.html):
+CMU Panoptic Studio dataset is shared only for research purposes, and this cannot be used for any commercial purposes. The dataset or its modified version cannot be redistributed without permission from dataset organizers.  
+Format: Image 
+Default task: Various. 
+
+
+
 
 ## Text data
 #### Reviews
@@ -824,6 +831,11 @@ Default task: Classification, regression
 This is an anonymized dump of all user-contributed content on the Stack Exchange network. Each site is formatted as a separate archive consisting of XML files zipped via 7-zip using bzip2 compression. Each site archive includes Posts, Users, Votes, Comments, PostHistory and PostLinks. For complete schema information, see the included readme.txt.  
 Format: Text  
 Default task: Classification, regression
+
+* [TyDi QA](https://github.com/google-research-datasets/tydiqa): 
+This repository contains information about TyDi QA, code for evaluating results on the dataset, implementations of baseline systems for the dataset, and some advice for working with the dataset.  
+Format: Text  
+Default task: 
 
 
 ## Medical Datasets
