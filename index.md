@@ -152,6 +152,9 @@ Provides to the machine learning researchers a set of benchmarks to analyze the 
 * [Outlier Detection DataSets (ODDS)](http://odds.cs.stonybrook.edu/):
 a large collection of outlier detection datasets with ground truth (if available).
 
+* [Machine Learning datasets](https://www.datasetlist.com/):
+A list of the biggest machine learning datasets from across the web..
+
 
 ## Image Datasets
 * [Diversity in Faces Dataset](https://www.research.ibm.com/artificial-intelligence/trusted-ai/diversity-in-faces/):
