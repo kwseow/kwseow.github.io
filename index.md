@@ -50,6 +50,9 @@ Happy Labour day.
 
 
 ## Dataset Finder
+* [Machine Learning datasets](https://www.datasetlist.com/):
+A list of the biggest machine learning datasets from across the web..
+
 * [Kaggle](https://www.kaggle.com/): 
 A data science site that contains a variety of externally-contributed 
 interesting datasets. You can find all kinds of niche datasets in its 
@@ -99,12 +102,10 @@ text/speech and image.
 The Registry of Open Data on AWS makes it easy to find datasets made publicly available through AWS services.
 Browse available data and learn how to register your own datasets at: https://registry.opendata.aws
 
-
 * [Academic Torrents](http://academictorrents.com/): 
 A distributed system for sharing enormous datasets - for researchers, 
 by researchers. The result is a scalable, secure, and fault-tolerant repository 
 for data, with blazing fast download speeds
-
 
 * [Github Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets): 
 This list of a topic-centric public data sources in high quality. 
@@ -153,8 +154,6 @@ Provides to the machine learning researchers a set of benchmarks to analyze the 
 * [Outlier Detection DataSets (ODDS)](http://odds.cs.stonybrook.edu/):
 a large collection of outlier detection datasets with ground truth (if available).
 
-* [Machine Learning datasets](https://www.datasetlist.com/):
-A list of the biggest machine learning datasets from across the web..
 
 
 ## Image Datasets
