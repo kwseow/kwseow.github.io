@@ -1041,6 +1041,11 @@ These datasets can be used for benchmarking unsupervised anomaly detection algor
 
 * [Anomaly Detection Meta-Analysis Benchmarks:](https://ir.library.oregonstate.edu/concern/datasets/47429f155):
 
+* [DDoS Evaluation Dataset (CICDDoS2019)](https://www.unb.ca/cic/datasets/ddos-2019.html): 
+Distributed Denial of Service (DDoS) attack is a menace to network security that aims at exhausting the target networks with malicious traffic. Although many statistical methods have been designed for DDoS attack detection, designing a real-time detector with low computational overhead is still one of the main concerns. On the other hand, the evaluation of new detection algorithms and techniques heavily relies on the existence of well-designed datasets.
+
+
+
 
 ## Text Classification
  - [Movie Lens Dataset](https://grouplens.org/datasets/movielens/latest/):
