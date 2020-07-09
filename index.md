@@ -157,6 +157,12 @@ a large collection of outlier detection datasets with ground truth (if available
 
 
 ## Image Datasets
+
+* [CVonline: Image Databases](http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm):
+This is a collated list of image and video databases that people have found useful for computer vision research and algorithm evaluation.
+
+
+
 * [Diversity in Faces Dataset](https://www.research.ibm.com/artificial-intelligence/trusted-ai/diversity-in-faces/):
 The Diversity in Faces(DiF)is a large and diverse dataset that seeks to 
 advance the study of fairness and accuracy in facial recognition technology.
@@ -567,6 +573,10 @@ CMU Panoptic Studio dataset is shared only for research purposes, and this canno
 Format: Image 
 Default task: Various. 
 
+* [OTCBVS Benchmark Dataset Collection](http://vcipl-okstate.org/pbvs/bench/):
+This is a publicly available benchmark dataset for testing and evaluating novel and state-of-the-art computer vision algorithms. Several researchers and students have requested a benchmark of non-visible (e.g., infrared) images and videos. The benchmark contains videos and images recorded in and beyond the visible spectrum and is available for free to all researchers in the international computer vision communities. Also it will allow a large spectrum of IEEE and SPIE vision conference and workshop participants to explore the benefits of the non-visible spectrum in real-world applications, contribute to the OTCBVS workshop series, and boost this research field significantly. This effort was initiated by Dr. Riad I. Hammoud in 2004. It was hosted at Ohio State University and managed by Dr. James W. David until 2013. It is currently managed by Dr. Guoliang Fan at Oklahoma State University.  
+Format: Image, Thermal
+Default task: Various. 
 
 
 
