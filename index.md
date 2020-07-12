@@ -43,8 +43,6 @@ Happy Labour day.
     - [Demand and Sales forecasting](#Demand-and-sales-forecasting)
     - [Other multivariate](#other_multivariate)
     
-    
-
 + [Time Series](#time-series)
 
 
@@ -154,6 +152,10 @@ Provides to the machine learning researchers a set of benchmarks to analyze the 
 * [Outlier Detection DataSets (ODDS)](http://odds.cs.stonybrook.edu/):
 a large collection of outlier detection datasets with ground truth (if available).
 
+* [UEA & UCR Time Series Classification Repository](http://www.timeseriesclassification.com/dataset.php):
+  This website is an ongoing project to develop a comprehensive repository for research into time series classification. If you use the results or code, please cite the paper "Anthony Bagnall, Jason Lines, Aaron Bostrom, James Large and Eamonn Keogh, The Great Time Series Classification Bake Off: a Review and Experimental Evaluation of Recent Algorithmic Advances, Data Mining and Knowledge Discovery, 31(3), 2017". Paper Link, Bibtex Link. We are in the process of updating all the results for the new dataset.  
+  Format: various  
+  Default task: various
 
 
 ## Image Datasets
@@ -1186,7 +1188,7 @@ Distributed Denial of Service (DDoS) attack is a menace to network security that
  - [Statlog (German Credit Data)](https://archive.ics.uci.edu/ml/support/Statlog+\(German+Credit+Data\)):
   Binary credit classification into "good" or "bad" with many features.  
   Format: Text  
-  Default task: classification.
+  Default task: classification. Imbalanced classification.
   
  - [Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing):
   Data from a large marketing campaign carried out by a large bank.  
@@ -1291,6 +1293,19 @@ Distributed Denial of Service (DDoS) attack is a menace to network security that
   The Prognostics Data Repository is a collection of data sets that have been donated by various universities, agencies, or companies. The data repository focuses exclusively on prognostic data sets, i.e., data sets that can be used for development of prognostic algorithms. Mostly these are time series of data from some nominal state to a failed state. The collection of data in this repository is an ongoing process.  
   Format: various  
   Default task: Predictive Maintenance.
+  
+ - [ECG5000](http://www.timeseriesclassification.com/description.php?Dataset=ECG5000):
+  https://archive.physionet.org/cgi-bin/atm/ATM
+  The original dataset for "ECG5000" is a 20-hour long ECG downloaded from Physionet. The name is BIDMC Congestive Heart Failure Database(chfdb) and it is record "chf07". It was originally published in "Goldberger AL, Amaral LAN, Glass L, Hausdorff JM, Ivanov PCh, Mark RG, Mietus JE, Moody GB, Peng C-K, Stanley HE. PhysioBank, PhysioToolkit, and PhysioNet: Components of a New Research Resource for Complex Physiologic Signals. Circulation 101(23)". The data was pre-processed in two steps: (1) extract each heartbeat, (2) make each heartbeat equal length using interpolation. This dataset was originally used in paper "A general framework for never-ending learning from time series streams", DAMI 29(6). After that, 5,000 heartbeats were randomly selected. The patient has severe congestive heart failure and the class values were obtained by automated annotation.  
+  Format: images  
+  Default task: anomaly detection
+
+ - [UEA & UCR Time Series Classification Repository](http://www.timeseriesclassification.com/dataset.php):
+  This website is an ongoing project to develop a comprehensive repository for research into time series classification. If you use the results or code, please cite the paper "Anthony Bagnall, Jason Lines, Aaron Bostrom, James Large and Eamonn Keogh, The Great Time Series Classification Bake Off: a Review and Experimental Evaluation of Recent Algorithmic Advances, Data Mining and Knowledge Discovery, 31(3), 2017". Paper Link, Bibtex Link. We are in the process of updating all the results for the new dataset.  
+  Format: various  
+  Default task: various
+  
+  
 
 
 
