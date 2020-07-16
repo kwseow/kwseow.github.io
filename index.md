@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Happy Labour day.
+Happy National day, Singapore!
 
 # Public Datasets
 + [Dataset Finder](#dataset-finder)
@@ -45,6 +45,7 @@ Happy Labour day.
     
 + [Time Series](#time-series)
 
++ [Graphs](#graphs)
 
 
 ## Dataset Finder
@@ -452,6 +453,18 @@ Images were extracted from the National Agriculture Imagery Program (NAIP) datas
   Format: Image   
   Default task: Classification
 
+* [Satellite imagery](https://www.maptiler.com/gallery/satellite/):
+Free data, mostly from NASA and ESA, can be found in specialized catalogs, where users search based on the area of interest, required resolution, or capture date. The most popular satellites with free data in visible spectrum are Landsat-8 and Sentinel-2.  
+  Format: Image   
+  Default task: Classification
+
+* [Awesome Satellite Imagery Datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets):
+List of aerial and satellite imagery datasets with annotations for computer vision and deep learning. Newest datasets at the top of each category (Instance segmentation, object detection, semantic segmentation, scene classification, other).  
+  Format: Image   
+  Default task: various
+
+
+
 
 #### Other images
 * [Quantum simulations of an electron in a two dimensional potential well](https://nrc-digital-repository.canada.ca/eng/view/object/?id=1343ae23-cebf-45c6-94c3-ddebdb2f23c6):
@@ -854,7 +867,10 @@ Default task:
 * [Medical Data for Machine Learning](https://github.com/beamandrew/medical-data): 
 This is a curated list of medical data for machine learning.
 
-
+* [Breast Cancer Wisconsin (Diagnostic) Data Set](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)): 
+This is a curated list of medical data for machine learning.
+Format: Structured Data
+Default task: Classification, anomaly detection
 
 
 ## Voice Datasets
@@ -1056,7 +1072,8 @@ These datasets can be used for benchmarking unsupervised anomaly detection algor
 * [DDoS Evaluation Dataset (CICDDoS2019)](https://www.unb.ca/cic/datasets/ddos-2019.html): 
 Distributed Denial of Service (DDoS) attack is a menace to network security that aims at exhausting the target networks with malicious traffic. Although many statistical methods have been designed for DDoS attack detection, designing a real-time detector with low computational overhead is still one of the main concerns. On the other hand, the evaluation of new detection algorithms and techniques heavily relies on the existence of well-designed datasets.
 
-
+* [Unsupervised Anomaly Detection Benchmark](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OPQMVF): 
+These datasets can be used for benchmarking unsupervised anomaly detection algorithms (for example "Local Outlier Factor" LOF). The datasets have been obtained from multiple sources and are mainly based on datasets originally used for supervised machine learning. By publishing these modifications, a comparison of different algorithms is now possible for unsupervised anomaly detection.
 
 
 ## Text Classification
@@ -1304,7 +1321,23 @@ Distributed Denial of Service (DDoS) attack is a menace to network security that
   This website is an ongoing project to develop a comprehensive repository for research into time series classification. If you use the results or code, please cite the paper "Anthony Bagnall, Jason Lines, Aaron Bostrom, James Large and Eamonn Keogh, The Great Time Series Classification Bake Off: a Review and Experimental Evaluation of Recent Algorithmic Advances, Data Mining and Knowledge Discovery, 31(3), 2017". Paper Link, Bibtex Link. We are in the process of updating all the results for the new dataset.  
   Format: various  
   Default task: various
+
+ - [NASA Acoustics and Vibration Database](http://data-acoustics.com/measurements/bearing-faults/bearing-4/):
+  ---.  
+  Format: various  
+  Default task: various
+
+ - [NASA PCoE Datasets](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/):
+ The Prognostics Data Repository is a collection of data sets that have been donated by various universities, agencies, or companies. The data repository focuses exclusively on prognostic data sets, i.e., data sets that can be used for development of prognostic algorithms. Mostly these are time series of data from some nominal state to a failed state. The collection of data in this repository is an ongoing process.  
+  Format: Tabular Data
+  Default task: various
   
+## Graphs
+ - [Open Graph Benchmark](https://ogb.stanford.edu/):
+  The Open Graph Benchmark (OGB) is a collection of realistic, large-scale, and diverse benchmark datasets for machine learning on graphs. OGB datasets are automatically downloaded, processed, and split using the OGB Data Loader, which is fully compatible with Pytorch Geometric and DGL. The model performance can be evaluated using the OGB Evaluator in a unified manner.  
+  Format:   
+  Default task: 
+
   
 
 
