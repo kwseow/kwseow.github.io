@@ -158,6 +158,12 @@ a large collection of outlier detection datasets with ground truth (if available
   Format: various  
   Default task: various
 
+* [Network Repository](http://networkrepository.com/index.php):
+  The first interactive data and network data repository with real-time visual analytics. Network repository is not only the first interactive repository, but also the largest network repository with thousands of donations in 30+ domains (from biological to social network data). This large comprehensive collection of network graph data is useful for making significant research findings as well as benchmark network data sets for a wide variety of applications and domains (e.g., network science, bioinformatics, machine learning, data mining, physics, and social science) and includes relational, attributed, heterogeneous, streaming, spatial, and time series network data as well as non-relational machine learning data. All graph data sets are easily downloaded into a standard consistent format. We also have built a multi-level interactive graph analytics engine that allows users to visualize the structure of the network data as well as macro-level graph data statistics as well as important micro-level network properties of the nodes and edges. 
+  Check out GraphVis: the interactive visual network mining and machine learning tool.  
+  Format: various  
+  Default task: various
+
 
 ## Image Datasets
 
