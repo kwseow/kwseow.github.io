@@ -1083,6 +1083,12 @@ These datasets can be used for benchmarking unsupervised anomaly detection algor
 
 
 ## Text Classification
+ - [BBC Datasets](http://mlg.ucd.ie/datasets/bbc.html):
+  Two news article datasets, originating from BBC News, provided for use as benchmarks for machine learning research.
+These datasets are made available for non-commercial and research purposes only, and all data is provided in pre-processed matrix format..
+  Format:   
+  Default task: 
+
  - [Movie Lens Dataset](https://grouplens.org/datasets/movielens/latest/):
   The data set was collected over various periods of time, depending on the size of the set. Stable benchmark dataset. 20 million ratings and 465,000 tag applications applied to 27,000 movies by 138,000 users. Includes tag genome data with 12 million relevance scores across 1,100 tags.  
   Format: text  
