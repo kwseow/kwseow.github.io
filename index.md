@@ -170,6 +170,11 @@ a large collection of outlier detection datasets with ground truth (if available
 * [CVonline: Image Databases](http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm):
 This is a collated list of image and video databases that people have found useful for computer vision research and algorithm evaluation.
 
+* [Cove Computer Vision Exchange](https://cove.thecvf.com/):
+COVE is an online repository for computer vision datasets sponsored by the Computer Vision Foundation. 
+It is intended to aid the computer vision research community and serve as a centralized reference for all datasets in the field. 
+If you are a researcher with a dataset not currently in COVE, 
+please help make this site as comprehensive a resource as possible for the community and add it to the database!.
 
 
 * [Diversity in Faces Dataset](https://www.research.ibm.com/artificial-intelligence/trusted-ai/diversity-in-faces/):
