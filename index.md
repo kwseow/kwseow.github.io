@@ -12,6 +12,7 @@ Happy National day, Singapore!
     - [Object Detection and Recognition](#object-detection-and-recognition)
     - [Handwriting and character recognition](#handwriting-and-character-recognition)
     - [Aerial images](#aerial-images)
+    - [Thermal images](#thermal-images)
     - [Other images](#other-images)
 
 + [Text Datasets](#text-data)
@@ -475,6 +476,11 @@ List of aerial and satellite imagery datasets with annotations for computer visi
   Default task: various
 
 
+#### Thermal images
+* [Awesome Satellite Imagery Datasets](https://lcas.lincoln.ac.uk/wp/research/data-sets-software/lcas-thermal-physiological-monitoring-dataset/):
+This dataset is recorded for evaluating thermal-based physiological monitoring algorithms that can measure respiration and heart beat rate. The dataset contains thermal images of different human faces acquired in the Lincoln Centre for Autonomous Systems (L-CAS) at the University of Lincoln, UK. Data were recorded into different rosbag files, each corresponding to a person. The thermal camera recorded each person for two minutes with a frequency of 27Hz. People were asked to keep static in the first one minute, then move their head up and down, forward and back, turning right and left, each action was held for 10 seconds.  
+  Format: ROSBAG   
+  Default task: various
 
 
 #### Other images
