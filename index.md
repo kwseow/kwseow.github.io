@@ -165,7 +165,12 @@ a large collection of outlier detection datasets with ground truth (if available
   Format: various  
   Default task: various
 
-
+* [Deep Learning Datasets](https://deeplearning.buzz/deep-learning-datasets/):
+  Collated list of image and video datasets.  
+  Format: various  
+  Default task: various
+  
+  
 ## Image Datasets
 
 * [CVonline: Image Databases](http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm):
@@ -491,6 +496,34 @@ Tufts Face Database is the most comprehensive, large-scale (over 10,000 images, 
 The FLIR starter thermal dataset enables developers to start training convolutional neural networks (CNN), empowering the automotive community to create the next generation of safer and more efficient ADAS and driverless vehicle systems using cost-effective thermal cameras from FLIR.    
   Format: Image   
   Default task: various
+
+* [Visible-Infrared Database](http://www02.smt.ufrj.br/~fusion/):
+This database was developed by SMT/COPPE/Poli/UFRJ and IME-Instituto Militar de Engenharia within the CAPES/Pró-Defesa Program, in a partnership with IPqM-Instituto de Pesquisa da Marinha. The infrared and visible sequences are synchronized and registred.    
+  Format: Image   
+  Default task: image fusion
+
+* [OTCBVS Benchmark Dataset Collection](http://vcipl-okstate.org/pbvs/bench/):
+This is a publicly available benchmark dataset for testing and evaluating novel and state-of-the-art computer vision algorithms. Several researchers and students have requested a benchmark of non-visible (e.g., infrared) images and videos. The benchmark contains videos and images recorded in and beyond the visible spectrum and is available for free to all researchers in the international computer vision communities. Also it will allow a large spectrum of IEEE and SPIE vision conference and workshop participants to explore the benefits of the non-visible spectrum in real-world applications, contribute to the OTCBVS workshop series, and boost this research field significantly. This effort was initiated by Dr. Riad I. Hammoud in 2004. It was hosted at Ohio State University and managed by Dr. James W. David until 2013. It is currently managed by Dr. Guoliang Fan at Oklahoma State University.  
+Format: Image, Thermal
+Default task: Various. 
+
+* [FMTV - Laval Face Motion and Time-Lapse Video Databasen](http://www.qirt.org/liens/FMTV.htm):
+The ULFMT was gathered at MiViM research chair of Canada at Université Laval during the PhD study of Dr. Reza Shoja Ghiass in the laboratory of Prof. Hakim Bendada and Prof. Xavier Maldague. The database has been gathered by an Indigo Phoenix Thermal Camera between 2010 and 2014.  
+Format: Thermal
+Default task: Various
+
+* [VAIS](https://chriskanan.com/datasets/):
+VAIS contains simultaneously acquired unregistered thermal and visible images of ships acquired from piers. It is suitable for multi-modal object classification research..  
+Format: Thermal
+Default task: Various
+
+* [Iran Thermography](http://irthermo.ir/):
+Specialized reference of thermography.  
+Format: Thermal
+Default task: Various
+
+
+
 
 #### Other images
 * [Quantum simulations of an electron in a two dimensional potential well](https://nrc-digital-repository.canada.ca/eng/view/object/?id=1343ae23-cebf-45c6-94c3-ddebdb2f23c6):
