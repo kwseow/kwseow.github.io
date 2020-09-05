@@ -477,11 +477,20 @@ List of aerial and satellite imagery datasets with annotations for computer visi
 
 
 #### Thermal images
-* [Awesome Satellite Imagery Datasets](https://lcas.lincoln.ac.uk/wp/research/data-sets-software/lcas-thermal-physiological-monitoring-dataset/):
+* [Lincoln Centre for Autonomous Systems](https://lcas.lincoln.ac.uk/wp/research/data-sets-software/lcas-thermal-physiological-monitoring-dataset/):
 This dataset is recorded for evaluating thermal-based physiological monitoring algorithms that can measure respiration and heart beat rate. The dataset contains thermal images of different human faces acquired in the Lincoln Centre for Autonomous Systems (L-CAS) at the University of Lincoln, UK. Data were recorded into different rosbag files, each corresponding to a person. The thermal camera recorded each person for two minutes with a frequency of 27Hz. People were asked to keep static in the first one minute, then move their head up and down, forward and back, turning right and left, each action was held for 10 seconds.  
   Format: ROSBAG   
   Default task: various
 
+* [Tufts Face Database Thermal Cropped](https://www.kaggle.com/kpvisionlab/tufts-face-database-thermal-cropped):
+Tufts Face Database is the most comprehensive, large-scale (over 10,000 images, 74 females + 38 males, from more than 15 countries with an age range between 4 to 70 years old) face dataset that contains 6 image modalities: visible, near-infrared, thermal, computerized sketch, a recorded video, and 3D images. This webpage/dataset contains the Tufts Face Database three-dimensional (3D) images. The other datasets are made available through separate links by the user.  
+  Format: Image   
+  Default task: various
+
+* [FREE FLIR Thermal Dataset for Algorithm Training](https://www.flir.asia/oem/adas/adas-dataset-form/):
+The FLIR starter thermal dataset enables developers to start training convolutional neural networks (CNN), empowering the automotive community to create the next generation of safer and more efficient ADAS and driverless vehicle systems using cost-effective thermal cameras from FLIR.    
+  Format: Image   
+  Default task: various
 
 #### Other images
 * [Quantum simulations of an electron in a two dimensional potential well](https://nrc-digital-repository.canada.ca/eng/view/object/?id=1343ae23-cebf-45c6-94c3-ddebdb2f23c6):
