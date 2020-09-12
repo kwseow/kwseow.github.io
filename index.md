@@ -4,11 +4,6 @@ layout: default
 
 Happy National day, Singapore!
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
 # Public Datasets
 + [Dataset Finder](#dataset-finder)
 + [Image Datasets](#image-datasets)
