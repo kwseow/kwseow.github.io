@@ -4,6 +4,7 @@ layout: default
 
 Happy National day, Singapore!
 # Public Datasets
++ [Dataset Finder](#dataset-finder)
 
 <center><img src="images/DLI Header.png" alt="Header" width="400"></center>
 
