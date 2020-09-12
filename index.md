@@ -522,7 +522,10 @@ Specialized reference of thermography.
 Format: Thermal
 Default task: Various
 
-
+* [Carl Database](hhttp://splab.cz/en/download/databaze/carl-database):
+Visible and thermal images have been acquired using a thermographic camera TESTO 880-3, equipped with an uncooled detector with a spectral sensitivity range from 8 to 14 μm and provided with a germanium optical lens, and an approximate cost of 8.000 EUR. For the NIR a customized Logitech Quickcam messenger E2500 has been used, provided with a Silicon based CMOS image sensor with a sensibility to the overall visible spectrum and the half part of the NIR (until 1.000 nm approximately) with a cost of approx. 30 EUR. We have replaced the default optical filter of this camera by a couple of Kodak daylight filters for IR interspersed between optical and sensor. They both have similar spectrum responses and are coded as wratten filter 87 and 87C, respectively. In addition, we have used a special purpose printed circuit board (PCB) with a set of 16 infrared leds (IRED) with a range of emission from 820 to 1.000 nm in order to provide the required illumination.  
+Format: Thermal
+Default task: Various
 
 
 #### Other images
