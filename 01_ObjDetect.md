@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <center><img src="images/DLI Header.png" alt="Header" width="400"></center>
 
 # 1.0 Object Detection Application
