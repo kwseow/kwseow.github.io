@@ -927,6 +927,11 @@ This repository contains information about TyDi QA, code for evaluating results 
 Format: Text  
 Default task: 
 
+* [KILT Benchmarking](https://ai.facebook.com/tools/kilt/?fbclid=IwAR0ec4-wO-egIejOG7haWnZxXv2KnaHTmVfnx5HXaHzD05t8qWRTo9MA0EY): 
+KILT is a resource for training, evaluating and analyzing NLP models on Knowledge Intensive Language Tasks.    
+Format: Text  
+Default task: 
+
 
 ## Medical Datasets
 * [Medical Data for Machine Learning](https://github.com/beamandrew/medical-data): 
