@@ -658,6 +658,10 @@ This is a publicly available benchmark dataset for testing and evaluating novel 
 Format: Image, Thermal
 Default task: Various. 
 
+* [The Quick, Draw! Dataset](https://github.com/googlecreativelab/quickdraw-dataset):
+The Quick Draw Dataset is a collection of 50 million drawings across 345 categories, contributed by players of the game Quick, Draw!. The drawings were captured as timestamped vectors, tagged with metadata including what the player was asked to draw and in which country the player was located. You can browse the recognized drawings on quickdraw.withgoogle.com/data.  
+Format: bin, ndjson
+Default task: drawing sequence. 
 
 
 ## Text data
