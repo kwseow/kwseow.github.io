@@ -663,6 +663,10 @@ The Quick Draw Dataset is a collection of 50 million drawings across 345 categor
 Format: bin, ndjson
 Default task: drawing sequence. 
 
+* [Pix2Pix Datasets](http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/):
+Datasets for Pix2Pix GAN
+Format: 
+Default task: Pix2Pix GAN. 
 
 ## Text data
 #### Reviews
