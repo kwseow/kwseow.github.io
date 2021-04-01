@@ -48,6 +48,8 @@ Happy National day, Singapore!
 
 + [Graphs](#graphs)
 
++ [Document Analysis](#document-analysis)
+
 
 ## Dataset Finder
 * [Roboflow - Computer Vision Datasets](https://public.roboflow.com/):
@@ -1423,7 +1425,12 @@ These datasets are made available for non-commercial and research purposes only,
   Default task: 
 
   
-
+## Document Analysis
+ - [Marmot Dataset](https://www.icst.pku.edu.cn/cpdp/sjzy/index.htm):
+  In total, 2000 pages in PDF format were collected and the corresponding ground-truths were extracted utilizing our semi-automatic ground-truthing tool "Marmot". 
+The dataset is composed of Chinese and English pages at the proportion of about 1:1.  
+  Format:   
+  Default task: 
 
 
 
