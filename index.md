@@ -2,8 +2,6 @@
 layout: default
 ---
 
-Happy National day, Singapore!
-
 # Public Datasets
 + [Dataset Finder](#dataset-finder)
 + [Image Datasets](#image-datasets)
@@ -952,10 +950,16 @@ This is a curated list of medical data for machine learning.
 Format: Structured Data
 Default task: Classification, anomaly detection
 
-* Clinical Skin Disease Images](http://xiaopingwu.cn/assets/projects/sd-198/): 
+* [Clinical Skin Disease Images](http://xiaopingwu.cn/assets/projects/sd-198/): 
 SD-198 is an image dataset for automatic recognition and diagnosis of skin diseases. It contains 198 skin diseases and 6,584 clinical images, which are collected by digital cameras and mobile phones.
 Format: Image Data
 Default task: Classification, anomaly detection
+
+* [Skin Cancer MNIST: HAM10000](https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000): 
+a large collection of multi-source dermatoscopic images of pigmented lesions
+Format: Image Data
+Default task: Classification, anomaly detection
+
 
 
 
