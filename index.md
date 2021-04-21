@@ -952,6 +952,14 @@ This is a curated list of medical data for machine learning.
 Format: Structured Data
 Default task: Classification, anomaly detection
 
+* Clinical Skin Disease Images](http://xiaopingwu.cn/assets/projects/sd-198/): 
+SD-198 is an image dataset for automatic recognition and diagnosis of skin diseases. It contains 198 skin diseases and 6,584 clinical images, which are collected by digital cameras and mobile phones.
+Format: Image Data
+Default task: Classification, anomaly detection
+
+
+
+
 
 ## Voice Datasets
 * [Common Voice](https://voice.mozilla.org/en/datasets): 
