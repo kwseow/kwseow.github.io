@@ -23,7 +23,7 @@ layout: default
 
 + [Medical Datasets](#medical-datasets)
     
-+ [Voice Datasets](#voice-datasets)
++ [Audio Datasets](#audio-datasets)
 
 + [IOT Datasets](#iot-datasets)
 
@@ -967,7 +967,7 @@ Default task: Various
 
 
 
-## Voice Datasets
+## Audio Datasets
 * [Common Voice](https://voice.mozilla.org/en/datasets): 
 Common Voice is a massive global database of donated voices that lets 
 anyone quickly and easily train voice-enabled apps in potentially every 
@@ -1002,6 +1002,11 @@ This CSTR VCTK Corpus includes speech data uttered by 109 native speakers of Eng
 
 * [The M-AILABS Speech Dataset](https://www.caito.de/2019/01/the-m-ailabs-speech-dataset/): 
 The M-AILABS Speech Dataset is the first large dataset that are providing free-of-charge, freely usable as training data for speech recognition and speech synthesis.
+
+
+* [MIMII Dataset](https://zenodo.org/record/3384388#.YIX_KZAzaUk): 
+Sound Dataset for Malfunctioning Industrial Machine Investigation and Inspection
+Default task: Anomaly Detection
 
 
 ## IoT Datasets
