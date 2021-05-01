@@ -173,6 +173,14 @@ a large collection of outlier detection datasets with ground truth (if available
   Format: various  
   Default task: various
   
+* [PhysioNet](https://physionet.org/about/database/): 
+This page displays an alphabetical list of all the databases on PhysioNet. To search content on PhysioNet, visit the search page. Enter the search terms, add a filter for resource type if needed, and select how you would like the results to be ordered (for example, by relevance, by date, or by title).  
+Each project is made available under one of the following access policies:  
+Open Access: Accessible by all users, with minimal restrictions on reuse.  
+Restricted Access: Accessible by registered users who sign a Data Use Agreement.  
+Credentialed Access: Accessible by registered users who complete the credentialing process and sign a Data Use Agreement.  
+Format: Various   
+Default task: Various
   
 ## Image Datasets
 
@@ -343,6 +351,12 @@ Very large scene and object recognition database.
 
 * [Open Images](https://storage.googleapis.com/openimages/web/index.html): 
 A Large set of images listed as having CC BY 2.0 license with image-level labels and bounding boxes spanning thousands of classes.
+15,851,536 boxes on 600 categories  
+2,785,498 instance segmentations on 350 categories  
+3,284,280 relationship annotations on 1,466 relationships  
+675,155 localized narratives  
+59,919,574 image-level labels on 19,957 categories  
+Extension - 478,000 crowdsourced images with 6,000+ categories
 
 * [TV News Channel Commercial Detection Dataset](http://archive.ics.uci.edu/ml/datasets/tv+news+channel+commercial+detection+dataset): 
 TV commercials and news broadcasts.
@@ -664,9 +678,15 @@ Format: bin, ndjson
 Default task: drawing sequence. 
 
 * [Pix2Pix Datasets](http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/):
-Datasets for Pix2Pix GAN
-Format: 
+Datasets for Pix2Pix GAN  
+Format:   
+Default task: Pix2Pix GAN.   
+
+* [Human Foot Keypoint Dataset](https://cmu-perceptual-computing-lab.github.io/foot_keypoint_dataset/):
+Existing human pose datasets contain limited body part types. The MPII dataset annotates ankles, knees, hips, shoulders, elbows, wrists, necks, torsos, and head tops, while COCO also includes some facial keypoints. For both of these datasets, foot annotations are limited to ankle position only. However, graphics applications such as avatar retargeting or 3D human shape reconstruction require foot keypoints such as big toe and heel. Without foot information, these approaches suffer from problems such as the candy wrapper effect, floor penetration, and foot skate. To address these issues, a small subset of foot instances out of the COCO dataset is labeled using the Clickworker platform. It is split up with 14K annotations from the COCO training set and 545 from the validation set. A total of 6 foot keypoints are labeled. We consider the 3D coordinate of the foot keypoints rather than the surface position. For instance, for the exact toe positions, we label the area between the connection of the nail and skin, and also take depth into consideration by labeling the center of the toe rather than the surface.  
+Format:   
 Default task: Pix2Pix GAN. 
+
 
 ## Text data
 #### Reviews
@@ -965,6 +985,14 @@ The NLM Data Distribution Program is the preferred access point for bulk downloa
 Format: Various 
 Default task: Various
 
+* [PhysioNet](https://physionet.org/about/database/): 
+This page displays an alphabetical list of all the databases on PhysioNet. To search content on PhysioNet, visit the search page. Enter the search terms, add a filter for resource type if needed, and select how you would like the results to be ordered (for example, by relevance, by date, or by title).  
+Each project is made available under one of the following access policies:  
+Open Access: Accessible by all users, with minimal restrictions on reuse.  
+Restricted Access: Accessible by registered users who sign a Data Use Agreement.  
+Credentialed Access: Accessible by registered users who complete the credentialing process and sign a Data Use Agreement.  
+Format: Various   
+Default task: Various
 
 
 ## Audio Datasets
