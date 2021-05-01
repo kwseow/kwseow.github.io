@@ -1089,6 +1089,9 @@ End-To-End DAVIS Driving Dataset.
 * [High Storage System Data for Energy Optimization](https://www.kaggle.com/inIT-OWL/high-storage-system-data-for-energy-optimization/code): 
 In the Smartfactory in Lemgo is a demonstrator of a high storage system. The high storage system was built and used in previous research projects, for example in IMPROVE. Its focus is on data-driven energy optimization. It is also used to perform anomaly detection using timed automata..
 
+* [Pump sensor data for predictive maintenance](https://www.kaggle.com/nphantawee/pump-sensor-data): 
+I have a friend who working in a small team that taking care of water pump of a small area far from big town, there are 7 system failure in last year. Those failure cause huge problem to many people and also lead to some serious living problem of some family. The team can't see any pattern in the data when the system goes down, so they are not sure where to put more attention.
+
 ## Recommender Datasets
 #### Book
   - [Book Crossing](http://www2.informatik.uni-freiburg.de/~cziegler/BX/):: The BookCrossing (BX) dataset was collected by Cai-Nicolas in a 4-week crawl (August / September 2004) from the Book-Crossing community
