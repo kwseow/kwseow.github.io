@@ -1179,6 +1179,12 @@ Distributed Denial of Service (DDoS) attack is a menace to network security that
 * [Unsupervised Anomaly Detection Benchmark](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OPQMVF): 
 These datasets can be used for benchmarking unsupervised anomaly detection algorithms (for example "Local Outlier Factor" LOF). The datasets have been obtained from multiple sources and are mainly based on datasets originally used for supervised machine learning. By publishing these modifications, a comparison of different algorithms is now possible for unsupervised anomaly detection.
 
+* [Anomaly detection in 4G cellular networks](https://www.kaggle.com/c/anomaly-detection-in-4g-cellular-networks/overview): 
+TThe dataset is split into training (~80%) and test (~20%) subsets provided as two separate CSV files. The training set: ML-MATT-CompetitionQT2021_train.csv contains 36,904 samples, each having 13 features and a label. Note that there may be erroneous samples and outliers. The test set: ML-MATT-CompetitionQT2021_test.csv contains 9,158 samples following the same structure as the training set but not including the labels.  You will have to upload the predictions for the test set and Kaggle will compare your predictions with the ground-truth labels in order to compute a score.
+
+
+
+
 
 ## Text Classification
  - [BBC Datasets](http://mlg.ucd.ie/datasets/bbc.html):
