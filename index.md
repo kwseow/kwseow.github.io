@@ -1086,6 +1086,8 @@ Three datasets: Korean daytime, Korean nighttime, and German daytime traffic sig
 * [DDD17 (Transportation)](http://sensors.ini.uzh.ch/databases.html): 
 End-To-End DAVIS Driving Dataset.
 
+* [High Storage System Data for Energy Optimization](https://www.kaggle.com/inIT-OWL/high-storage-system-data-for-energy-optimization/code): 
+In the Smartfactory in Lemgo is a demonstrator of a high storage system. The high storage system was built and used in previous research projects, for example in IMPROVE. Its focus is on data-driven energy optimization. It is also used to perform anomaly detection using timed automata..
 
 ## Recommender Datasets
 #### Book
