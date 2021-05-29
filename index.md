@@ -687,6 +687,12 @@ Existing human pose datasets contain limited body part types. The MPII dataset a
 Format:   
 Default task: Pix2Pix GAN. 
 
+* [Dataset for Affective States in E-Environments](https://iith.ac.in/~daisee-dataset/):
+The difference between real and virtual worlds is shrinking at an astounding pace. With more and more users working on computers to perform a myriad of tasks from online learning to shopping, interaction with such systems is an integral part of life. In such cases, recognizing a user's engagement level with the system (s)he is interacting with can change the way the system interacts back with the user. This will lead not only to better engagement with the system but also pave the way for better human-computer interaction. Hence, recognizing user engagement can play a crucial role in several contemporary vision applications including advertising, healthcare, autonomous vehicles, and e-learning. However, the lack of any publicly available dataset to recognize user engagement severely limits the development of methodologies that can address this problem. To facilitate this, we introduce DAiSEE, the first multi-label video classification dataset comprising of 9068 video snippets captured from 112 users for recognizing the user affective states of boredom, confusion, engagement, and frustration "in the wild". The dataset has four levels of labels namely - very low, low, high, and very high for each of the affective states, which are crowd annotated and correlated with a gold standard annotation created using a team of expert psychologists. We have also established benchmark results on this dataset using state-of-the-art video classification methods that are available today. We believe that DAiSEE will provide the research community with challenges in feature extraction, context-based inference, and development of suitable machine learning methods for related tasks, thus providing a springboard for further research.  
+Format:   
+Default task: image classification.
+
+
 
 ## Text data
 #### Reviews
