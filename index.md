@@ -1037,10 +1037,13 @@ This CSTR VCTK Corpus includes speech data uttered by 109 native speakers of Eng
 * [The M-AILABS Speech Dataset](https://www.caito.de/2019/01/the-m-ailabs-speech-dataset/): 
 The M-AILABS Speech Dataset is the first large dataset that are providing free-of-charge, freely usable as training data for speech recognition and speech synthesis.
 
-
 * [MIMII Dataset](https://zenodo.org/record/3384388#.YIX_KZAzaUk): 
 Sound Dataset for Malfunctioning Industrial Machine Investigation and Inspection
 Default task: Anomaly Detection
+
+* [RAVDESS Dataset](https://zenodo.org/record/1188976#.YPVQFOgzaUl): 
+The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) contains 7356 files (total size: 24.8 GB). The database contains 24 professional actors (12 female, 12 male), vocalizing two lexically-matched statements in a neutral North American accent. Speech includes calm, happy, sad, angry, fearful, surprise, and disgust expressions, and song contains calm, happy, sad, angry, and fearful emotions. Each expression is produced at two levels of emotional intensity (normal, strong), with an additional neutral expression. All conditions are available in three modality formats: Audio-only (16bit, 48kHz .wav), Audio-Video (720p H.264, AAC 48kHz, .mp4), and Video-only (no sound).  Note, there are no song files for Actor_18.
+Default task: Emotion Classification
 
 
 ## IoT Datasets
