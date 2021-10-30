@@ -19,6 +19,7 @@ layout: default
     - [Messages](#messages)
     - [Twitter and tweets](#twitter-and-tweets)
     - [Dialogues](#dialogues)
+    - [Question Answering](#question-answering)
     - [Other Text](#other-text)
 
 + [Medical Datasets](#medical-datasets)
@@ -896,7 +897,12 @@ The full Taskmaster-1 dialog dataset has total 13,215 dialogs with 7708 written 
 Format: JSON   
 Default Task: Text annotation
 
- 
+#### Question Answering
+* [SQuad](https://rajpurkar.github.io/SQuAD-explorer/): 
+Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset which includes questions posed by crowd-workers on a set of Wikipedia articles and the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable. The dataset was presented by researchers at Stanford University and SQuAD 2.0 contains more than 100,000 questions.
+Format: 
+Default task: 
+
 
 
 
