@@ -898,57 +898,55 @@ Format: JSON
 Default Task: Text annotation
 
 #### Question Answering
-* [SQuad](https://rajpurkar.github.io/SQuAD-explorer/): 
-Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset which includes questions posed by crowd-workers on a set of Wikipedia articles and the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable. The dataset was presented by researchers at Stanford University and SQuAD 2.0 contains more than 100,000 questions.
-Format: 
-Default task: 
+* [SQuad](https://rajpurkar.github.io/SQuAD-explorer/):  
+Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset which includes questions posed by crowd-workers on a set of Wikipedia articles and the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable. The dataset was presented by researchers at Stanford University and SQuAD 2.0 contains more than 100,000 questions.  
+Format:  
+Default task:  
 
-* [Natural Questions (NQ)](https://ai.googleblog.com/2019/01/natural-questions-new-corpus-and.html): 
+* [Natural Questions (NQ)](https://ai.googleblog.com/2019/01/natural-questions-new-corpus-and.html):  
 Natural Questions (NQ) is a new, large-scale corpus for training and evaluating open-domain question answering systems. Presented by Google, this dataset is the first to replicate the end-to-end process in which people find answers to questions. It contains 300,000 naturally occurring questions, along with human-annotated answers from Wikipedia pages, to be used in training QA systems. Furthermore, researchers added 16,000 examples where answers (to the same questions) are provided by 5 different annotators which will be useful for evaluating the performance of the learned QA systems.   
-Format: 
-Default task: 
+Format:  
+Default task:  
 
-* [Question Answering in Context](https://quac.ai/): 
-Question Answering in Context (QuAC) is a dataset for modeling, understanding, and participating in information seeking dialog. In this dataset, instances consist of an interactive dialogue between two crowd workers which is a student who poses a sequence of freeform questions to learn as much as possible about a hidden Wikipedia text, and a teacher who answers the questions by providing short excerpts (spans) from the text. It contains 14K
+* [Question Answering in Context](https://quac.ai/):  
+Question Answering in Context (QuAC) is a dataset for modeling, understanding, and participating in information seeking dialog. In this dataset, instances consist of an interactive dialogue between two crowd workers which is a student who poses a sequence of freeform questions to learn as much as possible about a hidden Wikipedia text, and a teacher who answers the questions by providing short excerpts (spans) from the text. It contains 14K information-seeking QA dialogs which include 100K QA pairs in total.  
+Format:  
+Default task:  
 
-information-seeking QA dialogs which include 100K QA pairs in total. 
-Format: 
-Default task: 
+* [Conversational Question Answering (Coca)](https://stanfordnlp.github.io/coqa/):  
+Conversational Question Answering (CoQA), pronounced as Coca is a large-scale dataset for building conversational question answering systems. The goal of the CoQA challenge is to measure the ability of machines to understand a text passage and answer a series of interconnected questions that appear in a conversation. The dataset contains 127,000+ questions with answers collected from 8000+ conversations.  
+Format:  
+Default task:  
 
-* [Conversational Question Answering (Coca)](https://stanfordnlp.github.io/coqa/): 
-Conversational Question Answering (CoQA), pronounced as Coca is a large-scale dataset for building conversational question answering systems. The goal of the CoQA challenge is to measure the ability of machines to understand a text passage and answer a series of interconnected questions that appear in a conversation. The dataset contains 127,000+ questions with answers collected from 8000+ conversations. 
-Format: 
-Default task: 
+* [HOTPOTQA](https://arxiv.org/pdf/1809.09600.pdf):  
+HOTPOTQA is a dataset which contains 113k Wikipedia-based question-answer pairs with four key features. These are questions that require finding and reasoning over multiple supporting documents to answer, the questions are diverse and not constrained to any pre-existing knowledge bases or knowledge schemas, sentence-level supporting facts required for reasoning, allowing QA systems to reason with strong supervision and explain predictions and a new type of factoid comparison questions to test QA systems’ ability to extract relevant facts and perform necessary comparison.  
+Format:  
+Default task:   
 
-* [HOTPOTQA](https://arxiv.org/pdf/1809.09600.pdf): 
-HOTPOTQA is a dataset which contains 113k Wikipedia-based question-answer pairs with four key features. These are questions that require finding and reasoning over multiple supporting documents to answer, the questions are diverse and not constrained to any pre-existing knowledge bases or knowledge schemas, sentence-level supporting facts required for reasoning, allowing QA systems to reason with strong supervision and explain predictions and a new type of factoid comparison questions to test QA systems’ ability to extract relevant facts and perform necessary comparison.
-Format: 
-Default task: 
+* [ELI5](https://github.com/facebookresearch/ELI5):  
+ELI5 (Explain Like I’m Five) is a longform question answering dataset. It is a large-scale, high-quality data set, together with web documents, as well as two pre-trained models. The dataset is created by Facebook and it comprises of 270K threads of diverse, open-ended questions that require multi-sentence answers.  
+Format:  
+Default task:  
 
-* [ELI5](https://github.com/facebookresearch/ELI5): 
-ELI5 (Explain Like I’m Five) is a longform question answering dataset. It is a large-scale, high-quality data set, together with web documents, as well as two pre-trained models. The dataset is created by Facebook and it comprises of 270K threads of diverse, open-ended questions that require multi-sentence answers.
-Format: 
-Default task: 
+* [ShARC](https://sharc-data.github.io/):  
+Shaping Answers with Rules through Conversations (ShARC) is a QA dataset which requires logical reasoning, elements of entailment/NLI and natural language generation. The dataset consists of  32k task instances based on real-world rules and crowd-generated questions and scenarios.  
+Format:  
+Default task:  
 
-* [ShARC](https://sharc-data.github.io/): 
-Shaping Answers with Rules through Conversations (ShARC) is a QA dataset which requires logical reasoning, elements of entailment/NLI and natural language generation. The dataset consists of  32k task instances based on real-world rules and crowd-generated questions and scenarios. 
-Format: 
-Default task: 
+* [MS MARCO](http://www.msmarco.org/dataset.aspx):  
+MS MARCO or Human Generated MAchine Reading COmprehension Dataset is a large-scale dataset created by Microsoft AI & Research. The dataset consists of 1,010,916 anonymized question which is sampled from Bing’s search query logs, each with a human-generated answer and 182,669 completely human rewritten generated answers. This dataset is mainly intended for non-commercial research purposes only to promote advancement in the field of artificial intelligence and related areas  
+Format:  
+Default task:  
 
-* [MS MARCO](http://www.msmarco.org/dataset.aspx): 
-MS MARCO or Human Generated MAchine Reading COmprehension Dataset is a large-scale dataset created by Microsoft AI & Research. The dataset consists of 1,010,916 anonymized question which is sampled from Bing’s search query logs, each with a human-generated answer and 182,669 completely human rewritten generated answers. This dataset is mainly intended for non-commercial research purposes only to promote advancement in the field of artificial intelligence and related areas
-Format: 
-Default task: 
+* [TWEETQA](https://www.aclweb.org/anthology/P19-1496/):  
+TWEETQA is a social media-focused question answering dataset. This dataset is created by the researchers at IBM and the University of California and can be viewed as the first large-scale dataset for QA over social media data. The dataset now includes 10,898 articles, 17,794 tweets, and 13,757 crowdsourced question-answer pairs.  
+Format:  
+Default task:  
 
-* [TWEETQA](https://www.aclweb.org/anthology/P19-1496/): 
-TWEETQA is a social media-focused question answering dataset. This dataset is created by the researchers at IBM and the University of California and can be viewed as the first large-scale dataset for QA over social media data. The dataset now includes 10,898 articles, 17,794 tweets, and 13,757 crowdsourced question-answer pairs. 
-Format: 
-Default task: 
-
-* [NEWSQA](https://arxiv.org/pdf/1611.09830.pdf): 
-NewsQA is a challenging machine comprehension dataset of over 100,000 human-generated question-answer pairs. The dataset is collected from crowd-workers supply questions and answers based on a set of over 10,000 news articles from CNN, with answers consisting of spans of text from the corresponding articles. The dataset contains 119,633 natural language questions posed by crowd-workers on 12,744 news articles from CNN. 
-Format: 
-Default task: 
+* [NEWSQA](https://arxiv.org/pdf/1611.09830.pdf):  
+NewsQA is a challenging machine comprehension dataset of over 100,000 human-generated question-answer pairs. The dataset is collected from crowd-workers supply questions and answers based on a set of over 10,000 news articles from CNN, with answers consisting of spans of text from the corresponding articles. The dataset contains 119,633 natural language questions posed by crowd-workers on 12,744 news articles from CNN.  
+Format:  
+Default task:  
 
 
 #### Other text
