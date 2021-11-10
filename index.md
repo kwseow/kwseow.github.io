@@ -134,26 +134,26 @@ All datasets have been reviewed to conform to Yahoo's data protection standards,
 
 
 * [Stanford Large Network Dataset Collection](http://snap.stanford.edu/data/index.html): 
-    Social networks : online social networks, edges represent interactions between people
-    Networks with ground-truth communities : ground-truth network communities in social and information networks
-- Communication networks : email communication networks with edges representing communication
-- Citation networks : nodes represent papers, edges represent citations
-- Collaboration networks : nodes represent scientists, edges represent collaborations (co-authoring a paper)
-- Web graphs : nodes represent webpages and edges are hyperlinks
-- Amazon networks : nodes represent products and edges link commonly co-purchased products
-- Internet networks : nodes represent computers and edges communication
-- Road networks : nodes represent intersections and edges roads connecting the intersections
-- Autonomous systems : graphs of the internet
-- Signed networks : networks with positive and negative edges (friend/foe, trust/distrust)
-- Location-based online social networks : social networks with geographic check-ins
-- Wikipedia networks, articles, and metadata : talk, editing, voting, and article data from Wikipedia
-- Temporal networks : networks where edges have timestamps
-- Twitter and Memetracker : memetracker phrases, links and 467 million Tweets
-- Online communities : data from online communities such as Reddit and Flickr
-- Online reviews : data from online review systems such as BeerAdvocate and Amazon
-- User actions : actions of users on social platforms.
-- Face-to-face communication networks : networks of face-to-face (non-online) interactions
-- Graph classification datasets : disjoint graphs from different classes
+  * Social networks : online social networks, edges represent interactions between people
+  * Networks with ground-truth communities : ground-truth network communities in social and information networks
+  * Communication networks : email communication networks with edges representing communication
+  * Citation networks : nodes represent papers, edges represent citations
+  * Collaboration networks : nodes represent scientists, edges represent collaborations (co-authoring a paper)
+  * Web graphs : nodes represent webpages and edges are hyperlinks
+  * Amazon networks : nodes represent products and edges link commonly co-purchased products
+  * Internet networks : nodes represent computers and edges communication
+  * Road networks : nodes represent intersections and edges roads connecting the intersections
+  * Autonomous systems : graphs of the internet
+  * Signed networks : networks with positive and negative edges (friend/foe, trust/distrust)
+  * Location-based online social networks : social networks with geographic check-ins
+  * Wikipedia networks, articles, and metadata : talk, editing, voting, and article data from Wikipedia
+  * Temporal networks : networks where edges have timestamps
+  * Twitter and Memetracker : memetracker phrases, links and 467 million Tweets
+  * Online communities : data from online communities such as Reddit and Flickr
+  * Online reviews : data from online review systems such as BeerAdvocate and Amazon
+  * User actions : actions of users on social platforms.
+  * Face-to-face communication networks : networks of face-to-face (non-online) interactions
+  * Graph classification datasets : disjoint graphs from different classes
 
 
 * [Stanford Biomedical Network Dataset Collection](https://snap.stanford.edu/biodata/index.html/): 
