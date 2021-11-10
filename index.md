@@ -182,6 +182,12 @@ Restricted Access: Accessible by registered users who sign a Data Use Agreement.
 Credentialed Access: Accessible by registered users who complete the credentialing process and sign a Data Use Agreement.  
 Format: Various   
 Default task: Various
+
+* [Bifrost Visual Datasets](https://datasets.bifrost.ai/):
+  Collated list of image datasets.  
+  Format: various  
+  Default task: various
+
   
 ## Image Datasets
 
