@@ -134,7 +134,7 @@ All datasets have been reviewed to conform to Yahoo's data protection standards,
 
 
 * [Stanford Large Network Dataset Collection](http://snap.stanford.edu/data/index.html): 
-  Social networks : online social networks, edges represent interactions between people
+    Social networks : online social networks, edges represent interactions between people
 - Networks with ground-truth communities : ground-truth network communities in social and information networks
 - Communication networks : email communication networks with edges representing communication
 - Citation networks : nodes represent papers, edges represent citations
