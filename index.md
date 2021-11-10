@@ -133,7 +133,28 @@ The Yahoo Webscope Program is a reference library of interesting and scientifica
 All datasets have been reviewed to conform to Yahoo's data protection standards, including strict controls on privacy. We have a number of datasets that we are excited to share with you.
 
 
-* [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/): 
+* [Stanford Large Network Dataset Collection](http://snap.stanford.edu/data/index.html): 
+- Social networks : online social networks, edges represent interactions between people
+- Networks with ground-truth communities : ground-truth network communities in social and information networks
+- Communication networks : email communication networks with edges representing communication
+- Citation networks : nodes represent papers, edges represent citations
+- Collaboration networks : nodes represent scientists, edges represent collaborations (co-authoring a paper)
+- Web graphs : nodes represent webpages and edges are hyperlinks
+- Amazon networks : nodes represent products and edges link commonly co-purchased products
+- Internet networks : nodes represent computers and edges communication
+- Road networks : nodes represent intersections and edges roads connecting the intersections
+- Autonomous systems : graphs of the internet
+- Signed networks : networks with positive and negative edges (friend/foe, trust/distrust)
+- Location-based online social networks : social networks with geographic check-ins
+- Wikipedia networks, articles, and metadata : talk, editing, voting, and article data from Wikipedia
+- Temporal networks : networks where edges have timestamps
+- Twitter and Memetracker : memetracker phrases, links and 467 million Tweets
+- Online communities : data from online communities such as Reddit and Flickr
+- Online reviews : data from online review systems such as BeerAdvocate and Amazon
+- User actions : actions of users on social platforms.
+- Face-to-face communication networks : networks of face-to-face (non-online) interactions
+- Graph classification datasets : disjoint graphs from different classes
+
 
 * [Stanford Biomedical Network Dataset Collection](https://snap.stanford.edu/biodata/index.html/): 
 
@@ -1020,6 +1041,12 @@ Default task:
 KILT is a resource for training, evaluating and analyzing NLP models on Knowledge Intensive Language Tasks.    
 Format: Text  
 Default task: 
+
+* [GoEmotions: A Dataset for Fine-Grained Emotion Classification](https://ai.googleblog.com/2021/10/goemotions-dataset-for-fine-grained.html?m=1): 
+https://github.com/google-research/google-research/tree/master/goemotions
+a human-annotated dataset of 58k Reddit comments extracted from popular English-language subreddits and labeled with 27 emotion categories . As the largest fully annotated English language fine-grained emotion dataset to date, we designed the GoEmotions taxonomy with both psychology and data applicability in mind. In contrast to the basic six emotions, which include only one positive emotion (joy), our taxonomy includes 12 positive, 11 negative, 4 ambiguous emotion categories and 1 “neutral”, making it widely suitable for conversation understanding tasks that require a subtle differentiation between emotion expressions.      
+Format: Text  
+Default task: Classification
 
 
 ## Medical Datasets
