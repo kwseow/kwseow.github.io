@@ -49,6 +49,7 @@ layout: default
 
 + [Document Analysis](#document-analysis)
 
++ [General Classifications](#general-classifications)
 
 ## Dataset Finder
 * [Roboflow - Computer Vision Datasets](https://public.roboflow.com/):
@@ -1582,9 +1583,26 @@ The dataset is composed of Chinese and English pages at the proportion of about 
   Default task: 
 
 
+## General Classifications
+ - [Campus Recruitment](https://www.kaggle.com/benroshan/factors-affecting-campus-placement):
+   Determine if a student gets placed in a company based on various features like their education, grades, and so on.  
+  Format:   
+  Default task: 
+
+ - [Australian Fatal Road Accident 1989–2021](https://www.kaggle.com/deepcontractor/australian-fatal-car-accident-data-19892021/code):
+   This is a fairly new dataset, and you need to classify the crash type from the various features available about the crash such as time and day of the crash, speed of the vehicle, etc.  
+  Format:   
+  Default task: 
+
+ - [Heart Disease UCI](https://www.kaggle.com/ronitf/heart-disease-uci):
+   To predict the presence of heart disease in the patient based on a set of 76 different physiological attributes of an individual
+  Format:   
+  Default task: 
 
 
-
-​
+​ - [CelebFaces Attributes (CelebA) Dataset](https://www.kaggle.com/jessicali9530/celeba-dataset):
+   A popular one to use over 200k images of celebrities and use Computer vision concepts for implementing facial recognition.
+  Format:   
+  Default task: 
 
    
