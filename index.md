@@ -51,6 +51,9 @@ layout: default
 
 + [General Classifications](#general-classifications)
 
++ [General Regression](#general-regression)
+
+
 ## Dataset Finder
 * [Roboflow - Computer Vision Datasets](https://public.roboflow.com/):
 Roboflow hosts free public computer vision datasets in many popular formats (including CreateML JSON, COCO JSON, Pascal VOC XML, YOLO v3, and Tensorflow TFRecords.
@@ -1083,6 +1086,9 @@ Credentialed Access: Accessible by registered users who complete the credentiali
 Format: Various   
 Default task: Various
 
+* [WHO Life Expectancy](https://www.kaggle.com/kumarajarshi/life-expectancy-who): 
+Another good one for experimenting with your EDA skills also.
+
 
 ## Audio Datasets
 * [Common Voice](https://voice.mozilla.org/en/datasets): 
@@ -1462,6 +1468,11 @@ These datasets are made available for non-commercial and research purposes only,
   These files contain complete loan data for all loans issued through the time period stated, including the current loan status (Current, Late, Fully Paid, etc.) and latest payment information. The file containing loan data through the "present" contains complete loan data for all loans issued through the previous completed calendar quarter.  
   Format: Text CSV  
   Default task: Classification, regression.
+
+  - [Tesla dataset](https://www.kaggle.com/abhimaneukj/tesla-inc-tsla-dataset):
+  A stock price dataset for all the Tesla fans, and for those who enjoy dabbling into the intricacies of the financial industry..  
+  Format: Text CSV  
+  Default task: regression.
   
 
 #### Demand and Sales forecasting
@@ -1606,3 +1617,9 @@ The dataset is composed of Chinese and English pages at the proportion of about 
   Default task: 
 
    
+## General Regression 
+ - [Red Wine Quality](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009):
+   A dataset to predict the quality of wines using wine attributes such as fixed acidity, chlorides, citrus content and so on. This is a fun dataset I’d recommend experimenting with if you’re already familiar with a little bit of regression and have practised on the dataset 1 above.  
+  Format:   
+  Default task: 
+
