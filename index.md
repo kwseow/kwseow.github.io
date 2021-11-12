@@ -1222,6 +1222,8 @@ I have a friend who working in a small team that taking care of water pump of a 
 #### Book
   - [Book Crossing](http://www2.informatik.uni-freiburg.de/~cziegler/BX/):: The BookCrossing (BX) dataset was collected by Cai-Nicolas in a 4-week crawl (August / September 2004) from the Book-Crossing community
   
+  - [Goodreads Books](https://www.kaggle.com/jealousleopard/goodreadsbooks):Detailed information about books through numerous columns for building a book recommender engine. This is my personal favourite for getting a hang out of actually attempting the recommendation task.
+
 #### Dating
   - [Dating Agency](http://www.occamslab.com/petricek/data/):: This dataset contains 17,359,346 anonymous ratings of 168,791 profiles made by 135,359 LibimSeTi users as dumped on April 4, 2006.
 
@@ -1241,6 +1243,9 @@ I have a friend who working in a small team that taking care of water pump of a 
   - [CiaoDVD](https://www.librec.net/datasets.html):: CiaoDVD is a dataset crawled from the entire category of DVDs from the dvd.ciao.co.uk website in December, 2013
   - [FilmTrust](https://www.librec.net/datasets.html):: FilmTrust is a small dataset crawled from the entire FilmTrust website in June, 2011
   - [Netflix](http://academictorrents.com/details/9b13183dc4d60676b773c9e2cd6de5e5542cee9a):: This is the official data set used in the Netflix Prize competition. 
+
+  - [Netflix Data](https://www.kaggle.com/shivamb/netflix-shows/tasks): collection of movies and TV shows details until 2019, also a great one for some practical exposure to a real world application. 
+
   - [Cornell University](http://www.cs.cornell.edu/people/pabo/movie-review-data/): 
   Cornell University - Movie-review data for use in sentiment-analysis experiments 
   - [Douban Dataset](https://www.cse.cuhk.edu.hk/irwin.king.new/pub/data/douban):
@@ -1252,7 +1257,9 @@ television show, hardware, office appliances, ...).
 A peculiar characteristics of Epinions is that users are paid according to how much a review 
 is found useful (Income Share program).
 
-  
+  - [Popular Movies from IMDb](https://www.kaggle.com/sankha1998/tmdb-top-10000-popular-movies-dataset):
+A classic crowd-sourced movie information database for starting out, in which you need to predict which movie to recommend.
+
 #### Games
 
   - [Steam Video Games](https://www.kaggle.com/tamber/steam-video-games/data): This dataset is a list of user behaviors, with columns: user-id, game-title, behavior-name, value. The behaviors included are 'purchase' and 'play'. The value indicates the degree to which the behavior was performed - in the case of 'purchase' the value is always 1, and in the case of 'play' the value represents the number of hours the user has played the game. 
@@ -1276,6 +1283,9 @@ is found useful (Income Share program).
   Directories. The goal of the site is to make these CMS data readily available in open, 
   accessible, and machine-readable formats.  Includes Hospital Compare DataSet, Nursing Home compare datasets and more.
   
+#### Others 
+  - [Subreddit Recommender](https://www.kaggle.com/timschaum/subreddit-recommender):
+  This is one of my recent favourites, and with this dataset, you need to take into account each user’s comments in subreddits and then predict some new subreddits to recommend to them. If you’re sick of all the repetitive movie datasets, I would say to try this one for sure!
   
   
 ## Anomaly Data
