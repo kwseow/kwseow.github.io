@@ -1588,7 +1588,17 @@ These datasets are made available for non-commercial and research purposes only,
  The Prognostics Data Repository is a collection of data sets that have been donated by various universities, agencies, or companies. The data repository focuses exclusively on prognostic data sets, i.e., data sets that can be used for development of prognostic algorithms. Mostly these are time series of data from some nominal state to a failed state. The collection of data in this repository is an ongoing process.  
   Format: Tabular Data
   Default task: various
-  
+
+ - [E-Commerse Sales](https://www.kaggle.com/carrie1/ecommerce-data):
+For predicting sales/transaction for a store. The classic time series forecasting job.
+
+ - [Minimum Daily Temperatures](https://raw.githubusercontent.com/jbrownlee/Datasets/master/daily-min-temperatures.csv):
+This dataset describes the minimum daily temperatures over 10 years in the city Melbourne, Australia.
+
+ - [Microsoft Stock](https://www.kaggle.com/vijayvvenkitesh/microsoft-stock-time-series-analysis):
+Another stock dataset for you to experiment with, this one wants you to predict Microsoft’s stock prices based on five-six years of historical data.
+
+
 ## Graphs
  - [Open Graph Benchmark](https://ogb.stanford.edu/):
   The Open Graph Benchmark (OGB) is a collection of realistic, large-scale, and diverse benchmark datasets for machine learning on graphs. OGB datasets are automatically downloaded, processed, and split using the OGB Data Loader, which is fully compatible with Pytorch Geometric and DGL. The model performance can be evaluated using the OGB Evaluator in a unified manner.  
