@@ -214,6 +214,11 @@ Default task: Various
   Format: various  
   Default task: various
 
+* [Awesome list of datasets in 100+ categories](https://www.kdnuggets.com/2021/05/awesome-list-datasets.html):
+  With an estimated 44 zettabytes of data in existence in our digital world today and approximately 2.5 quintillion bytes of new data generated daily, there is a lot of data out there you could tap into for your data science projects. It's pretty hard to curate through such a massive universe of data, but this collection is a great start. Here, you can find data from cancer genomes to UFO reports, as well as years of air quality data to 200,000 jokes. Dive into this ocean of data to explore as you learn how to apply data science techniques or leverage your expertise to discover something new.  
+  Format: various  
+  Default task: various
+
   
 ## Image Datasets
 
