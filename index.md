@@ -55,6 +55,8 @@ layout: default
 
 + [eSports Datasets](#esports-datasets)
 
++ [Synthetic Datasets](#synthetic-datasets)
+
 ## Dataset Finder
 * [Roboflow - Computer Vision Datasets](https://public.roboflow.com/):
 Roboflow hosts free public computer vision datasets in many popular formats (including CreateML JSON, COCO JSON, Pascal VOC XML, YOLO v3, and Tensorflow TFRecords.
@@ -1676,6 +1678,14 @@ The data set contains data of players Rating, their age, their nationality, the 
 About a year and a half ago, we exported our first “data dump” of all the parsed data we’d collected since OpenDota started operating, which consisted of over 3.5 million matches ranging from January 2015 to December 2015.
 
 After a series of adventures, we’re happy to announce that we’re finally ready to release a second data dump of over a billion matches, this time with information ranging from March 2011 to March 2016! 
+  Format:   
+  Default task: 
+
+## Synthetic Datasets 
+ - [SyntheticFur Dataset](https://github.com/google-research-datasets/synthetic-fur):
+Collecting and generating high quality fur images is an expensive and difficult process that requires content specialists to generate. By releasing this unique dataset with high quality lighting simulation via ray tracing, this can save time for researchers seeking to advance studies of fur rendering and simulation, without having to recreate this laborious process.
+
+The dataset was used for neural rendering research at Google that takes advantage of rasterized image buffers and converts them into high quality raytraced fur renders. We believe that this dataset can contribute to the computer graphics and machine learning community to develop more advanced techniques with fur rendering.   
   Format:   
   Default task: 
 
