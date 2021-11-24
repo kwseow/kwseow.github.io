@@ -53,6 +53,7 @@ layout: default
 
 + [General Regression](#general-regression)
 
++ [eSports Datasets](#esports-datasets)
 
 ## Dataset Finder
 * [Roboflow - Computer Vision Datasets](https://public.roboflow.com/):
@@ -979,6 +980,11 @@ NewsQA is a challenging machine comprehension dataset of over 100,000 human-gene
 Format:  
 Default task:  
 
+* [Textbook Question Answering](https://allenai.org/data/tqa):  
+The TextbookQuestionAnswering (TQA) dataset is drawn from middle school science curricula. It consists of 1,076 lessons from Life Science, Earth Science and Physical Science textbooks. This includes 26,260 questions, including 12,567 that have an accompanying diagram.  
+Format:  
+Default task:  
+
 
 #### Other text
 * [Web of Science Datasets](https://data.mendeley.com/datasets/9rw3vkcfy4/6): 
@@ -1640,6 +1646,26 @@ The dataset is composed of Chinese and English pages at the proportion of about 
 ## General Regression 
  - [Red Wine Quality](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009):
    A dataset to predict the quality of wines using wine attributes such as fixed acidity, chlorides, citrus content and so on. This is a fun dataset I’d recommend experimenting with if you’re already familiar with a little bit of regression and have practised on the dataset 1 above.  
+  Format:   
+  Default task: 
+
+## eSports Datasets 
+ - [CS:GO Competitive Matchmaking Data](https://www.kaggle.com/skihikingkevin/csgo-matchmaking-damage):
+Video games are a rich area for data extraction due to their digital nature. Notable examples such as the complex EVE Online economy, World of Warcraft corrupted blood incident and even Grand Theft Auto self-driving cars tells us that fiction is closer to reality than we really think. Data scientists can gain insight on the logic and decision-making that the players face when put in hypothetical and virtual scenarios.
+
+In this Kaggle Dataset, I provide just over 1400 competitive matchmaking matches from Valve's game Counter-strike: Global Offensive (CS:GO). The data was extracted from competitive matchmaking replays submitted to csgo-stats. I intend for this data-set to be purely exploratory, however users are free to create their own predictive models they see fit.  
+  Format:   
+  Default task: 
+
+ - [FIFA 2021 Complete Player Dataset](https://www.kaggle.com/aayushmishra1512/fifa-2021-complete-player-data):
+The data set contains data of players Rating, their age, their nationality, the position that they play and their potential for growth in game. The data for a few players and their clubs might not be very accurate as the transfer window is still open and changes might be made in later stages.  
+  Format:   
+  Default task: 
+
+ - [the OpenDota API](https://blog.opendota.com/2017/03/24/datadump2/):
+About a year and a half ago, we exported our first “data dump” of all the parsed data we’d collected since OpenDota started operating, which consisted of over 3.5 million matches ranging from January 2015 to December 2015.
+
+After a series of adventures, we’re happy to announce that we’re finally ready to release a second data dump of over a billion matches, this time with information ranging from March 2011 to March 2016! 
   Format:   
   Default task: 
 
