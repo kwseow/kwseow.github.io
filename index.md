@@ -12,6 +12,8 @@ layout: default
     - [Aerial images](#aerial-images)
     - [Thermal images](#thermal-images)
     - [Wildlife related datasets](#wildlife-related-datasets)
+    - [Underwater datasets](#underwater-datasets)
+    - [Document analysis datasets](#Document-analysis-datasets)
     - [Other images](#other-images)
 
 + [Text Datasets](#text-data)
@@ -372,6 +374,26 @@ The LILiR Twotalk corpus is comprised of four conversations of two person (dyadi
 * [MEXAction2](http://mexculture.cnam.fr/xwiki/bin/view/Datasets/Mex+action+dataset): 
 Video dataset for action localization and spotting
 
+* [STAIR Actions Videos](https://actions.stair.center/videos.html):
+A Large-Scale Video Dataset of Everyday Human Actions. January 30, 2019: STAIR Actions v1.1 is released! STAIR Actions is a video dataset consisting of 100 everyday human action categories. Each category contains around 900 to 1800 trimmed video clips. Each clip lasts 5 to 6 seconds. Clips are taken from YouTube video or made by crowdsource workers.   
+Format:    
+Default task:  
+Ref:[Tutorial](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20STAIRS%20Action%20Recognition%20Dataset.ipynb)
+
+
+* [A2D Action Recognition ](http://web.eecs.umich.edu/~jjcorso/r/a2d/):
+Can humans fly? Emphatically no. Can cars eat? Again, absolutely not. Yet, these absurd inferences result from the current disregard for particular types of actors in action understanding. There is no work we know of on simultaneously inferring actors and actions in the video, not to mention a dataset to experiment with. A2D hence marks the first effort in the computer vision community to jointly consider various types of actors undergoing various actions. To be exact, we consider seven actor classes (adult, baby, ball, bird, car, cat, and dog) and eight action classes (climb, crawl, eat, fly, jump, roll, run, and walk) not including the no-action class, which we also consider. The A2D has 3782 videos with at least 99 instances per valid actor-action tuple and videos are labeled with both pixel-level actors and actions for sampled frames. The A2D dataset serves as a novel large-scale testbed for various vision problems: video-level single- and multiple-label actor-action recognition, instance-level object segmentation/co-segmentation, as well as pixel-level actor-action semantic segmentation to name a few.   
+Format:    
+Default task:  
+Ref:[Tutorial](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20A2D%20Action%20Recognition%20Dataset.ipynb)
+
+* [KTH Action Recognition ](https://www.csc.kth.se/cvap/actions/):
+The current video database containing six types of human actions (walking, jogging, running, boxing, hand waving and hand clapping) performed several times by 25 subjects in four different scenarios: outdoors s1, outdoors with scale variation s2, outdoors with different clothes s3 and indoors s4 as illustrated below. Currently the database contains 2391 sequences. All sequences were taken over homogeneous backgrounds with a static camera with 25fps frame rate. The sequences were downsampled to the spatial resolution of 160x120 pixels and have a length of four seconds in average.   
+Format:    
+Default task:  
+Ref:[Tutorial](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20KTH%20Action%20Recognition%20Dataset.ipynb)
+
+
 #### Object Detection and Recognition
 * [Visual Genome](https://visualgenome.org/api/v0/api_home.html): 
 Visual Genome is a dataset, a knowledge base, an ongoing effort to connect structured image concepts to language.
@@ -579,6 +601,13 @@ Default task:
 Ref:[Guide](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20DeepGlobe%20Land%20Cover%20Classification.ipynb)
 
 
+* [Oil Tanks Datasets](https://www.kaggle.com/towardsentropy/oil-storage-tanks):
+Goal — To detect tanks in satellite imagery.  Application — To keep track of oil tanks. Details — 10K+ images with 10K+ annotations.  
+Format:    
+Default task:  
+Ref:[How to utilize the dataset and build a custom classifier using retinanet pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Oil%20Tanks%20Detection%20in%20Satellite%20Imagery.ipynb)
+
+
 
 #### Thermal images
 * [Lincoln Centre for Autonomous Systems](https://lcas.lincoln.ac.uk/wp/research/data-sets-software/lcas-thermal-physiological-monitoring-dataset/):
@@ -670,6 +699,59 @@ Goal — To detect vehicles and pools in satellite imagery. Application — This
 Format:    
 Default task:  
 Ref:[]()
+
+#### Underwater datasets
+* [Detecting Sea Turtles in the wild](https://lev.cs.rpi.edu/public/datasets/wild.tar.gz):
+ Goal — To detect sea turtles in underwater images.  Application — To monitor endangered species.  Details — 5K+ images with 5k+ annotations.   
+Format:    
+Default task:  
+Ref:[How to utilize the dataset and build a custom detector using efficientdet](How to utilize the dataset and build a custom detector using efficientdet)
+
+* [Underwater trash detection Dataset](https://conservancy.umn.edu/handle/11299/214366):
+Goal — To detect marine trash. Application — To monitor and control marine waste issue.Details — 2K+ images with 5k+ annotations.   
+Format:    
+Default task:  
+Ref:[How to utilize the dataset and build a custom detector using efficientdet](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Underwater%20Trash%20Detection.ipynb)
+
+* [trash segmentation dataset](https://conservancy.umn.edu/handle/11299/214865):
+Goals: Segmentation   
+Format:    
+Default task:  Segmentation
+Ref:[Tutorial](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20SUIM%20Dataset%20Underwater%20Object%20Segmentation.ipynb)
+
+* [SUIM underwater object detection dataset](http://irvlab.cs.umn.edu/resources/suim-dataset):
+Goal — To segment underwater objects. Application — Path planning for autonomous underwater vehicles, track divers and monitor marine species.  Details — 1.5K+ images with 1.5k+ annotation masks.   
+Format:    
+Default task:  
+Ref:[How to utilize the dataset and build a custom detector](http://irvlab.cs.umn.edu/resources/suim-dataset)
+
+* [Brackish underwater fish recognition dataset](https://www.kaggle.com/aalborguniversity/brackish-dataset/data):
+Goal — To detect marine species in underwater imagery.  Application — To monitor marine species.  Details — 89 videos to detect fish, crab, shrimp, jellyfish, starfish   
+Format:    
+Default task:  
+Ref:[How to utilize the dataset and build a custom detector using mmdet — faster rcnn pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Brackish%20Water%20Creatures%20Identification.ipynb)
+
+
+#### Document analysis datasets
+* [Document Layout Detection Dataset](https://www.primaresearch.org/datasets/Layout_Analysis):
+Goal — To detect document layout for further analysis.  Application — Essential to segment images into different parts so that certain rule based nlp and text recognition can further be applied.  Details — 5K+ images with 10k+ annotations with labels such as paragraphs, images, headers.   
+Format:    
+Default task:  
+Ref:[How to utilize the dataset and build a custom detector using mx-rcnn](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Document%20Layout%20Analysis%20(FasterRCNN).ipynb)
+
+* [IIIT-AR-13K: A New Dataset for Graphical Object Detection in Documents](http://cvit.iiit.ac.in/usodi/iiitar13k.php):
+We introduce a new dataset for graphical object detection in business documents, more specifically annual reports. This dataset, IIIT-AR-13K, is created by manually annotating the bounding boxes of graphical or page objects in publicly available annual reports. This dataset contains a total of 13K annotated page images with objects in five different popular categories — table, figure, natural image, logo, and signature. This is the largest manually annotated dataset for graphical object detection. Annual reports created in multiple languages for several years from various companies bring high diversity into this dataset. We benchmark IIIT-AR-13K dataset with two state of the art graphical object detection techniques using Faster R-CNN [18] and Mask R-CNN [11] and establish high baselines for further research. Our dataset is highly effective as training data for developing practical solutions for graphical object detection in both business documents and technical articles. By training with IIIT-AR-13K, we demonstrate the feasibility of a single solution that can report superior performance compared to the equivalent ones trained with a much larger amount of data, for table detection. We hope that our dataset helps in advancing the research for detecting various types of graphical objects in business documents.   
+Format:    
+Default task:  
+Ref:[Tutorial](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Graphical%20figures%20detection%20in%20documents.ipynb)
+
+* [Total-Text Dataset](https://github.com/cs-chan/Total-Text-Dataset):
+Goal — To localize text in natural scenes. Application — Essential base component to recognize using OCR. Details — 1.5K+ images with 5K+ polygonal annotations   
+Format:    
+Default task:  
+Ref:[How to utilize the dataset and build a custom detector using Text-Snake pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Text%20Localization%20over%20Total-Text%20Dataset.ipynb)
+
+
 
 #### Other images
 * [Quantum simulations of an electron in a two dimensional potential well](https://nrc-digital-repository.canada.ca/eng/view/object/?id=1343ae23-cebf-45c6-94c3-ddebdb2f23c6):
@@ -939,6 +1021,31 @@ Ref:[How to utilize the dataset and build a custom detector using Mmdet — Casc
 Goal — To classify videos as per actions being carried out in videos. Application — Detecting anomalies in real time helps in stopping crime. Details — 1K+ videos corresponding to 10 anomaly classes.
 Format:   
 Default task: 
+Ref:[How to utilize the dataset and build a custom classifier using mmaction-tsn50 pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20UCF101%20Action%20Recognition.ipynb)
+
+
+* [TACO Trash Detection Dataset](http://tacodataset.org/):
+Goal — To localize and segment all kinds of garbage in images. Application — Critical component in autonomous bots trying to tackle trash problem in public places. Details — 10K images with 15K+ annotations over 20+ different classes trash objects   
+Format:    
+Default task:  
+Ref:[How to utilize the dataset and build a custom detector using Retinanet pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Trash%20(Waste)%20Detection.ipynb)
+
+* [Indoor Scene General Object Detection Dataset](https://storage.googleapis.com/openimages/web/index.html):
+Goal — To localize and detect indoor objects in images.  Application — Autotag images in real-estate and rental websites with amenities.  Details — 3K+ images with 5K+ annotations over 10+ different classes indoor objects such as electronic-appliances, bed, curtains, chairs, etc   
+Format:    
+Default task:  
+Ref:[How to utilize the dataset and build a custom detector using Retinanet pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Indoor%20Image%20Object%20Detection%20and%20Tagging.ipynb)
+
+* [EgoHands Hand Segmentation Dataset](http://vision.soic.indiana.edu/projects/egohands/):
+Goal — To segment hands in natural scenes. Application — First step towards understanding gestures, with applications in human computer interaction, sign language recognition. Details — 4.8K+ images with corresponding hand masks.   
+Format:    
+Default task:  
+Ref:[How to utilize the dataset and build a custom detector using Retinanet pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Hand%20segmentation%20(Ego-Hands%20Dataset).ipynb)
+
+* [UCF Action recognition dataset](https://www.crcv.ucf.edu/data/UCF101.php):
+Goal — To classify videos as per actions being carried out in videos. Application — Tagging videos is important in storing and retrieving large number of videos. Details — 1K+ videos corresponding to 101 action type classes.   
+Format:    
+Default task:  
 Ref:[How to utilize the dataset and build a custom classifier using mmaction-tsn50 pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20UCF101%20Action%20Recognition.ipynb)
 
 
