@@ -732,7 +732,10 @@ The difference between real and virtual worlds is shrinking at an astounding pac
 Format:   
 Default task: image classification.
 
-
+* [EPIC-KITCHENS-100](https://epic-kitchens.github.io/2021):
+The extended largest dataset in first-person (egocentric) vision; multi-faceted, audio-visual, non-scripted recordings in native environments - i.e. the wearers' homes, capturing all daily activities in the kitchen over multiple days. Annotations are collected using a novel 'Pause-and-Talk' narration interface. 
+Format:   
+Default task: Various 
 
 ## Text data
 #### Reviews
