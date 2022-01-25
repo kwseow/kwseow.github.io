@@ -221,7 +221,11 @@ Default task: Various
   Format: various  
   Default task: various
 
-  
+* [帕依提提](https://www.payititi.com/):
+Open dataset 
+  Format: various  
+  Default task: 
+
 ## Image Datasets
 
 * [CVonline: Image Databases](http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm):
@@ -584,6 +588,11 @@ Visible and thermal images have been acquired using a thermographic camera TESTO
 Format: Thermal
 Default task: Various
 
+* [Person Detection using Infrared Images](https://camel.ece.gatech.edu/):
+Goal — To detect people in infrared imagery, Application — Autonomous vehicles are equipped with infrared cams to detect objects in adverse conditions, Details — 30 video sequences with 1K+ annotations 
+Format: Thermal
+Default task: Various
+Ref: [How to utilize the dataset and build a custom detector using Mx-Rcnn pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20person%20detection%20in%20infrared%20images.ipynb)
 
 #### Other images
 * [Quantum simulations of an electron in a two dimensional potential well](https://nrc-digital-repository.canada.ca/eng/view/object/?id=1343ae23-cebf-45c6-94c3-ddebdb2f23c6):
@@ -736,6 +745,116 @@ Default task: image classification.
 The extended largest dataset in first-person (egocentric) vision; multi-faceted, audio-visual, non-scripted recordings in native environments - i.e. the wearers' homes, capturing all daily activities in the kitchen over multiple days. Annotations are collected using a novel 'Pause-and-Talk' narration interface. 
 Format:   
 Default task: Various 
+
+* [cvimagery](https://cvimagery.com/):
+Open source, community driven AI image datasets
+Never let a lack of image data stop you ever again. Register your account today, and get access to our repository immediately for free.
+Format:   
+Default task:  
+
+* [Winegrape Detection Dataset](https://github.com/thsant/wgisd):
+Goal — To detect grape clusters in vineyards, Application — To monitor growth and analyze yield, Details — 300 images with 4400 bounding boxes over 5 classes of grapes
+Format:   
+Default task: Object detection
+
+* [Global Wheat Detection Dataset](https://www.kaggle.com/c/global-wheat-detection/data):
+The data is images of wheat fields, with bounding boxes for each identified wheat head. Not all images include wheat heads / bounding boxes. The images were recorded in many locations around the world.
+Format:   
+Default task: 
+
+* [Object Detection in Low Lighting Conditions](https://github.com/cs-chan/Exclusively-Dark-Image-Dataset):
+In order to facilitate a new object detection and image enhancement research particularly in the low-light environment, we introduce the Exclusively Dark (ExDark) dataset (CVIU2019). The Exclusively Dark (ExDARK) dataset is a collection of 7,363 low-light images from very low-light environments to twilight (i.e 10 different conditions) with 12 object classes (similar to PASCAL VOC) annotated on both image class level and local object bounding boxes.
+Format:   
+Default task: 
+
+* [LARA Traffic Lights Detection Dataset](http://www.lara.prd.fr/benchmarks/trafficlightsrecognition):
+Goal — To detect traffic lights and classify them as red, green, and yellow, Application — This does rule-setting for adas and self-driving car systems at road network junctions, Details — 11K frames with 20K+ annotations over three classes of traffic lights
+Format:   
+Default task: 
+Ref: [How to utilize the dataset and build a custom detector using Mmdet-Faster-Rcnn-fpn50 pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Lara%20Traffic%20Lights%20Detection%20Dataset.ipynb)
+
+* [Pothole Detection Dataset](https://www.kaggle.com/chitholian/annotated-potholes-dataset):
+Goal — To detect potholes from on-road imagery, Application — Detecting road terrain and potholes results in smooth driving. Details — 700 images with 3K+ annotations on potholes
+Format:   
+Default task: 
+Ref: [How to utilize the dataset and build a custom detector using M-Rcnn pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Pothole%20detection%20on%20roads.ipynb)
+
+* [Nexet Vehicle Detection Dataset](https://www.kaggle.com/solesensei/nexet-original):
+Goal — To detect vehicles on-road imagery, Application — Detecting vehicles is a prime component in autonomous driving, Details — 7000 images with 15K+ annotations on 6 types of vehiclesFormat:   
+Default task: 
+Ref: [How to utilize the dataset and build a custom detector using Tensorflow Object Detection API](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Nexet%20Dataset%20Vehicle%20Detection.ipynb)
+
+* [NBDD100K Adas Dataset](https://www.kaggle.com/solesensei/solesensei_bdd100k):
+Goal — To detect on-road objects, Application — Detecting vehicles, traffic signs, and people is a prime component in autonomous driving, Details —100K images with 250K+ annotations on 10 types of objects  
+Format:   
+Default task: 
+
+* [Linkopings Traffic Signs Dataset](http://www.cvl.isy.liu.se/research/datasets/traffic-signs-dataset/):
+Goal — To detect traffic signs in images. Application — Detecting traffic signs is the first step towards understanding traffic rules. Details —3K images with 5K+ annotations on 40+ types of traffic signs
+Format:   
+Default task: 
+Ref:[How to utilize the dataset and build a custom detector using Mmdet — Cascade Mask Rcnn](https://pub.towardsai.net/50-object-detection-datasets-from-different-industry-domains-1a53342ae13d#:~:text=How%20to%20utilize%20the%20dataset%20and%20build%20a%20custom%20detector%20using%20Mmdet%20%E2%80%94%20Cascade%20Mask%20Rcnn)
+
+* [Billboard Detection (Subsampling OpenImages Dataset) Dataset](https://storage.googleapis.com/openimages/web/index.html):
+Goal — To detect billboards in images.  Application — Detecting billboards forms a crucial part in auto-analyzing marketing campaigns across the city.  Details — 2K images with 5K+ annotations on billboards
+Format:   
+Default task: 
+Ref:[How to utilize the dataset and build a custom detector using Retinanet](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Billboard%20(Hoarding%20detection).ipynb)
+
+* [DeepFashion2 Fashion element Detection Dataset](https://github.com/switchablenorms/DeepFashion2):
+DeepFashion2 is a comprehensive fashion dataset. It contains 491K diverse images of 13 popular clothing categories from both commercial shopping stores and consumers. It totally has 801K clothing clothing items, where each item in an image is labeled with scale, occlusion, zoom-incategory, style, bounding box, dense landmarks and per-pixel mask.There are also 873K Commercial-Consumer clothes pairs.
+The dataset is split into a training set (391K images), a validation set (34k images), and a test set (67k images).
+Format:   
+, viewpoint, Default task: 
+Ref:[How to utilize the dataset and build a custom detector using CornetNet-Lite Pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Fashion%20detector%20on%20DeepFashion2%20Dataset.ipynb)
+
+
+* [Taobao Commodity Dataset](https://www.payititi.com/opendatasets/show-38.html):
+TCD contains 800 commodity images (dresses, jeans, T-shirts, shoes and hats) from the shops on the Taobao website. The ground truth masks of the TCD dataset are obtained by inviting common sellers of Taobao website to annotate their commodities, i.e., masking salient objects that they want to show from their exhibition. These images include all kinds of commodity with and without human models, thus having complex backgrounds and scenes with highly complex foregrounds. Pixel-accurate ground truth masks are given. These images including all kinds of commodities with and without human models have complex backgrounds and scenes with large foregrounds for evaluation. Figure 1 illustrates some of them.
+Format:   
+Default task: 
+
+* [Qmul-OpenLogo Logo Detection Dataset](https://hangsu0730.github.io/qmul-openlogo/):
+Goal — To detect different logos in natural images. Application — Analyzing frequency of logo appearance in videos and natural scenes is crucial in marketing. Details — 16K training images with logos from all kinds of brands — food, vehicles, restaurant-chains, delivery services, airlines, etc
+Format:   
+Default task: 
+Ref:[How to utilize the dataset and build a custom detector using mx-rcnn pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20logo%20detection.ipynb)
+
+* [Football Detection Dataset (Subsampling from OpenImages Dataset)](https://storage.googleapis.com/openimages/web/index.html):
+Goal — To detect football across frames in videos. Application — Detecting football positions is crucial in auto-analysing situations such as offsides, etc. Details — Around 3K training images.
+Format:   
+Default task: 
+Ref:[How to utilize the dataset and build a custom detector using yolo-v3 pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20FootBall%20detection.ipynb)
+
+
+* [Playing Card Type Detection](https://www.kaggle.com/luantm/playing-card):
+Goal — To detect playing card in natural images and classify the card type. Application — Possible application is in analyzing winning odds in different card games.  Details — 500+ images over 52 card class types
+Format:   
+Default task: 
+Ref:[How to utilize the dataset and build a custom detector using mx-rcnn pipeline](https://www.kaggle.com/luantm/playing-card)
+
+* [Soccer Player Detection in Thermal Imagery](https://www.kaggle.com/aalborguniversity/thermal-soccer-dataset):
+Goal — To localize and track players using thermal imagery. Application — Tracking players in the game is a crucial part in generating analytics. Details —3K+ images over 5K+ annotations.
+Format:   
+Default task: 
+Ref:[How to utilize the dataset and build a custom detector using mmdet faster-rcnn pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Thermal%20Soccer%20-%20(Player%20Detection).ipynb)
+
+* [SMIO-TCD Vehicle Detection in CCTV Traffic Cams](http://podoce.dinf.usherbrooke.ca/challenge/dataset/):
+Goal — To detect vehicles in cctv traffic cameras. Application — Detecting vehicles in cctv traffic cams forms a crucial part in security surveillance applications. Details — 113K images with 200K+ annotations on 5+ types of vehicles
+Format:   
+Default task: 
+Ref:[How to utilize the dataset and build a custom detector using Mmdet — Retinanet pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20MIO-TCD%20Vehicle%20Localization%20Dataset.ipynb)
+
+
+* [WIDER Person Detection Dataset](https://wider-challenge.org/2019.html):
+ Goal — To detect people in cctv and natural scene images and videos.  Application — CCTV based people detection forms the core of security and surveillance applications.  Details — 10K+ images with 20K+ annotations on detecting pedestrians
+Format:   
+Default task: 
+Ref:[How to utilize the dataset and build a custom detector using Cornernet-Lite pipeline](hhttps://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Fashion%20detector%20on%20DeepFashion2%20Dataset.ipynb)
+
+
+
+
 
 ## Text data
 #### Reviews
