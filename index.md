@@ -852,8 +852,17 @@ Format:
 Default task: 
 Ref:[How to utilize the dataset and build a custom detector using Cornernet-Lite pipeline](hhttps://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Fashion%20detector%20on%20DeepFashion2%20Dataset.ipynb)
 
+* [Protective Gear — Helmet and Vest Detection](https://github.com/ciber-lab/pictor-ppe):
+Goal — To detect helmet and vests on people.  Application — This forms an integral part in security compliance monitoring.Details — 1.5K+ images with 2K+ annotations on detecting people, helmets, and vests
+Format:   
+Default task: 
+Ref:[How to utilize the dataset and build a custom detector using Mmdet — Cascade RPN](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Protective%20gear%20-%20helmet%20and%20vest%20detection.ipynb)
 
-
+* [Anomaly Detection in Videosn](https://www.crcv.ucf.edu/projects/real-world/):
+Goal — To classify videos as per actions being carried out in videos. Application — Detecting anomalies in real time helps in stopping crime. Details — 1K+ videos corresponding to 10 anomaly classes.
+Format:   
+Default task: 
+Ref:[How to utilize the dataset and build a custom classifier using mmaction-tsn50 pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20UCF101%20Action%20Recognition.ipynb)
 
 
 ## Text data
