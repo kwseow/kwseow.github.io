@@ -11,6 +11,7 @@ layout: default
     - [Handwriting and character recognition](#handwriting-and-character-recognition)
     - [Aerial images](#aerial-images)
     - [Thermal images](#thermal-images)
+    - [Wildlife related datasets](#wildlife-related-datasets)
     - [Other images](#other-images)
 
 + [Text Datasets](#text-data)
@@ -541,6 +542,43 @@ List of aerial and satellite imagery datasets with annotations for computer visi
   Format: Image   
   Default task: various
 
+* [Road Segmentation in Satellite Imagery](https://www.kaggle.com/insaff/massachusetts-roads-dataset):
+Goal — To segment road lines in satellite imagery. Application — Helps in urban planning and monitoring roadways.  Details — 1K+ images with associated instance masks for detecting different road regions  
+Format:    
+Default task:  
+Ref:[How to utilize the dataset and build a custom detector](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Road%20segmentation%20on%20Satellite%20Imageset.ipynb)
+
+* [Traversable region segmentation in Synthetically generated lunar imagery](https://www.kaggle.com/romainpessia/artificial-lunar-rocky-landscape-dataset):
+Goal — To segment out rocks and find traversable region in lunar imagery. Application — Essential element in autonomous rovers’ path planning. Details — 10K+ images with associated instance masks for detecting different rocks and flat ground  
+Format:    
+Default task:  
+Ref:[How to utilize the dataset and build a custom detector](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Region%20segmentation%20in%20synthetic%20lunar%20dataset.ipynb)
+
+* [Cars and Swimming Pools Detection in Satellite Imagery](https://www.kaggle.com/kbhartiya83/swimming-pool-and-car-detection):
+Goal — To detect vehicles and pools in satellite imagery. Application — This forms a crucial part in property tax estimation. Details — 3.5K+ images with 5K+ annotations labels on cars and pools   
+Format:    
+Default task:  
+Ref:[How to utilize the dataset and build a custom detector using cornernet-lite pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Car%20and%20Pool%20Detection.ipynb)
+
+* [Roads and Residential area segmentation in Aerial Imagery](https://www.kaggle.com/cceekkigg/berlin-aoi-dataset):
+Goal — To segment road and residential areas in satellite imagery.  Application — This forms a crucial part in property tax estimation. Details — 100 very high resolution images with segmentation masks   
+Format:    
+Default task:  
+Ref:[How to utilize the dataset and build a custom detector](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20CitySeg%20Dataset%20Road%20and%20Houses%20Segmentation.ipynb)
+
+* [Water Body Segmentation in satellite imagery](https://www.kaggle.com/franciscoescobar/satellite-images-of-water-bodies):
+Goal — To segment water bodies in satellite imagery.  Application — Very important to understand how water bodies change and evolve over time. Details — 100 very high resolution images with segmentation masks  
+Format:    
+Default task:  
+Ref:[How to utilize the dataset and build a custom detector](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Water%20Body%20Segmentation.ipynb)
+
+* [DeepGlobe Land Cover Classification Challenge](https://competitions.codalab.org/competitions/18468#participate-get_starting_kit):
+Automatic categorization and segmentation of land cover is of great importance for sustainable development, autonomous agriculture, and urban planning. We would like to introduce the challenge of automatic classification of land cover types. This problem is defined as a multi-class segmentation task to detect areas of urban, agriculture, rangeland, forest, water, barren, and unknown. The evaluation will be based on the accuracy of the class labels.
+Format:    
+Default task:  
+Ref:[Guide](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20DeepGlobe%20Land%20Cover%20Classification.ipynb)
+
+
 
 #### Thermal images
 * [Lincoln Centre for Autonomous Systems](https://lcas.lincoln.ac.uk/wp/research/data-sets-software/lcas-thermal-physiological-monitoring-dataset/):
@@ -593,6 +631,45 @@ Goal — To detect people in infrared imagery, Application — Autonomous vehicl
 Format: Thermal
 Default task: Various
 Ref: [How to utilize the dataset and build a custom detector using Mx-Rcnn pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20person%20detection%20in%20infrared%20images.ipynb)
+
+
+#### Wildlife related datasets
+* [Tiger Detection Dataset (Subsampled from OpenImages)](https://storage.googleapis.com/openimages/web/index.html):
+Goal — To detect tigers in natural and drone images. Application — To monitor endangered species. Details — 2K+ images with 4k+ annotations.  
+Format:    
+Default task: 
+Ref:[How to utilize the dataset and build a custom detector using cornernet-lite pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Tiger%20detection%20using%20Cornernet-Saccade%20(No%20Val%20Dataset).ipynb)
+
+* [Monkey detection dataset ](https://storage.googleapis.com/openimages/web/index.html):   
+Format:    
+Default task:  
+Ref:[Tutorial](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Monkey%20detection%20in%20the%20wild.ipynb)
+
+
+* [Zebras and Giraffes Detection Dataset](https://lev.cs.rpi.edu/public/datasets/wild.tar.gz):
+Goal — To detect zebra and giraffe species in natural and drone images. Application — To monitor endangered species. Details — 5K+ images with 5k+ annotations.   
+Format:    
+Default task:  
+Ref:[How to utilize the dataset and build a custom detector using efficientdet-d3 pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Wildlife%20Localization%20-%20(Giraffes%2C%20Zebras%2C%20Impalas).ipynb)
+
+* [Caltech Cameratrap Dataset](https://beerys.github.io/CaltechCameraTraps/):
+Goal — To detect animals in trap camera types images. Application — To monitor endangered species. Details — 10K+ images with 8k+ annotations.   
+Format:    
+Default task:  
+Ref:[How to utilize the dataset and build a custom detector using retinanet pipeline](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Caltech%20cameratrap%20ECCV%20animal%20detection.ipynb)  
+[Another tutorial](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Cameratrap%20Animals%20Detection%20-%201.ipynb)
+
+* [ Elephant Detection Dataset (Subsampled from COCO dataset)](https://cocodataset.org/#download):
+Goal — To detect elephant species in natural and drone images. Application — To monitor endangered species. Details — 5K+ images with 5k+ annotations.   
+Format:    
+Default task:  
+Ref:[How to utilize the dataset and build a custom detector using mmdet-maskrcnn](How to utilize the dataset and build a custom detector using mmdet-maskrcnn)
+
+* []():
+Goal — To detect vehicles and pools in satellite imagery. Application — This forms a crucial part in property tax estimation. Details — 3.5K+ images with 5K+ annotations labels on cars and pools   
+Format:    
+Default task:  
+Ref:[]()
 
 #### Other images
 * [Quantum simulations of an electron in a two dimensional potential well](https://nrc-digital-repository.canada.ca/eng/view/object/?id=1343ae23-cebf-45c6-94c3-ddebdb2f23c6):
@@ -1233,6 +1310,17 @@ Default task: Various
 * [WHO Life Expectancy](https://www.kaggle.com/kumarajarshi/life-expectancy-who): 
 Another good one for experimenting with your EDA skills also.
 
+* [Ultrasound Brachial Plexus (BP) Nerve Segmentation Dataset](https://www.kaggle.com/c/ultrasound-nerve-segmentation/data): 
+Goal — To segment certain nerve types in ultrasound images. Application — This helps in improving pain management through the use of indwelling catheters that block or mitigate pain at the source. Details — 11K+ images with associated instance masks for detecting nerves
+Format: 
+Default task: 
+Ref:[ How to utilize the dataset and build a custom detector](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20Ultrasound%20nerve%20segmentation.ipynb)
+
+* [PanNuke Cancer Instance Segmentation in Cells](https://www.kaggle.com/andrewmvd/cancer-inst-segmentation-and-classification): 
+Goal — To segment different cell types in the slide image. Application — Auto-analyzing presence of cancerous and dead cells in terabytes of data. Details — 3K+ images with associated instance masks for detecting different cell types  
+Format: 
+Default task: 
+Ref:[How to utilize the dataset and build a custom detector](https://github.com/Tessellate-Imaging/Monk_Object_Detection/blob/master/application_model_zoo/Example%20-%20PanNuke%20Dataset%20CellType%20Instance%20Segmentation.ipynb)
 
 ## Audio Datasets
 * [Common Voice](https://voice.mozilla.org/en/datasets): 
