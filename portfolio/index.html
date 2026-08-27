@@ -159,8 +159,10 @@
   .grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
   @media (max-width:700px){.grid2{grid-template-columns:1fr}}
   .stage-pending{color:var(--slate)}
-  .exhibit.small{margin-bottom:0}
+  .exhibit.small{margin-bottom:0;display:flex;flex-direction:column}
   .exhibit.small p{font-size:16px}
+  .exhibit.small figure.shot{margin-top:auto}
+  .exhibit.small figure.shot img{aspect-ratio:16/11;object-fit:cover;object-position:top;width:100%}
 
   /* how I work */
   .loop{
@@ -321,10 +323,10 @@
 
       <div class="exhibit small">
         <div class="ex-head"><span class="stage stage-pending">EXPERIMENT</span><h3>Independent app on the cvForge data API</h3></div>
-        <p>A self-built app consuming cvForge's data API: single-expiry options drill-down — call and put walls, net gamma exposure, expected move — with a put-spread helper that turns the numbers into a plain-language read and a price-ladder view of the trade. Same data domain as the app on the left, but my own stack end to end: the experiment is whether expert market data can be made to explain itself.</p>
+        <p>A self-built app on cvForge's data API: single-expiry options drill-down — call and put walls, net gamma exposure, expected move — plus a put-spread helper that turns the numbers into a plain-language read and a price-ladder view. Same data domain, my own stack end to end.</p>
         <figure class="shot">
           <img src="img/cvforge-api-app.png" alt="Self-built app on the cvForge data API showing a single-expiry options drill-down: call and put walls, net gamma exposure, expected move, a gamma-by-strike chart, and a put-spread helper with plain-language guidance and a price-ladder view.">
-          <figcaption>Single-expiry drill-down with a put-spread helper — self-built on cvForge's data API; runs locally today.</figcaption>
+          <figcaption>Single-expiry drill-down and put-spread helper — runs locally today.</figcaption>
         </figure>
       </div>
     </div>
