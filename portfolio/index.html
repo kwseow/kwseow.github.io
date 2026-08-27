@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seow Khee Wei — The Things I Made</title>
+<meta name="description" content="Portfolio of Seow Khee Wei: an end-to-end AI trading system built solo — agentic research pipeline, production infrastructure, live monitoring — plus earlier IP-licensed AI projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAFAF7;
+    --panel:#FFFFFF;
+    --ink:#16233B;
+    --slate:#5B6B84;
+    --pass:#0E7B4F;
+    --fail:#B3372B;
+    --line:#D8DCE3;
+    --trace-bg:#F2F3EF;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Source Serif 4",Georgia,serif;
+    font-size:17px;line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:860px;margin:0 auto;padding:0 24px}
+  a{color:var(--ink);text-decoration-color:var(--slate);text-underline-offset:3px}
+  a:hover{text-decoration-color:var(--fail)}
+  a:focus-visible,button:focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:2px}
+
+  /* ---------- top nav ---------- */
+  nav{border-bottom:1px solid var(--line);background:var(--paper)}
+  .nav-in{display:flex;justify-content:space-between;align-items:center;padding:14px 0;gap:16px;flex-wrap:wrap}
+  .mono{font-family:"IBM Plex Mono",monospace}
+  .nav-name{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:13px;letter-spacing:.04em}
+  .nav-links{display:flex;gap:22px;font-family:"IBM Plex Mono",monospace;font-size:12.5px}
+  .nav-links a{text-decoration:none;color:var(--slate)}
+  .nav-links a:hover{color:var(--ink)}
+
+  /* ---------- hero ---------- */
+  header{padding:64px 0 56px}
+  .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.14em;color:var(--slate);text-transform:uppercase;margin-bottom:18px}
+  h1{
+    font-family:"Archivo",sans-serif;font-stretch:125%;
+    font-weight:800;font-size:clamp(40px,7vw,68px);
+    line-height:1.02;letter-spacing:-.01em;margin-bottom:22px;
+  }
+  .lede{font-size:20px;max-width:640px;color:var(--ink)}
+  .lede strong{font-weight:600}
+
+  /* ---------- signature: pipeline trace ---------- */
+  .trace{
+    margin:40px 0 26px;background:var(--trace-bg);
+    border:1px solid var(--line);border-radius:6px;
+    padding:22px 24px;overflow-x:auto;
+  }
+  .trace-title{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--slate);margin-bottom:14px}
+  .trace table{border-collapse:collapse;width:100%;min-width:560px}
+  .trace td{
+    font-family:"IBM Plex Mono",monospace;font-size:13.5px;line-height:2.05;
+    white-space:nowrap;vertical-align:top;padding:0 18px 0 0;
+  }
+  .t-stage{color:var(--slate);font-weight:600;width:52px}
+  .t-desc{color:var(--ink)}
+  .t-note{color:var(--slate)}
+  .t-verdict{text-align:right;font-weight:600;padding-right:0!important}
+  .ok{color:var(--pass)}
+  .fail{color:var(--fail)}
+  .t-kill td{color:var(--fail);font-weight:600;padding-top:6px}
+  .t-live td{padding-top:6px}
+  .live-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--pass);margin-right:7px;position:relative;top:-1px}
+  .trace tr{opacity:0;animation:rise .5s ease forwards}
+  .trace tr:nth-child(1){animation-delay:.15s}
+  .trace tr:nth-child(2){animation-delay:.5s}
+  .trace tr:nth-child(3){animation-delay:.85s}
+  .trace tr:nth-child(4){animation-delay:1.2s}
+  .trace tr:nth-child(5){animation-delay:1.55s}
+  .trace tr:nth-child(6){animation-delay:2.05s}
+  .trace tr:nth-child(7){animation-delay:2.7s}
+  @keyframes rise{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+  @media (prefers-reduced-motion: reduce){
+    .trace tr{animation:none;opacity:1}
+    html{scroll-behavior:auto}
+  }
+  .trace-caption{font-size:14.5px;color:var(--slate);font-style:italic}
+
+  .hero-links{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
+  .btn{
+    font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:500;
+    border:1px solid var(--ink);border-radius:4px;padding:9px 16px;
+    text-decoration:none;display:inline-block;
+  }
+  .btn:hover{background:var(--ink);color:var(--paper)}
+  .btn-primary{background:var(--ink);color:var(--paper)}
+  .btn-primary:hover{background:var(--fail);border-color:var(--fail)}
+
+  /* ---------- sections ---------- */
+  section{border-top:1px solid var(--line);padding:56px 0}
+  .sec-label{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-bottom:10px}
+  h2{font-family:"Archivo",sans-serif;font-stretch:125%;font-weight:700;font-size:clamp(26px,4vw,34px);line-height:1.15;margin-bottom:18px}
+  .sec-intro{max-width:640px;margin-bottom:34px}
+
+  /* exhibit cards */
+  .exhibit{
+    background:var(--panel);border:1px solid var(--line);border-radius:6px;
+    padding:28px;margin-bottom:20px;
+  }
+  .ex-head{display:flex;align-items:baseline;gap:14px;margin-bottom:10px;flex-wrap:wrap}
+  .stage{
+    font-family:"IBM Plex Mono",monospace;font-size:11.5px;font-weight:600;
+    letter-spacing:.1em;color:var(--pass);
+    border:1px solid currentColor;border-radius:3px;padding:2px 8px;
+  }
+  h3{font-family:"Archivo",sans-serif;font-stretch:125%;font-weight:700;font-size:20px}
+  .exhibit p{max-width:660px}
+  .exhibit p + p{margin-top:12px}
+
+  figure.shot{
+    margin-top:20px;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--trace-bg);
+  }
+  figure.shot img{display:block;width:100%;height:auto}
+  figure.shot figcaption{
+    font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--slate);
+    padding:10px 14px;border-top:1px solid var(--line);background:var(--panel);
+  }
+
+  /* shipped rows */
+  .ship{border-top:1px solid var(--line);padding:20px 0;display:grid;grid-template-columns:1fr;gap:6px}
+  .ship:last-of-type{border-bottom:1px solid var(--line)}
+  .ship-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+  .ship-name{font-family:"Archivo",sans-serif;font-stretch:125%;font-weight:700;font-size:17px}
+  .chip{
+    font-family:"IBM Plex Mono",monospace;font-size:10.5px;font-weight:600;letter-spacing:.08em;
+    color:var(--pass);border:1px solid currentColor;border-radius:3px;padding:1px 7px;
+  }
+  .ship p{color:var(--ink);max-width:660px;font-size:16px}
+
+  /* how I work */
+  .loop{
+    font-family:"IBM Plex Mono",monospace;font-size:14.5px;font-weight:500;
+    margin:22px 0 18px;color:var(--ink);letter-spacing:.02em;
+  }
+  .loop .fail{font-weight:600}
+  .how p{max-width:640px}
+
+  /* about + footer */
+  .about p{max-width:660px}
+  .about p + p{margin-top:12px}
+  footer{border-top:1px solid var(--line);padding:34px 0 60px}
+  .foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--slate)}
+  .foot a{color:var(--slate)}
+  .foot a:hover{color:var(--ink)}
+
+  @media (max-width:560px){
+    header{padding:44px 0 40px}
+    section{padding:44px 0}
+    .exhibit{padding:22px 18px}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-in">
+    <span class="nav-name">kwseow.github.io</span>
+    <div class="nav-links">
+      <a href="#system">system</a>
+      <a href="#shipped">shipped</a>
+      <a href="#how">how&nbsp;I&nbsp;work</a>
+      <a href="#about">about</a>
+    </div>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <p class="eyebrow">Portfolio — the things I made</p>
+    <h1>Seow Khee Wei</h1>
+    <p class="lede">I build AI systems that do real work: research pipelines run by <strong>LLM agents</strong>, <strong>production trading infrastructure</strong>, and the monitoring that keeps it honest. Everything below was designed, coded and shipped by one person, with AI agents as the force multiplier.</p>
+
+    <div class="trace" role="img" aria-label="A pipeline trace showing a trading strategy passing four research stages, failing the stress-test quality gate, and being killed; the deployed fleet remains live.">
+      <p class="trace-title">$ pipeline run --strategy 0417</p>
+      <table>
+        <tr><td class="t-stage">S1</td><td class="t-desc">idea generation</td><td class="t-note">paper → structured hypothesis</td><td class="t-verdict ok">done</td></tr>
+        <tr><td class="t-stage">S2</td><td class="t-desc">data extraction</td><td class="t-note">options chain · 1-min resolution</td><td class="t-verdict ok">done</td></tr>
+        <tr><td class="t-stage">S3</td><td class="t-desc">backtest</td><td class="t-note">IS/OOS split · realistic costs</td><td class="t-verdict ok">done</td></tr>
+        <tr><td class="t-stage">S4</td><td class="t-desc">optimisation</td><td class="t-note">robust plateaus, not lucky peaks</td><td class="t-verdict ok">done</td></tr>
+        <tr><td class="t-stage">QG2</td><td class="t-desc">stress test</td><td class="t-note">walk-forward · Monte Carlo · random baseline</td><td class="t-verdict fail">FAIL</td></tr>
+        <tr class="t-kill"><td colspan="4">→ strategy 0417 killed. next.</td></tr>
+        <tr class="t-live"><td colspan="4"><span class="live-dot"></span>fleet status: deployed strategies live · target 1,000</td></tr>
+      </table>
+    </div>
+    <p class="trace-caption">Most strategies die at the gates. That is the point — the verdict decides, not my attachment to the idea.</p>
+
+    <div class="hero-links">
+      <!-- REPLACE_ME: set the real video URL below -->
+      <a class="btn btn-primary" href="REPLACE_ME_VIDEO_URL">Watch the 3-minute system demo</a>
+      <a class="btn" href="https://github.com/kwseow">GitHub</a>
+      <a class="btn" href="mailto:kwseow@gmail.com">Email me</a>
+    </div>
+  </div>
+</header>
+
+<section id="system">
+  <div class="wrap">
+    <p class="sec-label">One live system · in production since April 2026</p>
+    <h2>An end-to-end AI trading system, built solo</h2>
+    <p class="sec-intro">Shown in three parts because each part is a different kind of build: an agentic research factory, the production engineering beneath it, and the operations layer that lets one person run a growing fleet.</p>
+
+    <div class="exhibit">
+      <div class="ex-head"><span class="stage">RESEARCH</span><h3>Agentic AI research pipeline</h3></div>
+      <p>A pipeline of staged, LLM-based specialist agents — packaged as reusable, GitHub-versioned skills — that turns academic finance research into deployable trading strategies: idea generation into a testable hypothesis, data assembly (including integration of a provider-hosted options data lake, queried through DuckDB at 1-minute resolution), backtesting with realistic costs and an in-sample/out-of-sample split, and parameter optimisation that selects robust plateaus rather than lucky peaks.</p>
+      <p>Nothing deploys on my enthusiasm. Every strategy faces pre-agreed quality gates — walk-forward analysis, Monte Carlo stress tests, comparison against random baselines — returning a PASS or FAIL verdict.</p>
+      <!-- REPLACE_ME: quality-gate screenshot (ideally a FAIL verdict) -->
+      <figure class="shot">
+        <img src="img/quality-gate.png" alt="Pipeline output showing a strategy's quality-gate verdict">
+        <figcaption>A quality-gate verdict. FAIL means killed — no appeals.</figcaption>
+      </figure>
+    </div>
+
+    <div class="exhibit">
+      <div class="ex-head"><span class="stage">DEPLOY</span><h3>Production trading infrastructure</h3></div>
+      <p>The Linux environment the survivors run on, engineered end to end: Interactive Brokers Gateway managed under systemd for unattended reliability, Redis-based data-feed and order-dispatch services, and deployment scripts with dry-run modes and risk circuit breakers. Target: 1,000 deployed systematic strategies.</p>
+    </div>
+
+    <div class="exhibit">
+      <div class="ex-head"><span class="stage">OPERATE</span><h3>Monitoring and operations</h3></div>
+      <p>A self-built Streamlit dashboard for fleet health and strategy performance, with automated health checks and Telegram alerting — built so the system reports to its operator rather than the other way around. The user I designed for needs to trust the whole fleet at a glance; that constraint shaped every screen.</p>
+      <!-- REPLACE_ME: dashboard screenshot -->
+      <figure class="shot">
+        <img src="img/dashboard.png" alt="Streamlit dashboard showing fleet health and strategy performance">
+        <figcaption>The fleet dashboard — one glance, whole system.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="shipped">
+  <div class="wrap">
+    <p class="sec-label">Earlier work · used by others</p>
+    <h2>Shipped before this, as core developer</h2>
+    <p class="sec-intro">Grant-funded AI projects delivered through Republic Polytechnic — I was the core developer on each, architecture and implementation, with institutional teams around me.</p>
+
+    <div class="ship">
+      <div class="ship-head"><span class="ship-name">Medical Certificate Processing Automation</span><span class="chip">IP-LICENSED</span></div>
+      <p>NLP entity extraction enabling automated approval of submitted medical certificates, adopted by a commercial user.</p>
+    </div>
+    <div class="ship">
+      <div class="ship-head"><span class="ship-name">Foot-At-Risk</span><span class="chip">IP-LICENSED</span></div>
+      <p>Computer-vision screening for at-risk feet, licensed for real-world use.</p>
+    </div>
+    <div class="ship">
+      <div class="ship-head"><span class="ship-name">ProphesyAI</span></div>
+      <p>Reinforcement-learning-enhanced inventory optimiser and demand forecaster, with meta-learning for uncertainty quantification.</p>
+    </div>
+    <div class="ship">
+      <div class="ship-head"><span class="ship-name">Visual Container Tracking</span></div>
+      <p>Video-based tracking of container movement through port logistics footage.</p>
+    </div>
+  </div>
+</section>
+
+<section id="how" class="how">
+  <div class="wrap">
+    <p class="sec-label">Operating principles</p>
+    <h2>How I work</h2>
+    <p class="loop">frame → ship → measure → <span class="fail">kill</span> <span style="color:var(--slate)">or</span> <span class="ok" style="color:var(--pass);font-weight:600">scale</span></p>
+    <p>Start from a one-line problem. Get to something testable fast. Agree the metric before shipping, and let the read — not attachment — decide what happens next. This portfolio is that loop, running: the system above kills most of what it builds, and everything still standing has earned its place.</p>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="wrap">
+    <p class="sec-label">Background</p>
+    <h2>About me</h2>
+    <p>Before building solo, I spent 20+ years leading AI and technology in higher education: 17 years at Republic Polytechnic in Singapore, rising to Deputy Director of the School of Infocomm — where I founded the institution-wide AI Guild and was core developer on the funded projects above — and most recently a year as Director of Institutional Effectiveness at the UAE's largest applied university, across sixteen campuses.</p>
+    <p>B.Eng (NTU) · MBA (University of Melbourne) · Certified NVIDIA Instructor · NTU/SCS-certified in AI Ethics and Governance.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot">
+    <span>© 2026 Seow Khee Wei — written, styled and shipped from this repo.</span>
+    <span><a href="mailto:kwseow@gmail.com">kwseow@gmail.com</a> · <a href="https://github.com/kwseow">github.com/kwseow</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
