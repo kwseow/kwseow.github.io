@@ -235,10 +235,9 @@
       <div class="ex-head"><span class="stage">RESEARCH</span><h3>Agentic AI research pipeline</h3></div>
       <p>A pipeline of staged, LLM-based specialist agents — packaged as reusable, GitHub-versioned skills — that turns academic finance research into deployable trading strategies: idea generation into a testable hypothesis, data assembly (including integration of a provider-hosted options data lake, queried through DuckDB at 1-minute resolution), backtesting with realistic costs and an in-sample/out-of-sample split, and parameter optimisation that selects robust plateaus rather than lucky peaks.</p>
       <p>Nothing deploys on my enthusiasm. Every strategy faces pre-agreed quality gates — walk-forward analysis, Monte Carlo stress tests, comparison against random baselines — returning a PASS or FAIL verdict.</p>
-      <!-- REPLACE_ME: quality-gate screenshot (ideally a FAIL verdict) -->
       <figure class="shot">
-        <img src="img/quality-gate.png" alt="Pipeline output showing a strategy's quality-gate verdict">
-        <figcaption>A quality-gate verdict. FAIL means killed — no appeals.</figcaption>
+        <img src="img/quality-gate.png" alt="Backtest equity curves and drawdowns for one strategy hypothesis tested across three instruments: SPX failed the quality gates 3 of 6 despite the highest paper profit, SPY passed 6 of 6, and IWM failed 0 of 6.">
+        <figcaption>One hypothesis, three instruments. The most profitable curve — SPX — failed the gates 3/6 and was killed. SPY passed 6/6 and deployed. The verdict decides, not the P&amp;L.</figcaption>
       </figure>
     </div>
 
