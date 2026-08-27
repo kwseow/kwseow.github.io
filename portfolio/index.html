@@ -60,18 +60,21 @@
     padding:22px 24px;overflow-x:auto;
   }
   .trace-title{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--slate);margin-bottom:14px}
-  .trace table{border-collapse:collapse;width:100%;min-width:560px}
+  .trace table{border-collapse:collapse;width:100%;min-width:460px}
   .trace td{
-    font-family:"IBM Plex Mono",monospace;font-size:13.5px;line-height:2.05;
-    white-space:nowrap;vertical-align:top;padding:0 18px 0 0;
+    font-family:"IBM Plex Mono",monospace;font-size:13.5px;line-height:1.75;
+    white-space:nowrap;vertical-align:top;padding:3px 16px 3px 0;
   }
+  .trace td.t-note{white-space:normal;min-width:200px}
   .t-stage{color:var(--slate);font-weight:600;width:52px}
   .t-desc{color:var(--ink)}
   .t-note{color:var(--slate)}
   .t-verdict{text-align:right;font-weight:600;padding-right:0!important}
   .ok{color:var(--pass)}
   .fail{color:var(--fail)}
-  .t-kill td{color:var(--fail);font-weight:600;padding-top:6px}
+  .t-kill td{color:var(--ink);font-weight:600;padding-top:6px}
+  .t-kill .fail{color:var(--fail)}
+  .t-kill .ok{color:var(--pass)}
   .t-live td{padding-top:6px}
   .live-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--pass);margin-right:7px;position:relative;top:-1px}
   .trace tr{opacity:0;animation:rise .5s ease forwards}
@@ -109,6 +112,13 @@
   .sec-label{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-bottom:10px}
   h2{font-family:"Archivo",sans-serif;font-stretch:125%;font-weight:700;font-size:clamp(26px,4vw,34px);line-height:1.15;margin-bottom:18px}
   .sec-intro{max-width:640px;margin-bottom:34px}
+
+  /* system map */
+  .sysmap{display:flex;flex-wrap:wrap;align-items:stretch;gap:8px;margin:0 0 14px}
+  .node{border:1px solid var(--line);background:var(--panel);border-radius:4px;padding:9px 13px;font-family:"IBM Plex Mono",monospace;font-size:12.5px;line-height:1.45}
+  .node b{display:block;font-size:10.5px;font-weight:600;letter-spacing:.1em;color:var(--slate)}
+  .arrow{align-self:center;font-family:"IBM Plex Mono",monospace;color:var(--slate);font-size:14px}
+  .sysmap-loop{font-size:14.5px;color:var(--slate);font-style:italic;margin-bottom:34px}
 
   /* exhibit cards */
   .exhibit{
@@ -196,19 +206,18 @@
     <h1>Seow Khee Wei</h1>
     <p class="lede">I build AI systems that do real work: research pipelines run by <strong>LLM agents</strong>, <strong>production trading infrastructure</strong>, and the monitoring that keeps it honest. Everything below was designed, coded and shipped by one person, with AI agents as the force multiplier.</p>
 
-    <div class="trace" role="img" aria-label="A pipeline trace showing a trading strategy passing four research stages, failing the stress-test quality gate, and being killed; the deployed fleet remains live.">
-      <p class="trace-title">$ pipeline run --strategy 0417</p>
+    <div class="trace" role="img" aria-label="The real pipeline history of strategy THP-1: research stages completed, then stress-test verdicts across three instruments — SPX failed 3 of 6 gates and was killed, SPY passed 6 of 6 and deployed, IWM failed 0 of 6 and was killed. Fleet status: 3,117 strategies built, 1,372 active, 55 on paper, target 1,000 live.">
+      <p class="trace-title">$ pipeline history THP-1 · 0DTE break-even iron condor</p>
       <table>
-        <tr><td class="t-stage">S1</td><td class="t-desc">idea generation</td><td class="t-note">paper → structured hypothesis</td><td class="t-verdict ok">done</td></tr>
-        <tr><td class="t-stage">S2</td><td class="t-desc">data extraction</td><td class="t-note">options chain · 1-min resolution</td><td class="t-verdict ok">done</td></tr>
-        <tr><td class="t-stage">S3</td><td class="t-desc">backtest</td><td class="t-note">IS/OOS split · realistic costs</td><td class="t-verdict ok">done</td></tr>
-        <tr><td class="t-stage">S4</td><td class="t-desc">optimisation</td><td class="t-note">robust plateaus, not lucky peaks</td><td class="t-verdict ok">done</td></tr>
-        <tr><td class="t-stage">QG2</td><td class="t-desc">stress test</td><td class="t-note">walk-forward · Monte Carlo · random baseline</td><td class="t-verdict fail">FAIL</td></tr>
-        <tr class="t-kill"><td colspan="4">→ strategy 0417 killed. next.</td></tr>
-        <tr class="t-live"><td colspan="4"><span class="live-dot"></span>fleet status: deployed strategies live · target 1,000</td></tr>
+        <tr><td class="t-stage">S1–S4</td><td class="t-desc">research → optimisation</td><td class="t-note">hypothesis · data · IS/OOS backtest · plateaus</td><td class="t-verdict ok">done</td></tr>
+        <tr><td class="t-stage">QG2</td><td class="t-desc">stress test · SPX</td><td class="t-note">walk-forward · Monte Carlo · random baseline</td><td class="t-verdict fail">3/6 FAIL</td></tr>
+        <tr><td class="t-stage">QG2</td><td class="t-desc">stress test · SPY</td><td class="t-note">walk-forward · Monte Carlo · random baseline</td><td class="t-verdict ok">6/6 PASS</td></tr>
+        <tr><td class="t-stage">QG2</td><td class="t-desc">stress test · IWM</td><td class="t-note">walk-forward · Monte Carlo · random baseline</td><td class="t-verdict fail">0/6 FAIL</td></tr>
+        <tr class="t-kill"><td colspan="4">→ SPX, IWM <span class="fail">killed</span> — SPX had the best paper P&amp;L · SPY <span class="ok">deployed</span></td></tr>
+        <tr class="t-live"><td colspan="4"><span class="live-dot"></span>fleet: 3,117 built · 1,372 active · 55 on paper · graduating to live · target 1,000</td></tr>
       </table>
     </div>
-    <p class="trace-caption">Most strategies die at the gates. That is the point — the verdict decides, not my attachment to the idea.</p>
+    <p class="trace-caption">A real run, shown in full below. Most strategies die at the gates — that is the point. The verdict decides, not my attachment to the idea.</p>
 
     <div class="video-wrap">
       <p class="video-label">3-minute system walkthrough</p>
@@ -230,6 +239,19 @@
     <p class="sec-label">One live system · in production since April 2026</p>
     <h2>An end-to-end AI trading system, built solo</h2>
     <p class="sec-intro">Shown in three parts because each part is a different kind of build: an agentic research factory, the production engineering beneath it, and the operations layer that lets one person run a growing fleet.</p>
+
+    <div class="sysmap" role="img" aria-label="System map: research ideas flow through LLM specialist agents and quality gates, survivors deploy from dry-run to paper to live on production infrastructure, monitoring watches the fleet, and performance data feeds the next round of research.">
+      <span class="node"><b>INPUT</b>papers · ideas</span>
+      <span class="arrow">→</span>
+      <span class="node"><b>RESEARCH</b>LLM specialist agents · S1–S4</span>
+      <span class="arrow">→</span>
+      <span class="node"><b>GATES</b>stress tests · PASS / FAIL</span>
+      <span class="arrow">→</span>
+      <span class="node"><b>DEPLOY</b>dry → paper → live</span>
+      <span class="arrow">→</span>
+      <span class="node"><b>OPERATE</b>dashboard · alerts</span>
+    </div>
+    <p class="sysmap-loop">…and live performance feeds the next round of research. One person operates the whole loop.</p>
 
     <div class="exhibit">
       <div class="ex-head"><span class="stage">RESEARCH</span><h3>Agentic AI research pipeline</h3></div>
