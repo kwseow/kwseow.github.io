@@ -232,7 +232,7 @@
   <div class="wrap">
     <p class="eyebrow">Portfolio — the things I made</p>
     <h1>Seow Khee Wei</h1>
-    <p class="lede">I build AI systems that do real work: research pipelines run by <strong>LLM agents</strong>, <strong>production trading infrastructure</strong>, and the monitoring that keeps it honest. Everything below was designed, coded and shipped by one person, with AI agents as the force multiplier.</p>
+    <p class="lede">I build AI systems that do real work: research pipelines run by <strong>LLM agents</strong>, <strong>production trading infrastructure</strong>, and the monitoring that keeps it honest. The execution platform at the core began as a base system from a quantitative trading programme I trained in. Everything since is my own work — enhancing and extending the platform, running the research pipeline, building the monitoring, and operating the whole fleet solo, with AI agents as the force multiplier.</p>
 
     <div class="trace" role="img" aria-label="The real pipeline history of strategy THP-1: research stages completed, then stress-test verdicts across three instruments — SPX failed 3 of 6 gates and was killed, SPY passed 6 of 6 and deployed, IWM failed 0 of 6 and was killed. Fleet status: 3,117 strategies built, 1,372 active, 55 on paper, target 1,000 live.">
       <p class="trace-title">$ pipeline history THP-1 · 0DTE break-even iron condor</p>
@@ -265,7 +265,7 @@
 <section id="system">
   <div class="wrap">
     <p class="sec-label">One live system · in production since April 2026</p>
-    <h2>An end-to-end AI trading system, built solo</h2>
+    <h2>An end-to-end AI trading system, run solo</h2>
     <p class="sec-intro">Shown in three parts because each part is a different kind of build: an agentic research factory, the production engineering beneath it, and the operations layer that lets one person run a growing fleet.</p>
 
     <div class="sysmap" role="img" aria-label="System map: research ideas flow through LLM specialist agents and quality gates, survivors deploy from dry-run to paper to live on production infrastructure, monitoring watches the fleet, and performance data feeds the next round of research.">
@@ -293,7 +293,7 @@
 
     <div class="exhibit">
       <div class="ex-head"><span class="stage">DEPLOY</span><h3>Production trading infrastructure</h3></div>
-      <p>The Linux environment the survivors run on, engineered end to end: Interactive Brokers Gateway managed under systemd for unattended reliability, Redis-based data-feed and order-dispatch services, and deployment scripts with dry-run modes and risk circuit breakers. Target: 1,000 deployed systematic strategies.</p>
+      <p>The Linux environment the survivors run on — a base platform from the quant programme, hardened and extended into what runs today: Interactive Brokers Gateway migrated under systemd for unattended reliability, Redis-based data-feed and order-dispatch services, deployment scripts with dry-run modes and risk circuit breakers, and security hardening throughout. Target: 1,000 deployed systematic strategies.</p>
     </div>
 
     <div class="exhibit">
