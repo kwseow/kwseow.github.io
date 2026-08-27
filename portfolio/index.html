@@ -178,6 +178,30 @@
   .foot a{color:var(--slate)}
   .foot a:hover{color:var(--ink)}
 
+  figure.shot img{cursor:zoom-in}
+  .lightbox{
+    position:fixed;inset:0;z-index:50;display:none;
+    background:rgba(22,35,59,.92);
+    align-items:center;justify-content:center;flex-direction:column;padding:28px;
+  }
+  .lightbox.open{display:flex}
+  .lightbox img{max-width:95vw;max-height:86vh;width:auto;height:auto;border-radius:4px;background:#fff}
+  .lightbox figcaption{
+    font-family:"IBM Plex Mono",monospace;font-size:13px;color:#E8EAF0;
+    margin-top:14px;text-align:center;max-width:90vw;
+  }
+  .lightbox-close{
+    position:absolute;top:16px;right:20px;
+    font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:600;
+    color:#E8EAF0;background:transparent;border:1px solid rgba(232,234,240,.5);
+    border-radius:4px;padding:7px 14px;cursor:pointer;
+  }
+  .lightbox-close:hover{background:rgba(232,234,240,.15)}
+  @media (prefers-reduced-motion: no-preference){
+    .lightbox.open img{animation:lbIn .18s ease}
+    @keyframes lbIn{from{opacity:0;transform:scale(.985)}to{opacity:1;transform:none}}
+  }
+
   @media (max-width:560px){
     header{padding:44px 0 40px}
     section{padding:44px 0}
@@ -358,6 +382,55 @@
     <span><a href="mailto:kwseow@gmail.com">kwseow@gmail.com</a> · <a href="https://github.com/kwseow">github.com/kwseow</a></span>
   </div>
 </footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Enlarged image view">
+  <button class="lightbox-close" id="lightbox-close" type="button">close ✕</button>
+  <img id="lightbox-img" src="" alt="">
+  <figcaption id="lightbox-cap"></figcaption>
+</div>
+
+<script>
+(function(){
+  var lb = document.getElementById('lightbox');
+  var lbImg = document.getElementById('lightbox-img');
+  var lbCap = document.getElementById('lightbox-cap');
+  var lbClose = document.getElementById('lightbox-close');
+  var lastFocus = null;
+
+  function openLb(img){
+    var fig = img.closest('figure');
+    var cap = fig ? fig.querySelector('figcaption') : null;
+    lbImg.src = img.src;
+    lbImg.alt = img.alt || '';
+    lbCap.textContent = cap ? cap.textContent : '';
+    lastFocus = document.activeElement;
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    lbClose.focus();
+  }
+  function closeLb(){
+    lb.classList.remove('open');
+    lbImg.src = '';
+    document.body.style.overflow = '';
+    if (lastFocus) lastFocus.focus();
+  }
+
+  document.querySelectorAll('figure.shot img').forEach(function(img){
+    img.setAttribute('tabindex','0');
+    img.setAttribute('role','button');
+    img.setAttribute('title','Click to enlarge');
+    img.addEventListener('click', function(){ openLb(img); });
+    img.addEventListener('keydown', function(e){
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLb(img); }
+    });
+  });
+  lb.addEventListener('click', function(e){ if (e.target !== lbImg) closeLb(); });
+  lbClose.addEventListener('click', closeLb);
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape' && lb.classList.contains('open')) closeLb();
+  });
+})();
+</script>
 
 </body>
 </html>
