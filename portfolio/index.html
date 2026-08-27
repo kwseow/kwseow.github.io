@@ -89,6 +89,11 @@
   }
   .trace-caption{font-size:14.5px;color:var(--slate);font-style:italic}
 
+  .video-wrap{margin-top:30px}
+  .video-label{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-bottom:10px}
+  .video-frame{position:relative;padding-top:56.25%;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:#000}
+  .video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
   .hero-links{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
   .btn{
     font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:500;
@@ -140,6 +145,13 @@
   }
   .ship p{color:var(--ink);max-width:660px;font-size:16px}
 
+  /* experiments */
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  @media (max-width:700px){.grid2{grid-template-columns:1fr}}
+  .stage-pending{color:var(--slate)}
+  .exhibit.small{margin-bottom:0}
+  .exhibit.small p{font-size:16px}
+
   /* how I work */
   .loop{
     font-family:"IBM Plex Mono",monospace;font-size:14.5px;font-weight:500;
@@ -170,6 +182,7 @@
     <span class="nav-name">kwseow.github.io</span>
     <div class="nav-links">
       <a href="#system">system</a>
+      <a href="#experiments">experiments</a>
       <a href="#shipped">shipped</a>
       <a href="#how">how&nbsp;I&nbsp;work</a>
       <a href="#about">about</a>
@@ -197,9 +210,15 @@
     </div>
     <p class="trace-caption">Most strategies die at the gates. That is the point — the verdict decides, not my attachment to the idea.</p>
 
+    <div class="video-wrap">
+      <p class="video-label">3-minute system walkthrough</p>
+      <div class="video-frame">
+        <iframe src="https://www.youtube-nocookie.com/embed/LeQtgzJkUq4" title="End-to-end AI trading system — 3-minute walkthrough" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+
     <div class="hero-links">
-      <!-- REPLACE_ME: set the real video URL below -->
-      <a class="btn btn-primary" href="REPLACE_ME_VIDEO_URL">Watch the 3-minute system demo</a>
+      <a class="btn" href="https://youtu.be/LeQtgzJkUq4">Open walkthrough on YouTube</a>
       <a class="btn" href="https://github.com/kwseow">GitHub</a>
       <a class="btn" href="mailto:kwseow@gmail.com">Email me</a>
     </div>
@@ -236,6 +255,38 @@
         <img src="img/dashboard.png" alt="Streamlit dashboard showing fleet health and strategy performance">
         <figcaption>The fleet dashboard — one glance, whole system.</figcaption>
       </figure>
+    </div>
+  </div>
+</section>
+
+<section id="experiments">
+  <div class="wrap">
+    <p class="sec-label">Experiments · pre-verdict</p>
+    <h2>Current experiments</h2>
+    <p class="sec-intro">Smaller builds exploring new platforms and data sources — currently cvForge, a market-data platform with an in-platform app builder and a data API. Shipped fast, shown honestly, and subject to the same rule as everything else on this page: they earn their place or they get killed.</p>
+
+    <div class="grid2">
+      <div class="exhibit small">
+        <div class="ex-head"><span class="stage stage-pending">EXPERIMENT</span><h3>App built on cvForge</h3></div>
+        <!-- REPLACE_ME: one line on what this in-platform app does -->
+        <p>REPLACE_ME_CVFORGE_APP_DESCRIPTION — one or two sentences on what the app does and what it let me test.</p>
+        <!-- REPLACE_ME: screenshot of the in-platform app -->
+        <figure class="shot">
+          <img src="img/cvforge-app.png" alt="App built inside the cvForge platform">
+          <figcaption>Built inside cvForge's app environment.</figcaption>
+        </figure>
+      </div>
+
+      <div class="exhibit small">
+        <div class="ex-head"><span class="stage stage-pending">EXPERIMENT</span><h3>Independent app on the cvForge data API</h3></div>
+        <!-- REPLACE_ME: one line on what this independent app does -->
+        <p>REPLACE_ME_CVFORGE_API_APP_DESCRIPTION — one or two sentences on what this app does with the API data.</p>
+        <!-- REPLACE_ME: screenshot of the independent app (running locally on :8703) -->
+        <figure class="shot">
+          <img src="img/cvforge-api-app.png" alt="Independent app built on the cvForge data API">
+          <figcaption>Self-built app on cvForge's data API — runs locally today; screenshot until it ships.</figcaption>
+        </figure>
+      </div>
     </div>
   </div>
 </section>
